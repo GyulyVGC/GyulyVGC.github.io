@@ -3,7 +3,7 @@ layout: page
 ---
 
 <div align="center">
-  <img alt="" src="https://github.com/GyulyVGC/GyulyVGC.github.io/assets/100347457/993fb4aa-a3a4-4f16-9c7a-4a14b667b634" width="100%"/>
+  <img alt="" src="https://github.com/GyulyVGC/GyulyVGC.github.io/assets/100347457/c24fdade-34b0-4292-8562-b1103d78ae88" width="100%"/>
 </div>
 
 <hr/>
