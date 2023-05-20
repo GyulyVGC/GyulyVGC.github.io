@@ -10,31 +10,30 @@ layout: page
 
 <h3> What is Sniffnet? </h3>
 Sniffnet is a <b>network monitoring tool</b> to help you easily keep track of your Internet traffic.<br/>
-Wether you are curious of seeing who is exchanging data with your PC, you want to gather statistics, or you need to deeply inspect what's going on in your network, this app will get you covered.
+Wether you you want to <b>gather statistics</b>, or you need to <b>inspect more in depth</b> what's going on in your network, this app will get you covered.
   
 <hr/>
 
 <h3> What makes Sniffnet unique? </h3>
-Sniffnet is a technical tool, but at the same time it has a strong focus on the overall user experience: most of the network analyzers out there are cumbersome to use, while one of Sniffnet's main pillars is that to be usable with ease by <b>everyone</b>.<br/>
-Furthermore, this application is completely written in <b>Rust</b>: a modern programming language to build efficient and reliable software, emphasizing performance and safety.<br/>
+Sniffnet is a <b>technical tool</b>, but at the same time it has a strong focus on the overall <b>user experience</b>: most of the network analyzers out there are cumbersome to use, while one of Sniffnet's main pillars is that to be usable with ease by <b>everyone</b>.<br/></br>
+Furthermore, this application is completely written in <b>Rust</b>: a modern programming language to build <b>efficient and reliable</b> software, emphasizing performance and safety.<br/></br>
 Last but not least, Sniffnet is completely <b>open-source</b>: if you are intersted you can find the complete source code on <a href="https://github.com/GyulyVGC/sniffnet">GitHub</a>.
 
 <hr/>
 
 <h3> What can I do with Sniffnet? </h3>
 <ul>
-  <li>💻 choose a network adapter of your PC to inspect</li>
-  <li>🏷️ select a set of filters to apply to the observed traffic</li>
-  <li>📖 view overall statistics about your Internet traffic</li>
-  <li>📈 view real-time charts about traffic intensity (bytes and packets per second, incoming and outgoing)</li>
-  <li>🌐 get details about domain names and network providers of the hosts you are exchanging traffic with</li>
-  <li>🏠 identify connections in your local network</li>
-  <li>🌍 get information about the country of the remote hosts (IP geolocation)</li>
-  <li> ⭐ save your favorite network hosts</li>
-  <li>🔉 set custom notifications to inform you when defined network events occur</li>
-  <li>🎨 choose the style that fits you the most from 4 different available themes</li>
-  <li>🕵️ inspect each of your network connections in real time</li>
-  <li>📁 save complete textual report with detailed information for each network connection:</li>
+  <li>🏷️ select a set of <b>filters</b> to apply to the observed traffic</li>
+  <li>📖 view overall <b>statistics</b> about your Internet traffic</li>
+  <li>📈 view <b>real-time charts</b> about traffic intensity</li>
+  <li>🌐 get details about <b>domain names</b> and <b>network providers</b> of the hosts you are exchanging traffic with</li>
+  <li>🏠 identify connections in your <b>local network</b></li>
+  <li>🌍 discover the <b>geographical location</b> of the remote hosts</li>
+  <li> ⭐ save your <b>favorite</b> network hosts</li>
+  <li>🔉 set custom <b>notifications</b> to inform you when defined network events occur</li>
+  <li>🎨 choose the <b>style</b> that fits you the most from 4 different available themes</li>
+  <li>🕵️ <b>inspect</b> each of your network connections in real time</li>
+  <li>📁 save complete <b>textual report</b> with detailed information for each network connection:</li>
   <ul>
     <li>source and destination IP addresses
     <li>source and destination ports
@@ -42,5 +41,5 @@ Last but not least, Sniffnet is completely <b>open-source</b>: if you are inters
     <li>amount of exchanged packets and bytes
     <li>initial and final timestamp of information exchange
   </ul>
-<li>... and more!
+<li><b>... and more!</b>
 </ul>
