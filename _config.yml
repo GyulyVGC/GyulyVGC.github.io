@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: SNIFFNET
+title: Sniffnet
 
 # Your name to show in the footer
 author: Giuliano Bellini
@@ -21,9 +21,7 @@ author: Giuliano Bellini
 
 navbar-links:
   Download: "download"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+  Sponsor: "sponsor"
   GitHub: "https://github.com/GyulyVGC/sniffnet"
 
 ################
@@ -52,13 +50,13 @@ social-network-links:
   email: "gyulyvgc99@gmail.com"
 #  rss: true  # remove this line if you don't want to show an RSS link at the bottom
 #  facebook: deanattali
-  github: "https://github.com/GyulyVGC/sniffnet"
+  github: GyulyVGC/sniffnet
   twitter: GyulyVGC
 #  patreon: DeanAttali
 #  youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
-  linkedin: "https://www.linkedin.com/in/giuliano-bellini-b01286216/"
+  linkedin: giuliano-bellini-b01286216
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
