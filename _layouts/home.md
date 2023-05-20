@@ -9,15 +9,15 @@ layout: page
 <hr/>
 
 <h3> What is Sniffnet? </h3>
-Sniffnet is a <b>network monitoring tool</b> to help you easily keep track of your Internet traffic.<br/>
+Sniffnet is a <b>network monitoring tool</b> to help you easily keep track of your Internet traffic.<br/><br/>
 Wether you you want to <b>gather statistics</b>, or you need to <b>inspect more in depth</b> what's going on in your network, this app will get you covered.
   
 <hr/>
 
 <h3> What makes Sniffnet unique? </h3>
-Sniffnet is a <b>technical tool</b>, but at the same time it has a strong focus on the overall <b>user experience</b>: most of the network analyzers out there are cumbersome to use, while one of Sniffnet's main pillars is that to be usable with ease by <b>everyone</b>.<br/></br>
+Sniffnet is a <b>technical tool</b>, but at the same time it has a strong focus on the overall <b>user experience</b>: most of the network analyzers out there are cumbersome to use, while one of Sniffnet's main pillars is that to be <b>usable with ease by everyone</b>.<br/></br>
 Furthermore, this application is completely written in <b>Rust</b>: a modern programming language to build <b>efficient and reliable</b> software, emphasizing performance and safety.<br/></br>
-Last but not least, Sniffnet is completely <b>open-source</b>: if you are intersted you can find the complete source code on <a href="https://github.com/GyulyVGC/sniffnet">GitHub</a>.
+Last but not least, Sniffnet is completely <b>open-source</b>: if you are interested you can find the complete source code on <a href="https://github.com/GyulyVGC/sniffnet">GitHub</a>.
 
 <hr/>
 
