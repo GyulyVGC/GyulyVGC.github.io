@@ -120,7 +120,7 @@ keywords: "sniffnet,rust,network,monitor"
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA"
+navbar-col: "linear-gradient(to top right, #0066ff 0%, #ff6600 100%)"
 navbar-text-col: "#404040"
 navbar-border-col: "#DDDDDD"
 page-col: "#FFFFFF"
