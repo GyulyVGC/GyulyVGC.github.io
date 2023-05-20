@@ -4,10 +4,10 @@ title: Download
 subtitle: Start using Sniffnet today
 ---
   <div align="center">
-    Sniffnet is cross-platform compatible with Windows, MacOS, and Linux.<br>
     <img alt="" src="https://github.com/GyulyVGC/GyulyVGC.github.io/assets/100347457/cd8c3dbc-0d12-4f30-acdd-0146c616f484" width="75"/>&nbsp;&nbsp;
     <img alt="" src="https://github.com/GyulyVGC/GyulyVGC.github.io/assets/100347457/7b214e22-d29c-4ffd-abe0-ccef82d8240a" width="75"/>&nbsp;&nbsp;
     <img alt="" src="https://github.com/GyulyVGC/GyulyVGC.github.io/assets/100347457/89df78de-468d-4b17-9757-ea7949d9e27a" width="75"/>&nbsp;&nbsp;
+  <br/>Sniffnet is cross-platform compatible with <b>Windows</b>, <b>macOS</b>, and <b>Linux</b>.
   </div>
   
   <hr/>
