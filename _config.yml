@@ -21,7 +21,7 @@ author: Giuliano Bellini
 
 navbar-links:
   Download: "download"
-  "<p style=color: '#db70b8';>Sponsor</p>": "sponsor"
+  Sponsor 💖: "sponsor"
   GitHub: "https://github.com/GyulyVGC/sniffnet"
 
 ################
