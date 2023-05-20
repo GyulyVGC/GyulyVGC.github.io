@@ -14,7 +14,7 @@ layout: page
 
 <h3> What is Sniffnet? </h3>
 Sniffnet is a <b>network monitoring tool</b> to help you easily keep track of your Internet traffic.<br/>
-Wether you you want to <b>gather statistics</b>, or you need to <b>inspect more in depth</b> what's going on in your network, this app will get you covered.
+Wether you want to <b>gather statistics</b>, or you need to <b>inspect more in depth</b> what's going on in your network, this app will get you covered.
   
 <hr/>
 
@@ -50,5 +50,4 @@ Last but not least, Sniffnet is completely <b>free and open-source</b>: if you a
 
 <hr/>
 
-<h3> Gallery </h3>
-...
+<h3> <a href="https://gyulyvgc.github.io/gallery">📸 Gallery</a> </h3>
