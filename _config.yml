@@ -51,7 +51,7 @@ social-network-links:
 #  rss: true  # remove this line if you don't want to show an RSS link at the bottom
 #  facebook: deanattali
   github: GyulyVGC/sniffnet
-  twitter: GyulyVGC
+#  twitter: GyulyVGC
 #  patreon: DeanAttali
 #  youtube: c/daattali
 #  medium: yourname
@@ -120,15 +120,15 @@ keywords: "sniffnet,rust,network,monitor"
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "linear-gradient(45deg, rgba(12,95,198,1) 0%, rgba(233,132,27,1) 100%)"
+navbar-col: "#b3b3b3"
 navbar-text-col: "#000000"
 navbar-border-col: "#000000"
 page-col: "#d9d9d9"
 text-col: "#000000"
 link-col: "#0059B3"
 hover-col: "#B35900"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
+footer-col: "#b3b3b3"
+footer-text-col: "#595959"
 footer-link-col: "#0059B3"
 footer-hover-col: "#B35900"
 
