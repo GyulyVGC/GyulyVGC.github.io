@@ -6,16 +6,16 @@ layout: page
   <img alt="" src="https://github.com/GyulyVGC/GyulyVGC.github.io/assets/100347457/c24fdade-34b0-4292-8562-b1103d78ae88" width="100%"/>
 </div>
 
-<div align="center">
-  <i>"If you're looking for a quick and easy way to monitor your network traffic, this cross-platform app written in Rust definitely passes the Sniff Test"</i> - posted GitHub itself <a href="https://twitter.com/github/status/1605652851245649931">in a tweet</a>
-</div>
+{: .box-note}
+  &<;&<;"If you're looking for a quick and easy way to monitor your network traffic, this cross-platform app written in Rust definitely passes the Sniff Test"&>;&>; - posted GitHub itself <a href="https://twitter.com/github/status/1605652851245649931">in a tweet</a>
 
 <hr/>
 
 <h3> What is Sniffnet? </h3>
 Sniffnet is a <b>network monitoring tool</b> to help you easily keep track of your Internet traffic.<br/>
 Wether you want to <b>gather statistics</b>, or you need to <b>inspect more in depth</b> what's going on in your network, this app will get you covered.<br/><br/>
-{: .box-note} 📸 <a href="https://gyulyvgc.github.io/gallery"><b>Gallery</b></a>
+{: .box-note}
+📸 <a href="https://gyulyvgc.github.io/gallery"><b>Gallery</b></a>
   
 <hr/>
 
