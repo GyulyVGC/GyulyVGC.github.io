@@ -17,8 +17,8 @@ layout: null
     }
 
 hr {
-  border-top: 2px;
-  border-color: #666666;
+  height: 1px;
+  background-color:#666666
 }
 
 #myQuote {
