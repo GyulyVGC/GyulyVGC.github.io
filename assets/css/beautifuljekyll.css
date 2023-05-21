@@ -4,6 +4,12 @@ layout: null
 
 @import url("pygment_highlights.css");
 
+/* --- MY CUSTOM ELEMENTS --- */
+#myshadow {
+  -webkit-box-shadow: 0px 0px 30px 0px #000000; 
+  box-shadow: 0px 0px 30px 0px #000000;
+  }
+
 /* --- General --- */
 
 html {
