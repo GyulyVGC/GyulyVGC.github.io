@@ -4,7 +4,7 @@ layout: page
 
 <div align="center">
   <img id="myShadowBig" width="100%" src="{{ 'assets/img/overview_page.png' | relative_url }}" alt="" />
-
+  <br/>
  <blockquote id="myQuote">"If you're looking for a quick and easy way to monitor your network traffic, this cross-platform app written in Rust definitely passes the Sniff Test"</blockquote> - posted by GitHub itself <a href="https://twitter.com/github/status/1605652851245649931">in a tweet</a>
  </div>
 
