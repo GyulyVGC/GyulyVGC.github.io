@@ -7,8 +7,8 @@ layout: null
 /* --- MY CUSTOM ELEMENTS --- */
 
 #myShadowSmall {
-  -webkit-box-shadow: 0px -5px 40px -5px #000000; 
-  box-shadow: 0px -5px 40px -5px #000000;
+  -webkit-box-shadow: 0px -8px 40px -8px #000000; 
+  box-shadow: 0px -8px 40px -8px #000000;
   }
 
 #myShadowBig {
@@ -18,7 +18,7 @@ layout: null
 
 hr {
   height: 1px;
-  background-color:#666666
+  background-color:#aaaaaa
 }
 
 #myQuote {
@@ -335,7 +335,7 @@ img {
 .navbar-custom .navbar-nav .nav-link:focus,
 .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:hover,
 .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:focus {
-  color: {{ site.hover-col | default: "#0085A1" }};
+  color: #ffcc00 ;
 }
 
 .navbar-custom .avatar-container {
