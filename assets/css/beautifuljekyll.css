@@ -123,7 +123,7 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background: linear-gradient(90deg, rgba(0,89,179,1) 0%, rgba(179,89,0,1) 100%);
+  background: linear-gradient(90deg, rgba(37,125,214,1) 0%, rgba(209,128,37,1) 50%, rgba(37,125,214,1) 90%);
   border-bottom: 1px solid {{ site.navbar-border-col | default: "#DDDDDD" }};
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   {% if site.navbar-img %}
@@ -384,7 +384,7 @@ footer {
   border-top: 1px #EAEAEA solid;
   margin-top: 3.125rem;
   font-size: 0.875rem;
-  background: linear-gradient(90deg, rgba(0,89,179,1) 0%, rgba(179,89,0,1) 100%);
+  background: linear-gradient(90deg, rgba(37,125,214,1) 0%, rgba(209,128,37,1) 50%, rgba(37,125,214,1) 90%);
   {% if site.footer-img %}
     background-image: url({{ site.footer-img | relative_url }});
     background-attachment: fixed;
