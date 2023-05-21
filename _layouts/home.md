@@ -4,7 +4,7 @@ layout: page
 
 <div align="center">
   <img id="myShadowBig" width="100%" src="{{ 'assets/img/overview_page.png' | relative_url }}" alt="" />
-  <br/>
+  <br/><br/>
  <blockquote id="myQuote">"If you're looking for a quick and easy way to monitor your network traffic, this cross-platform app written in Rust definitely passes the Sniff Test"</blockquote> - posted by GitHub itself <a href="https://twitter.com/github/status/1605652851245649931">in a tweet</a>
  </div>
 
@@ -13,7 +13,6 @@ layout: page
 <h3> What is Sniffnet? </h3>
 Sniffnet is a <b>network monitoring tool</b> to help you easily keep track of your Internet traffic.<br/>
 Wether you want to <b>gather statistics</b>, or you need to <b>inspect more in depth</b> what's going on in your network, this app will get you covered.<br/><br/>
-📸 <a href="https://gyulyvgc.github.io/gallery"><b>Gallery</b></a>
   
 <hr/>
 
