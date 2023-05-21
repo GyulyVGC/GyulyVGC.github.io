@@ -50,4 +50,4 @@ Last but not least, Sniffnet is completely <b>free and open-source</b>: if you a
 
 <hr/>
 
-<h3> <a href="https://gyulyvgc.github.io/gallery">📸 Gallery</a> </h3>
+<h3> 📸 <a href="https://gyulyvgc.github.io/gallery">Gallery</a> </h3>
