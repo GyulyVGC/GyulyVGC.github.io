@@ -5,10 +5,20 @@ layout: null
 @import url("pygment_highlights.css");
 
 /* --- MY CUSTOM ELEMENTS --- */
-#myshadow {
-  -webkit-box-shadow: 0px 0px 30px 0px #000000; 
-  box-shadow: 0px 0px 30px 0px #000000;
+
+#myShadowSmall {
+  -webkit-box-shadow: 0px -3px 30px 0px #000000; 
+  box-shadow: 0px -3px 30px 0px #000000;
   }
+
+#myShadowBig {
+    -webkit-box-shadow: 0px 0px 20px 5px #000000; 
+    box-shadow: 0px 0px 20px 5px #000000;
+    }
+
+#myQuote {
+      color: #333333;
+      }
 
 /* --- General --- */
 

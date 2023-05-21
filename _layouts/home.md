@@ -3,9 +3,9 @@ layout: page
 ---
 
 <div align="center">
-  <img alt="" src="https://github.com/GyulyVGC/GyulyVGC.github.io/assets/100347457/c24fdade-34b0-4292-8562-b1103d78ae88" width="100%"/>
+  <img id="myShadowBig" width="100%" src="{{ 'assets/img/overview_page.png' | relative_url }}" alt="" />
 
- <blockquote>"If you're looking for a quick and easy way to monitor your network traffic, this cross-platform app written in Rust definitely passes the Sniff Test"</blockquote> - posted by GitHub itself <a href="https://twitter.com/github/status/1605652851245649931">in a tweet</a>
+ <blockquote id="myQuote">"If you're looking for a quick and easy way to monitor your network traffic, this cross-platform app written in Rust definitely passes the Sniff Test"</blockquote> - posted by GitHub itself <a href="https://twitter.com/github/status/1605652851245649931">in a tweet</a>
  </div>
 
 <hr/>
