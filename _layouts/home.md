@@ -6,7 +6,9 @@ layout: page
   <img alt="" src="https://github.com/GyulyVGC/GyulyVGC.github.io/assets/100347457/c24fdade-34b0-4292-8562-b1103d78ae88" width="100%"/>
 </div>
 
- > "If you're looking for a quick and easy way to monitor your network traffic, this cross-platform app written in Rust definitely passes the Sniff Test" - posted by GitHub itself <a href="https://twitter.com/github/status/1605652851245649931">in a tweet</a>
+ <blockquote>
+ <p>"If you're looking for a quick and easy way to monitor your network traffic, this cross-platform app written in Rust definitely passes the Sniff Test" - posted by GitHub itself <a href="https://twitter.com/github/status/1605652851245649931">in a tweet</a></p>
+ </blockquote> 
 
 <hr/>
 
