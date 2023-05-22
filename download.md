@@ -2,6 +2,7 @@
 layout: page
 title: Download
 subtitle: Start using Sniffnet today
+share-img: /assets/img/preview.png
 ---
   <div align="center">
     <img alt="" src="{{ 'assets/img/oss.png' | relative_url }}" height="85"/>
@@ -38,7 +39,7 @@ If problems persist, check if the issue has already been solved on <a target="_b
 <hr/>
 
 <div align="center">
-<h6>🏠 <a href="https://gyulyvgc.github.io/">HOMEPAGE</a></h6>
+<h6>🏠 <a href="https://www.sniffnet.net/">HOMEPAGE</a></h6>
 </div>
 
 <hr/>

@@ -2,7 +2,7 @@
 layout: page
 ---
 <div align="center">
-  <a href="https://GyulyVGC.github.io/download"><img height=25 src="https://img.shields.io/github/downloads/GyulyVGC/sniffnet/total?logo=github&color=blue"/></a>&nbsp;&nbsp;
+  <a href="https://www.sniffnet.net/download"><img height=25 src="https://img.shields.io/github/downloads/GyulyVGC/sniffnet/total?logo=github&color=blue"/></a>&nbsp;&nbsp;
   <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/stargazers"><img height=25 src="https://img.shields.io/github/stars/GyulyVGC/sniffnet?logo=github&color=blue"/></a>
 </div><br/>
 
@@ -53,7 +53,7 @@ Last but not least, Sniffnet is completely <b>free and open-source</b>: if you a
 <hr/>
 
 <div align="center">
-<h6>💻 <a href="https://gyulyvgc.github.io/download/">DOWNLOAD</a> | 💖 <a href="https://gyulyvgc.github.io/sponsor/">SPONSOR</a> | 📸 <a href="https://gyulyvgc.github.io/gallery/">GALLERY</a> | 🔗 <a target="_blank" href="https://github.com/GyulyVGC/sniffnet">GITHUB</a></h6>
+<h6>💻 <a href="https://www.sniffnet.net/download/">DOWNLOAD</a> | 💖 <a href="https://www.sniffnet.net/sponsor/">SPONSOR</a> | 📸 <a href="https://www.sniffnet.net/gallery/">GALLERY</a> | 🔗 <a target="_blank" href="https://github.com/GyulyVGC/sniffnet">GITHUB</a></h6>
 </div>
 
 <hr/>
