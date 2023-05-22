@@ -5,7 +5,7 @@ subtitle: Start using Sniffnet today
 ---
   <div align="center">
     <img alt="" src="{{ 'assets/img/oss.png' | relative_url }}" height="85"/>
-  </div><br/>
+  </div>
 
   <div align="center">
     Sniffnet is cross-platform compatible with <b>Windows</b>, <b>macOS</b>, and <b>Linux</b>.

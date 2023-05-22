@@ -4,7 +4,7 @@ layout: page
 <div align="center">
   <a href="https://GyulyVGC.github.io/download"><img height=25 src="https://img.shields.io/github/downloads/GyulyVGC/sniffnet/total?logo=github&color=blue"/></a>&nbsp;&nbsp;
   <a href="https://github.com/GyulyVGC/sniffnet/stargazers"><img height=25 src="https://img.shields.io/github/stars/GyulyVGC/sniffnet?logo=github&color=blue"/></a>
-</div>
+</div><br/>
 
 <div align="center">
   <img id="myShadowBig" width="100%" src="{{ 'assets/img/overview_page.png' | relative_url }}" alt="" />
