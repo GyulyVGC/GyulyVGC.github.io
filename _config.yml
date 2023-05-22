@@ -1,10 +1,3 @@
-###########################################################
-### Welcome to Beautiful Jekyll!
-### This config file is meant for settings that affect your entire website. When you first
-### set up your website you should go through all these settings and edit them, but after
-### the initial set up you won't need to come back to this file often.
-###########################################################
-
 ############################
 # --- Required options --- #
 ############################
@@ -53,7 +46,7 @@ social-network-links:
 #  facebook: deanattali
   github: GyulyVGC/sniffnet
 #  twitter: GyulyVGC
-#  patreon: DeanAttali
+  patreon: Sniffnet
 #  youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
@@ -113,7 +106,7 @@ social-network-links:
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-keywords: "sniffnet,rust,network,monitor"
+keywords: "sniffnet,rust,network,monitor,tool,packet,sniffer"
 
 ######################################
 # --- Colours / background image --- #
