@@ -5,15 +5,15 @@ subtitle: Start using Sniffnet today
 ---
   <div align="center">
     <img alt="" src="{{ 'assets/img/oss.png' | relative_url }}" height="85"/>
-  </div>
+  </div><br/>
 
-  <p align="center">
+  <div align="center">
     Sniffnet is cross-platform compatible with <b>Windows</b>, <b>macOS</b>, and <b>Linux</b>.
-  </p>
+  </div>
   
   <hr/>
   
-  The latest version of Sniffnet can be downloaded from the links below.
+  The latest version of Sniffnet can be downloaded from the links below (via GitHub releases).
   - [Windows](https://github.com/GyulyVGC/sniffnet/releases/latest/download/Sniffnet_Windows.msi) (13.1 MB)
   - [macOS](https://github.com/GyulyVGC/sniffnet/releases/latest/download/Sniffnet_MacOS.dmg) (12.4 MB)
   - [Linux (DEB)](https://github.com/GyulyVGC/sniffnet/releases/latest/download/Sniffnet_Linux.deb) (9.2 MB)
@@ -30,9 +30,10 @@ If problems persist, check if the issue has already been solved on [GitHub](http
     <img alt="" src="{{ 'assets/img/terminal.png' | relative_url }}" width="200"/>
   </div>
 
-- If you have [Rust installed](https://www.rust-lang.org/tools/install) on your machine, you can build and run Sniffnet directly from your terminal by typing: `cargo install sniffnet`
-- You can download Sniffnet from [Homebrew](https://brew.sh) typing `brew install sniffnet` in your terminal
-- On Arch Linux, you can install [Sniffnet community package](https://archlinux.org/packages/community/x86_64/sniffnet/) via [pacman](https://wiki.archlinux.org/title/Pacman) from your terminal: `pacman -S sniffnet`
+  Depending on your operating system and configuration, you can also use your terminal to install Sniffnet.
+- If you have [Rust installed](https://www.rust-lang.org/tools/install): `cargo install sniffnet`
+- If you have [Homebrew installed](https://brew.sh): `brew install sniffnet`
+- On Arch Linux, [Sniffnet community package](https://archlinux.org/packages/community/x86_64/sniffnet/) is available via [pacman](https://wiki.archlinux.org/title/Pacman): `pacman -S sniffnet`
 
 <hr/>
 

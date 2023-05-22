@@ -1,17 +1,16 @@
 ---
 layout: page
 ---
+<div align="center">
+  <a href="https://GyulyVGC.github.io/download"><img height=25 src="https://img.shields.io/github/downloads/GyulyVGC/sniffnet/total?logo=github&color=blue"/></a>&nbsp;&nbsp;
+  <a href="https://github.com/GyulyVGC/sniffnet/stargazers"><img height=25 src="https://img.shields.io/github/stars/GyulyVGC/sniffnet?logo=github&color=blue"/></a>
+</div>
 
 <div align="center">
   <img id="myShadowBig" width="100%" src="{{ 'assets/img/overview_page.png' | relative_url }}" alt="" />
   <br/><br/>
  <span id="myQuote">"If you're looking for a quick and easy way to monitor your network traffic, this cross-platform app written in Rust definitely passes the Sniff Test"</span> - stated GitHub itself <a href="https://twitter.com/github/status/1605652851245649931">in a tweet</a>
  </div><br/>
-
-<div align="center">
-  <a href="https://GyulyVGC.github.io/download"><img height=25 src="https://img.shields.io/github/downloads/GyulyVGC/sniffnet/total?logo=github&color=blue"/></a>&nbsp;&nbsp;
-  <a href="https://github.com/GyulyVGC/sniffnet/stargazers"><img height=25 src="https://img.shields.io/github/stars/GyulyVGC/sniffnet?logo=github&color=blue"/></a>
-</div>
 
 <hr/>
 
