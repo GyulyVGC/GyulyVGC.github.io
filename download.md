@@ -7,9 +7,9 @@ subtitle: Start using Sniffnet today
     <img alt="" src="{{ 'assets/img/oss.png' | relative_url }}" height="85"/>
   </div>
 
-  <div align="center">
+  <p align="center">
     Sniffnet is cross-platform compatible with <b>Windows</b>, <b>macOS</b>, and <b>Linux</b>.
-  </div>
+  </p>
   
   <hr/>
   
@@ -27,7 +27,7 @@ If problems persist, check if the issue has already been solved on [GitHub](http
 ### Other installation methods
 
   <div align="center">
-    <img alt="" src="{{ 'assets/img/terminal.png' | relative_url }}" width="300"/>
+    <img alt="" src="{{ 'assets/img/terminal.png' | relative_url }}" width="200"/>
   </div>
 
 - If you have [Rust installed](https://www.rust-lang.org/tools/install) on your machine, you can build and run Sniffnet directly from your terminal by typing: `cargo install sniffnet`
