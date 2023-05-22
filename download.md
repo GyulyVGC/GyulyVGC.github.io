@@ -24,7 +24,7 @@ If problems persist, check if the issue has already been solved on <a target="_b
 
 <hr/>
 
-### Other installation methods
+<div align="center"><h3> Other installation methods </h3></div>
 
   <div align="center">
     <img alt="" src="{{ 'assets/img/terminal.png' | relative_url }}" width="200"/>
