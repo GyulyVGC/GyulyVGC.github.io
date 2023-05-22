@@ -33,7 +33,7 @@ If problems persist, check if the issue has already been solved on <a target="_b
   Depending on your operating system and configuration, you can also use your terminal to install Sniffnet.
 - If you have <a target="_blank" href="https://www.rust-lang.org/tools/install">Rust installed</a>: `cargo install sniffnet`
 - If you have <a target="_blank" href="https://brew.sh">Homebrew installed</a>: `brew install sniffnet`
-- On Arch Linux, <a target="_blank" href="https://archlinux.org/packages/community/x86_64/sniffnet/">Sniffnet community package</a> is available via <a target="_blank" href="https://wiki.archlinux.org/title/Pacman">pacman</a>: `pacman -S sniffnet`
+- On Arch Linux, Sniffnet community package is available via <a target="_blank" href="https://wiki.archlinux.org/title/Pacman">pacman</a>: `pacman -S sniffnet`
 
 <hr/>
 
