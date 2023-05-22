@@ -27,11 +27,17 @@ If problems persist, check if the issue has already been solved on [GitHub](http
 ### Other installation methods
 
   <div align="center">
-    <img alt="" src="{{ 'assets/img/terminal.png' | relative_url }}" width="100"/>
+    <img alt="" src="{{ 'assets/img/terminal.png' | relative_url }}" width="300"/>
   </div>
 
 - If you have [Rust installed](https://www.rust-lang.org/tools/install) on your machine, you can build and run Sniffnet directly from your terminal by typing: `cargo install sniffnet`
 - You can download Sniffnet from [Homebrew](https://brew.sh) typing `brew install sniffnet` in your terminal
 - On Arch Linux, you can install [Sniffnet community package](https://archlinux.org/packages/community/x86_64/sniffnet/) via [pacman](https://wiki.archlinux.org/title/Pacman) from your terminal: `pacman -S sniffnet`
+
+<hr/>
+
+<div align="center">
+<h6>🏠 <a href="https://gyulyvgc.github.io/">HOMEPAGE</a></h6>
+</div>
 
 <hr/>

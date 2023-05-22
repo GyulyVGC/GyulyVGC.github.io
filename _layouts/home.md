@@ -9,8 +9,8 @@ layout: page
  </div>
 
 <div align="center">
-  <a href="https://GyulyVGC.github.io/download"><img src="https://img.shields.io/github/downloads/GyulyVGC/sniffnet/total?logoColor=blue&style=social"/></a>&nbsp;&nbsp;
-  <a href="https://github.com/GyulyVGC/sniffnet/stargazers"><img src="https://img.shields.io/github/stars/GyulyVGC/sniffnet?logo=github&logoColor=blue&style=social"/></a>
+  <a href="https://GyulyVGC.github.io/download"><img height=25 src="https://img.shields.io/github/downloads/GyulyVGC/sniffnet/total?logo=github"/></a>&nbsp;&nbsp;
+  <a href="https://github.com/GyulyVGC/sniffnet/stargazers"><img height=25 src="https://img.shields.io/github/stars/GyulyVGC/sniffnet?logo=github"/></a>
 </div>
 
 <hr/>
