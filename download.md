@@ -19,8 +19,8 @@ subtitle: Start using Sniffnet today
   - [Linux (DEB)](https://github.com/GyulyVGC/sniffnet/releases/latest/download/Sniffnet_Linux.deb) (9.2 MB)
   - [Linux (RPM)](https://github.com/GyulyVGC/sniffnet/releases/latest/download/Sniffnet_Linux.rpm) (11.4 MB)
 
-In case of problems with the installation, make sure your system has the [required dependencies](https://github.com/GyulyVGC/sniffnet#required-dependencies).<br/>
-If problems persist, check if the issue has already been solved on [GitHub](https://github.com/GyulyVGC/sniffnet) and don't hesitate to contact me if you still have doubts (you can open an [issue](https://github.com/GyulyVGC/sniffnet/issues) or a [discussion](https://github.com/GyulyVGC/sniffnet/discussions)).
+In case of problems with the installation, make sure your system has the <a target="_blank" href="https://github.com/GyulyVGC/sniffnet#required-dependencies">required dependencies</a>.<br/>
+If problems persist, check if the issue has already been solved on <a target="_blank" href="https://github.com/GyulyVGC/sniffnet">GitHub</a> and don't hesitate to contact me if you still have doubts (you can open an <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/issues">issue</a> or a <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/discussions">discussion</a>).
 
 <hr/>
 
@@ -31,9 +31,9 @@ If problems persist, check if the issue has already been solved on [GitHub](http
   </div>
 
   Depending on your operating system and configuration, you can also use your terminal to install Sniffnet.
-- If you have [Rust installed](https://www.rust-lang.org/tools/install): `cargo install sniffnet`
-- If you have [Homebrew installed](https://brew.sh): `brew install sniffnet`
-- On Arch Linux, [Sniffnet community package](https://archlinux.org/packages/community/x86_64/sniffnet/) is available via [pacman](https://wiki.archlinux.org/title/Pacman): `pacman -S sniffnet`
+- If you have <a target="_blank" href="https://www.rust-lang.org/tools/install">Rust installed</a>: `cargo install sniffnet`
+- If you have <a target="_blank" href="https://brew.sh">Homebrew installed</a>: `brew install sniffnet`
+- On Arch Linux, <a target="_blank" href="https://archlinux.org/packages/community/x86_64/sniffnet/">Sniffnet community package</a> is available via <a target="_blank" href="https://wiki.archlinux.org/title/Pacman">pacman</a>: `pacman -S sniffnet`
 
 <hr/>
 
