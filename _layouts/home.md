@@ -5,8 +5,13 @@ layout: page
 <div align="center">
   <img id="myShadowBig" width="100%" src="{{ 'assets/img/overview_page.png' | relative_url }}" alt="" />
   <br/><br/>
- <blockquote id="myQuote">"If you're looking for a quick and easy way to monitor your network traffic, this cross-platform app written in Rust definitely passes the Sniff Test"</blockquote> - posted by GitHub itself <a href="https://twitter.com/github/status/1605652851245649931">in a tweet</a>
+ <span id="myQuote">"If you're looking for a quick and easy way to monitor your network traffic, this cross-platform app written in Rust definitely passes the Sniff Test"</span> - stated GitHub itself <a href="https://twitter.com/github/status/1605652851245649931">in a tweet</a>
  </div>
+
+<div align="center">
+  <a href="https://GyulyVGC.github.io/download"><img src="https://img.shields.io/github/downloads/GyulyVGC/sniffnet/total?logoColor=blue&style=social"/></a>&nbsp;&nbsp;
+  <a href="https://github.com/GyulyVGC/sniffnet/stargazers"><img src="https://img.shields.io/github/stars/GyulyVGC/sniffnet?logo=github&logoColor=blue&style=social"/></a>
+</div>
 
 <hr/>
 
@@ -17,7 +22,7 @@ Wether you want to <b>gather statistics</b>, or you need to <b>inspect more in d
 <hr/>
 
 <h3> What makes Sniffnet unique? </h3>
-Sniffnet is a <b>technical tool</b>, but at the same time it has a strong focus on the overall <b>user experience</b>: most of the network analyzers out there are cumbersome to use, while one of Sniffnet's main pillars is that to be <b>usable with ease by everyone</b>.<br/></br>
+Sniffnet is a <b>technical tool</b>, but at the same time it has a strong focus on the overall <b>user experience</b>: most of the network analyzers out there are cumbersome to use, while one of Sniffnet's main pillars is to be <b>usable with ease by everyone</b>.<br/></br>
 Furthermore, this application is completely written in <b>Rust</b>: a modern programming language to build <b>efficient and reliable</b> software, emphasizing performance and safety.<br/></br>
 Last but not least, Sniffnet is completely <b>free and open-source</b>: if you are interested you can find the full source code on <a href="https://github.com/GyulyVGC/sniffnet">GitHub</a>.
 
@@ -49,5 +54,7 @@ Last but not least, Sniffnet is completely <b>free and open-source</b>: if you a
 <hr/>
 
 <div align="center">
-💻 <a href="https://gyulyvgc.github.io/download/">DOWNLOAD</a> | 💖 <a href="https://gyulyvgc.github.io/sponsor/">SPONSOR</a> | 📸 <a href="https://gyulyvgc.github.io/gallery/">GALLERY</a> | 🔗 <a href="https://github.com/GyulyVGC/sniffnet">GITHUB</a>
+<h6>💻 <a href="https://gyulyvgc.github.io/download/">DOWNLOAD</a> | 💖 <a href="https://gyulyvgc.github.io/sponsor/">SPONSOR</a> | 📸 <a href="https://gyulyvgc.github.io/gallery/">GALLERY</a> | 🔗 <a href="https://github.com/GyulyVGC/sniffnet">GITHUB</a></h6>
 </div>
+
+<hr/>
