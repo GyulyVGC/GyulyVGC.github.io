@@ -6,6 +6,11 @@ layout: null
 
 /* --- MY CUSTOM ELEMENTS --- */
 
+#myCenteredList {
+  width: 300;
+  margin: auto;
+  }
+
 #myPinkBox {
   background-color:#eec8ed;
   border-color: #d0aed0;

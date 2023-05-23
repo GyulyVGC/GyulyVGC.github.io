@@ -21,10 +21,12 @@ share-img: /assets/img/preview.png
 </div>
   
   The <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/releases/latest">latest version</a> of Sniffnet can be downloaded from the links below (via GitHub releases).
-  - [Windows](https://github.com/GyulyVGC/sniffnet/releases/latest/download/Sniffnet_Windows.msi) (13.1 MB)
-  - [macOS](https://github.com/GyulyVGC/sniffnet/releases/latest/download/Sniffnet_MacOS.dmg) (12.4 MB)
-  - [Linux (DEB)](https://github.com/GyulyVGC/sniffnet/releases/latest/download/Sniffnet_Linux.deb) (9.2 MB)
-  - [Linux (RPM)](https://github.com/GyulyVGC/sniffnet/releases/latest/download/Sniffnet_Linux.rpm) (11.4 MB)
+  <ul>
+    <li><a href="https://github.com/GyulyVGC/sniffnet/releases/latest/download/Sniffnet_Windows.msi">Windows</a> (13.1 MB)</li>
+    <li><a href="https://github.com/GyulyVGC/sniffnet/releases/latest/download/Sniffnet_MacOS.dmg">macOS</a> (12.4 MB)</li>
+    <li><a href="https://github.com/GyulyVGC/sniffnet/releases/latest/download/Sniffnet_Linux.deb">Linux (DEB)</a> (9.2 MB)</li>
+    <li><a href="https://github.com/GyulyVGC/sniffnet/releases/latest/download/Sniffnet_Linux.rpm">Linux (RPM)</a> (11.4 MB)</li>
+  </ul>
 
 In case of problems with the installation, make sure your system has the <a target="_blank" href="https://github.com/GyulyVGC/sniffnet#required-dependencies">required dependencies</a>.<br/>
 If problems persist, check if the issue has already been solved on GitHub and don't hesitate to contact me if you still have doubts (you can open an <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/issues">issue</a> or a <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/discussions">discussion</a>).
