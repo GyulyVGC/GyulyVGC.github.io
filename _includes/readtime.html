@@ -1,5 +1,3 @@
-<!--- "ReadTime on GitHub Jekyll" (c) 2020 Ruby Griffith Ramirez, MIT License -->
-
 {% assign ReadTime = page.content | strip_html | number_of_words %}
 {% assign calcReadTime = ReadTime | float %}
 {% assign finalReadTime = calcReadTime | divided_by:200 | round: 2 %}
