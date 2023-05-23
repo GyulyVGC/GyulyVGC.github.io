@@ -2,6 +2,8 @@
 layout: page
 title: Download
 subtitle: Start using Sniffnet today
+share-title: Sniffnet — comfortably monitor your Internet traffic
+share-description: Start using Sniffnet today — available for Windows, macOS, and Linux.
 share-img: /assets/img/preview.png
 ---
   <div align="center">
