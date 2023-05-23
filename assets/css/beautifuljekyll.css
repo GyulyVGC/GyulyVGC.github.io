@@ -13,12 +13,11 @@ layout: null
   border-style: solid;
   border-radius: 15px;
   padding: 7px;
-  padding-left: 50px;
   padding-bottom: 0;
+  padding-right: 0;
   margin: auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  width: 400;
+  margin-top: 0;
+  margin-bottom: 0;
   }
 
 #myPinkBox {
