@@ -27,7 +27,7 @@ share-img: /assets/img/preview.png
   - [Linux (RPM)](https://github.com/GyulyVGC/sniffnet/releases/latest/download/Sniffnet_Linux.rpm) (11.4 MB)
 
 In case of problems with the installation, make sure your system has the <a target="_blank" href="https://github.com/GyulyVGC/sniffnet#required-dependencies">required dependencies</a>.<br/>
-If problems persist, check if the issue has already been solved on <a target="_blank" href="https://github.com/GyulyVGC/sniffnet">GitHub</a> and don't hesitate to contact me if you still have doubts (you can open an <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/issues">issue</a> or a <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/discussions">discussion</a>).
+If problems persist, check if the issue has already been solved on GitHub and don't hesitate to contact me if you still have doubts (you can open an <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/issues">issue</a> or a <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/discussions">discussion</a>).
 
 <hr/>
 
