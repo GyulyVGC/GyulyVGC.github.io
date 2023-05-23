@@ -6,9 +6,15 @@ layout: null
 
 /* --- MY CUSTOM ELEMENTS --- */
 
-#myCenteredList {
-  width: 300;
-  margin: auto;
+#myBlueCenteredBox {
+  background-color:#c1d8f0;
+  border-color: #90bbea;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 15px;
+  padding: 7px;
+  margin-top: 15px;
+  margin-left: 50px;
   }
 
 #myPinkBox {
