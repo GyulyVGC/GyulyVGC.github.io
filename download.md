@@ -16,7 +16,7 @@ share-img: /assets/img/preview.png
 
 <div align="center">
   <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/releases/latest"><img height=25 src="https://img.shields.io/github/v/release/gyulyvgc/sniffnet?color=blue&label=latest%20version&logo=github"/></a>
-</div><br/>
+</div>
   
   The <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/releases/latest">latest version</a> of Sniffnet can be downloaded from the links below (via GitHub releases).
   - [Windows](https://github.com/GyulyVGC/sniffnet/releases/latest/download/Sniffnet_Windows.msi) (13.1 MB)
