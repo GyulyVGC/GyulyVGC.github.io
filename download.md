@@ -20,8 +20,8 @@ share-img: /assets/img/preview.png
   <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/releases/latest"><img height=25 src="https://img.shields.io/github/v/release/gyulyvgc/sniffnet?color=blue&label=latest%20version&logo=github"/></a>
 </div>
   
-  The <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/releases/latest">latest version</a> of Sniffnet can be downloaded from the links below (via GitHub releases).<br/>
-  <div id="myBlueCenteredBox">
+  The <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/releases/latest">latest version</a> of Sniffnet can be downloaded from the links below (via GitHub releases).
+  <div id="myBlueBox">
   <ul>
     <li><a href="https://github.com/GyulyVGC/sniffnet/releases/latest/download/Sniffnet_Windows.msi">Windows</a> (13.1 MB)</li>
     <li><a href="https://github.com/GyulyVGC/sniffnet/releases/latest/download/Sniffnet_MacOS.dmg">macOS</a> (12.4 MB)</li>
@@ -29,7 +29,6 @@ share-img: /assets/img/preview.png
     <li><a href="https://github.com/GyulyVGC/sniffnet/releases/latest/download/Sniffnet_Linux.rpm">Linux (RPM)</a> (11.4 MB)</li>
   </ul>
   </div>
-
 In case of problems with the installation, make sure your system has the <a target="_blank" href="https://github.com/GyulyVGC/sniffnet#required-dependencies">required dependencies</a>.<br/>
 If problems persist, check if the issue has already been solved on GitHub and don't hesitate to contact me if you still have doubts (you can open an <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/issues">issue</a> or a <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/discussions">discussion</a>).
 

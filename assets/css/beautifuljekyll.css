@@ -6,7 +6,7 @@ layout: null
 
 /* --- MY CUSTOM ELEMENTS --- */
 
-#myBlueCenteredBox {
+#myBlueBox {
   background-color:#c1d8f0;
   border-color: #90bbea;
   border-width: 3px;
@@ -16,8 +16,8 @@ layout: null
   padding-bottom: 0;
   padding-right: 0;
   margin: auto;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
   }
 
 #myPinkBox {
