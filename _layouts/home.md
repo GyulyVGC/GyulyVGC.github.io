@@ -31,7 +31,7 @@ Wether you want to <b>gather statistics</b>, or you need to <b>inspect more in d
 </div>
 
 <div>
-<img align="right" width="100" src="{{ 'assets/img/open-source.png' | relative_url }}" alt="" />Last but not least, Sniffnet is completely <b>free and open-source</b>: if you are interested you can find the full source code on <a target="_blank" href="https://github.com/GyulyVGC/sniffnet">GitHub</a>.
+<img align="right" width="100" src="{{ 'assets/img/github.png' | relative_url }}" alt="" />Last but not least, Sniffnet is completely <b>free and open-source</b>: if you are interested you can find the full source code on <a target="_blank" href="https://github.com/GyulyVGC/sniffnet">GitHub</a>.
 </div>
 
 <hr/>
