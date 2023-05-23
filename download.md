@@ -21,7 +21,7 @@ share-img: /assets/img/preview.png
 </div>
   
   The <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/releases/latest">latest version</a> of Sniffnet can be downloaded from the links below (via GitHub releases).
-  <ul>
+  <ul id="myCenteredList">
     <li><a href="https://github.com/GyulyVGC/sniffnet/releases/latest/download/Sniffnet_Windows.msi">Windows</a> (13.1 MB)</li>
     <li><a href="https://github.com/GyulyVGC/sniffnet/releases/latest/download/Sniffnet_MacOS.dmg">macOS</a> (12.4 MB)</li>
     <li><a href="https://github.com/GyulyVGC/sniffnet/releases/latest/download/Sniffnet_Linux.deb">Linux (DEB)</a> (9.2 MB)</li>
