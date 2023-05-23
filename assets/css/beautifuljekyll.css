@@ -15,9 +15,10 @@ layout: null
   padding: 7px;
   padding-bottom: 0;
   padding-right: 0;
-  margin: auto;
   margin-top: 15px;
   margin-bottom: 15px;
+  margin-right: 7px;
+  margin-left: 7px;
   }
 
 #myPinkBox {
@@ -28,6 +29,8 @@ layout: null
   border-radius: 15px;
   padding: 7px;
   margin-top: 15px;
+  margin-right: 7px;
+  margin-left: 7px;
   }
 
 #myShadowSmall {
