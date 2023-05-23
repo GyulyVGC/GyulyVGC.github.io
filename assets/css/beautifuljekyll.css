@@ -8,12 +8,12 @@ layout: null
 
 #myPinkBox {
   background-color:#f2c5f1;
-  border-color: #da9bd9;
-  border-width: 4px;
+  border-color: #d3a9d3;
+  border-width: 3px;
   border-style: solid;
   border-radius: 15px;
   padding: 7px;
-  margin-top: 20px;
+  margin-top: 15px;
   }
 
 #myShadowSmall {
