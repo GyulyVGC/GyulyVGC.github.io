@@ -15,25 +15,25 @@ layout: page
 <hr/>
 
 <div align="center"><h3> What is Sniffnet? </h3></div>
-<hr id="transparent"/>
-Sniffnet is a <b>network monitoring tool</b> to help you easily keep track of your Internet traffic.
-<hr id="transparent"/>
+Sniffnet is a <b>network monitoring tool</b> to help you easily keep track of your Internet traffic.<br/><br/>
 Wether you want to <b>gather statistics</b>, or you need to <b>inspect more in depth</b> what's going on in your network, this app will get you covered.
   
 <hr/>
 
 <div align="center"><h3> What makes Sniffnet unique? </h3></div>
-<hr id="transparent"/>
 Sniffnet is a <b>technical tool</b>, but at the same time it strongly focuses on the overall <b>user experience</b>: most of the network analyzers out there are cumbersome to use, while one of Sniffnet's cornerstones is to be <b>usable with ease by everyone</b>.
-<hr id="transparent"/>
-<img align="right" width="30%" src="{{ 'assets/img/rust.png' | relative_url }}" alt="" />Furthermore, this application is totally developed in <b>Rust</b>: a modern programming language to build <b>efficient and reliable</b> software, emphasizing performance and safety.
-<hr id="transparent"/>
+
+<p width="100%"> </p>
+
+<img align="right" width="20%" src="{{ 'assets/img/rust.png' | relative_url }}" alt="" />Furthermore, this application is totally developed in <b>Rust</b>: a modern programming language to build <b>efficient and reliable</b> software, emphasizing performance and safety
+
+<p width="100%"> </p>
+
 Last but not least, Sniffnet is completely <b>free and open-source</b>: if you are interested you can find the full source code on <a target="_blank" href="https://github.com/GyulyVGC/sniffnet">GitHub</a>.
 
 <hr/>
 
 <div align="center"><h3> What can I do with Sniffnet? </h3></div>
-<hr id="transparent"/>
 <ul>
   <li>🏷️ select a set of <b>filters</b> to apply to the observed traffic</li>
   <li>📖 view overall <b>statistics</b> about your Internet traffic</li>
