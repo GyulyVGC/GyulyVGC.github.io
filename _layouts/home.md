@@ -33,7 +33,7 @@ Furthermore, Sniffnet is completely <b>free and open-source</b>, dual-licensed u
 
 <div>
 <img align="right" width="75" src="{{ 'assets/img/rust.png' | relative_url }}" alt="" />
-Last but not least, this application is totally developed in <b>Rust</b>: a modern programming language to build <b>efficient and reliable</b> software, emphasizing performance and safety
+Last but not least, this application is totally developed in <b>Rust</b>: a modern programming language to build <b>efficient and reliable</b> software, emphasizing performance and safety.
 </div>
 
 <hr/>

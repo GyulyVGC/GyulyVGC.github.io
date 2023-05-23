@@ -1,20 +1,20 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "beautiful-jekyll-theme"
-  spec.version       = "5.0.0"
-  spec.authors       = ["Dean Attali"]
-  spec.email         = ["daattali@gmail.com"]
+  spec.name          = "sniffnet"
+  spec.version       = "1.0.0"
+  spec.authors       = ["Giuliano Bellini"]
+  spec.email         = ["gyulyvgc99@gmail.com"]
 
-  spec.summary       = "Beautiful Jekyll is a ready-to-use Jekyll theme to help you create an awesome website quickly. Perfect for personal blogs or simple project websites, with a focus on responsive and clean design."
-  spec.homepage      = "https://beautifuljekyll.com"
+  spec.summary       = "Sniffnet is a cross-platform application to help you comfortably monitor your Internet traffic."
+  spec.homepage      = "https://www.sniffnet.net"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|LICENSE|README|feed|404|_data|tags|staticman)}i) }
 
   spec.metadata      = {
-    "changelog_uri"     => "https://beautifuljekyll.com/updates/",
-    "documentation_uri" => "https://github.com/daattali/beautiful-jekyll#readme"
+    "changelog_uri"     => "https://github.com/GyulyVGC/sniffnet/blob/main/CHANGELOG.md",
+    "documentation_uri" => "https://github.com/GyulyVGC/sniffnet"
   }
 
   spec.add_runtime_dependency "jekyll", "~> 3.8"
