@@ -48,6 +48,10 @@ hr {
   background-color:#aaaaaa
 }
 
+#transparent {
+  background-color:#00000000
+  }
+
 #myQuote {
       color: #666666;
       }
