@@ -6,6 +6,15 @@ layout: null
 
 /* --- MY CUSTOM ELEMENTS --- */
 
+#myPinkBox {
+  background-color:#daa1d9;
+  border-color: #dc88da;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 7px;
+  }
+
 #myShadowSmall {
   -webkit-box-shadow: 3px -3px 10px 0px #000000; 
   box-shadow: 3px -3px 10px 0px #000000;
