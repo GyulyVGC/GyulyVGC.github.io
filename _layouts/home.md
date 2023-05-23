@@ -23,15 +23,15 @@ Wether you want to <b>gather statistics</b>, or you need to <b>inspect more in d
 <div align="center"><h3> What makes Sniffnet unique? </h3></div>
 
 <div>
-<img align="right" width="100" src="{{ 'assets/img/simple.png' | relative_url }}" alt="" />Sniffnet is a <b>technical tool</b>, but at the same time it strongly focuses on the overall <b>user experience</b>: most of the network analyzers out there are cumbersome to use, while one of Sniffnet's cornerstones is to be <b>usable with ease by everyone</b>.
+<img align="right" width="80" src="{{ 'assets/img/simple.png' | relative_url }}" alt="" />Sniffnet is a <b>technical tool</b>, but at the same time it strongly focuses on the overall <b>user experience</b>: most of the network analyzers out there are cumbersome to use, while one of Sniffnet's cornerstones is to be <b>usable with ease by everyone</b>.
 </div>
 
 <div>
-<img align="right" width="100" src="{{ 'assets/img/rust.png' | relative_url }}" alt="" />Furthermore, this application is totally developed in <b>Rust</b>: a modern programming language to build <b>efficient and reliable</b> software, emphasizing performance and safety
+<img align="right" width="75" src="{{ 'assets/img/rust.png' | relative_url }}" alt="" />Furthermore, this application is totally developed in <b>Rust</b>: a modern programming language to build <b>efficient and reliable</b> software, emphasizing performance and safety
 </div>
 
 <div>
-<img align="right" width="100" src="{{ 'assets/img/github.png' | relative_url }}" alt="" />Last but not least, Sniffnet is completely <b>free and open-source</b>: if you are interested you can find the full source code on <a target="_blank" href="https://github.com/GyulyVGC/sniffnet">GitHub</a>.
+<img align="right" width="70" src="{{ 'assets/img/github.png' | relative_url }}" alt="" />Last but not least, Sniffnet is completely <b>free and open-source</b>: if you are interested you can find the full source code on <a target="_blank" href="https://github.com/GyulyVGC/sniffnet">GitHub</a>.
 </div>
 
 <hr/>
