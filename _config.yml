@@ -106,7 +106,7 @@ social-network-links:
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-keywords: "sniffnet,rust,network,monitor,tool,packet,sniffer"
+keywords: "sniffnet,network,internet,monitor,rust"
 
 ######################################
 # --- Colours / background image --- #
