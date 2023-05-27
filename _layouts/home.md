@@ -49,7 +49,7 @@ Last but not least, this application is totally developed in <b>Rust</b>: a mode
   <li> ⭐ save your <b>favorite</b> network hosts</li>
   <li>🔉 set custom <b>notifications</b> to inform you when defined network events occur</li>
   <li>🎨 choose the <b>style</b> that fits you the most from 4 different available themes</li>
-  <li>🕵️ <b>inspect</b> each of your network connections in real time</li>
+  <li>🕵️‍♂️ <b>inspect</b> each of your network connections in real time</li>
   <li>📁 save complete <b>textual report</b> with detailed information for each network connection:</li>
   <ul>
     <li>source and destination IP addresses
