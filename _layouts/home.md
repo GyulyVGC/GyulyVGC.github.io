@@ -64,7 +64,7 @@ Last but not least, this application is totally developed in <b>Rust</b>: a mode
 <hr/>
 
 <div align="center">
-<h6>💻 <a href="https://www.sniffnet.net/download/">DOWNLOAD</a> <br/> 💖 <a href="https://www.sniffnet.net/sponsor/">SPONSOR</a> <br/> 📸 <a href="https://www.sniffnet.net/gallery/">GALLERY</a> <br/> 🔗 <a target="_blank" href="https://github.com/GyulyVGC/sniffnet">GITHUB</a></h6>
+<h6>💻 <a href="https://www.sniffnet.net/download/">DOWNLOAD</a> | 💖 <a href="https://www.sniffnet.net/sponsor/">SPONSOR</a> | 📸 <a href="https://www.sniffnet.net/gallery/">GALLERY</a> | 🔗 <a target="_blank" href="https://github.com/GyulyVGC/sniffnet">GITHUB</a></h6>
 </div>
 
 <hr/>
