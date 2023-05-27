@@ -52,6 +52,10 @@ hr {
       color: #666666;
       }
 
+a#myQuote {
+  color: #d0aed0;
+}
+
 /* --- General --- */
 
 html {
