@@ -53,7 +53,11 @@ hr {
       }
 
 a#myQuote {
-  color: #d0aed0;
+  color: #eec8ed;
+}
+
+a:hover#myQuote {
+  color: #B35900;
 }
 
 /* --- General --- */
