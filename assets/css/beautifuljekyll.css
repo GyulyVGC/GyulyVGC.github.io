@@ -6,34 +6,6 @@ layout: null
 
 /* --- MY CUSTOM ELEMENTS --- */
 
-#myBlueBox {
-  background-color:#c1d8f0;
-  border-color: #90bbea;
-  border-width: 3px;
-  border-style: solid;
-  border-radius: 15px;
-  padding: 7px;
-  padding-bottom: 0;
-  padding-right: 0;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-right: 7px;
-  margin-left: 7px;
-  }
-
-#myPinkBox {
-  background-color:#eec8ed;
-  border-color: #d0aed0;
-  border-width: 3px;
-  border-style: solid;
-  border-radius: 15px;
-  padding: 10px;
-  padding-bottom: 5px;
-  margin-top: 15px;
-  margin-right: 7px;
-  margin-left: 7px;
-  }
-
 #myShadowSmall {
   -webkit-box-shadow: 3px -3px 10px 0px #000000; 
   box-shadow: 3px -3px 10px 0px #000000;
@@ -56,6 +28,43 @@ hr {
 a:hover#myQuote {
   color: #B35900;
 }
+
+/* BLUE STUFF */
+
+#myBlueBox {
+  background-color:#c1d8f0;
+  border-color: #90bbea;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 15px;
+  padding: 7px;
+  padding-bottom: 0;
+  padding-right: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 7px;
+  margin-left: 7px;
+  }
+
+:hover#myBluekBox {
+  -webkit-box-shadow: 0px 0px 15px 5px #90bbea; 
+  box-shadow: 0px 0px 15px 5px #90bbea;
+}
+
+/* PINK STUFF */
+
+#myPinkBox {
+  background-color:#eec8ed;
+  border-color: #d0aed0;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 15px;
+  padding: 10px;
+  padding-bottom: 5px;
+  margin-top: 15px;
+  margin-right: 7px;
+  margin-left: 7px;
+  }
 
 #pinkBG {
   padding: 10px;
