@@ -44,9 +44,8 @@ layout: null
     box-shadow: 0px 0px 20px 5px #000000;
     }
 
-    img:hover#hoverShadow {
-      -webkit-box-shadow: 0px -4px 15px 2px #000000; 
-      box-shadow: 0px -4px 15px 2px #000000;
+    img:hover#hoveredColor {
+      border: 2px solid #B35900;
       }
 
 hr {
