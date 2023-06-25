@@ -58,14 +58,14 @@ a:hover#myQuote {
 }
 
 figure#pinkBG {
-  padding: 10;
+  padding: 10px;
   border-radius: 15px;
 }
 
 figure:hover#pinkBG {
-  background-color: #bfb3cf;
-  -webkit-box-shadow: 0px 0px 15px 2px #bfb3cf; 
-  box-shadow: 0px 0px 15px 2px #bfb3cf;
+  background-color: #eec8ed;
+  -webkit-box-shadow: 0px 0px 15px 2px #eec8ed; 
+  box-shadow: 0px 0px 15px 2px #eec8ed;
 }
 
 /* --- General --- */
