@@ -45,7 +45,7 @@ layout: null
     }
 
     img:hover#hoveredColor {
-      border: 2px solid #B35900;
+      outline: 2px solid #B35900;
       }
 
 hr {
