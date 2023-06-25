@@ -58,12 +58,12 @@ hr {
       color: #666666;
       }
 
-a#myQuote {
-  color: #c780c7;
-}
-
 a:hover#myQuote {
   color: #B35900;
+}
+
+figure:hover#myQuote {
+  background-color: #777777;
 }
 
 /* --- General --- */
