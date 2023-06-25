@@ -57,13 +57,18 @@ a:hover#myQuote {
   color: #B35900;
 }
 
-figure#pinkBG {
+#pinkBG {
   padding: 10px;
   border-radius: 15px;
 }
 
-figure:hover#pinkBG {
+:hover #pinkBG {
   background-color: #eec8ed;
+  -webkit-box-shadow: 0px 0px 15px 5px #d0aed0; 
+  box-shadow: 0px 0px 15px 5px #d0aed0;
+}
+
+:hover #myPinkBox {
   -webkit-box-shadow: 0px 0px 15px 5px #d0aed0; 
   box-shadow: 0px 0px 15px 5px #d0aed0;
 }
