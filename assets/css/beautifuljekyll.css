@@ -30,10 +30,10 @@ a:hover#myQuote {
 }
 
 code {
-  color: #473a9f;
+  color: #84bbf2;
   font-family: 'Courier New', Courier, monospace;
   padding: 0.125rem 0.25rem;
-  background-color: #f9f2f4;
+  background-color: #333333;
   border-radius: 0.25rem;
 }
 
