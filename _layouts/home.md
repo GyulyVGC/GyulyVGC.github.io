@@ -2,8 +2,8 @@
 layout: page
 ---
 <div align="center">
-  <a href="https://www.sniffnet.net/download"><img height=25 src="https://img.shields.io/github/downloads/GyulyVGC/sniffnet/total?logo=github&color=blue"/></a>&nbsp;&nbsp;
-  <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/stargazers"><img height=25 src="https://img.shields.io/github/stars/GyulyVGC/sniffnet?logo=github&color=blue"/></a>
+  <a href="https://www.sniffnet.net/download"><img class="hoverExpand" height=25 src="https://img.shields.io/github/downloads/GyulyVGC/sniffnet/total?logo=github&color=blue"/></a>&nbsp;&nbsp;
+  <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/stargazers"><img class="hoverExpand" height=25 src="https://img.shields.io/github/stars/GyulyVGC/sniffnet?logo=github&color=blue"/></a>
 </div><br/>
 
 <div align="center">
