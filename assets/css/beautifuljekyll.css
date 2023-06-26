@@ -185,14 +185,14 @@ hr.small {
 }
 
 ::-moz-selection {
-  color: #fff;
+  color: #000;
   text-shadow: none;
-  background-color: #3586dd88;
+  background-color: #B4D5FE;
 }
 ::selection {
-  color: #fff;
+  color: #000;
   text-shadow: none;
-  background-color: #3586dd88;
+  background-color: #B4D5FE;
 }
 img::selection {
   color: #fff;
