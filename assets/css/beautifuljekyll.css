@@ -29,6 +29,11 @@ a:hover#myQuote {
   color: #B35900;
 }
 
+code {
+  color: #473a9f;
+  font-family: 'Courier New', Courier, monospace;
+}
+
 /* BLUE STUFF */
 
 #myBlueBox {
@@ -80,6 +85,16 @@ a:hover#myQuote {
 :hover#myPinkBox {
   -webkit-box-shadow: 0px 0px 15px 5px #d0aed0; 
   box-shadow: 0px 0px 15px 5px #d0aed0;
+}
+
+/* ON HOVER EXPAND */
+
+.hoverExpand {
+  transition: transform 300ms;
+}
+
+.hoverExpand:hover {
+  transform: scale(1.5);
 }
 
 /* --- General --- */
