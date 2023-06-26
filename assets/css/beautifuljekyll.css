@@ -6,6 +6,10 @@ layout: null
 
 /* --- MY CUSTOM ELEMENTS --- */
 
+a {
+  transition: all 150ms;
+}
+
 #myShadowSmall {
   -webkit-box-shadow: 3px -3px 10px 0px #000000; 
   box-shadow: 3px -3px 10px 0px #000000;
