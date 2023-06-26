@@ -30,10 +30,10 @@ a:hover#myQuote {
 }
 
 code {
-  color: #84bbf2;
+  color: #e8d48a;
   font-family: 'Courier New', Courier, monospace;
   padding: 0.125rem 0.25rem;
-  background-color: #333333;
+  background-color: #333333dd;
   border-radius: 0.25rem;
 }
 
@@ -44,8 +44,8 @@ div.hoverExpand {
 /* BLUE STUFF */
 
 #myBlueBox {
-  background-color:#c1d8f0;
-  border-color: #90bbea;
+  background-color:#c1d8f0dd;
+  border-color: #90bbeadd;
   border-width: 3px;
   border-style: solid;
   border-radius: 15px;
@@ -59,6 +59,8 @@ div.hoverExpand {
   }
 
 :hover#myBlueBox {
+  background-color:#c1d8f0;
+  border-color: #90bbea;
   -webkit-box-shadow: 0px 0px 15px 5px #90bbea; 
   box-shadow: 0px 0px 15px 5px #90bbea;
 }
@@ -66,8 +68,8 @@ div.hoverExpand {
 /* PINK STUFF */
 
 #myPinkBox {
-  background-color:#eec8ed;
-  border-color: #d0aed0;
+  background-color:#eec8eddd;
+  border-color: #d0aed0dd;
   border-width: 3px;
   border-style: solid;
   border-radius: 15px;
@@ -79,6 +81,8 @@ div.hoverExpand {
   }
 
   :hover#myPinkBox {
+    background-color:#eec8ed;
+    border-color: #d0aed0;
     -webkit-box-shadow: 0px 0px 15px 5px #d0aed0; 
     box-shadow: 0px 0px 15px 5px #d0aed0;
   }
