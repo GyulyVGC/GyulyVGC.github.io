@@ -32,6 +32,9 @@ a:hover#myQuote {
 code {
   color: #473a9f;
   font-family: 'Courier New', Courier, monospace;
+  padding: 0.125rem 0.25rem;
+  background-color: #f9f2f4;
+  border-radius: 0.25rem;
 }
 
 /* BLUE STUFF */
@@ -955,13 +958,6 @@ table tr td :last-child {
 }
 
 /* --- Code blocks --- */
-
-code {
-  padding: 0.125rem 0.25rem;
-  color: #c7254e;
-  background-color: #f9f2f4;
-  border-radius: 0.25rem;
-}
 
 pre code {
   padding: 0;
