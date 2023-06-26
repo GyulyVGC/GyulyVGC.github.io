@@ -37,6 +37,10 @@ code {
   border-radius: 0.25rem;
 }
 
+div.hoverExpand {
+  display: inline-block;
+}
+
 /* BLUE STUFF */
 
 #myBlueBox {
