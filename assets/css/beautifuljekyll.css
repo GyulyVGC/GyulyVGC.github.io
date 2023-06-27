@@ -10,6 +10,10 @@ a {
   transition: all 300ms;
 }
 
+i {
+  transition: all 300ms;
+}
+
 a:hover #footerSocial {
   color: #000;
 }
