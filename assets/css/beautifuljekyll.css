@@ -19,7 +19,7 @@ a:hover #footerSocial {
 }
 
 figure:hover .invisible {
-  display: block;
+  display: inline;
 }
 
 #myShadowSmall {
