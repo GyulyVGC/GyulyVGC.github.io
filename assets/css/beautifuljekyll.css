@@ -14,11 +14,11 @@ a:hover #footerSocial {
   color: #555;
 }
 
-#invisible {
+.invisible {
   display: none;
 }
 
-figure:hover #invisible {
+figure:hover .invisible {
   display: block;
 }
 
