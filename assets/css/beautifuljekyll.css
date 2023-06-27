@@ -11,7 +11,15 @@ a {
 }
 
 a:hover #footerSocial {
-  color: #000;
+  color: #555;
+}
+
+#invisible {
+  display: none;
+}
+
+figure:hover #invisible {
+  display: block;
 }
 
 #myShadowSmall {
