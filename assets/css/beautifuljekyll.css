@@ -10,10 +10,6 @@ a {
   transition: all 300ms;
 }
 
-i {
-  transition: all 300ms;
-}
-
 a:hover #footerSocial {
   color: #000;
 }
@@ -125,6 +121,10 @@ div.hoverColor {
   padding: 10px;
   border-radius: 15px;
   transition: all 300ms;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
 }
 
 div.hoverColor:hover {
