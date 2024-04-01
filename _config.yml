@@ -24,7 +24,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/sniffnet.png"
+avatar: "/assets/img/icon.svg"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: false
@@ -117,10 +117,10 @@ keywords: "sniffnet,network,internet,monitor,rust"
 # navbar-col: "#b3b3b3"
 navbar-text-col: "#000000"
 navbar-border-col: "#000000"
-page-col: "#d9d9d9"
-text-col: "#000000"
-link-col: "#0059B3"
-hover-col: "#B35900"
+page-col: "#0f1e3c"
+text-col: "#a0e8f8"
+link-col: "#fec402"
+hover-col: "#f5891d"
 # footer-col: "#b3b3b3"
 footer-text-col: "#333333"
 footer-link-col: "#0059B3"
