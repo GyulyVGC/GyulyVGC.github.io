@@ -72,10 +72,8 @@ code {
   }
 
 :hover#myBlueBox {
-  background-color:#c1d8f0;
-  border-color: #90bbea;
-  -webkit-box-shadow: 0px 0px 15px 5px #90bbea; 
-  box-shadow: 0px 0px 15px 5px #90bbea;
+  -webkit-box-shadow: 0px 0px 15px 5px #01c6ff; 
+  box-shadow: 0px 0px 15px 5px #01c6ff;
 }
 
 /* PINK STUFF */
