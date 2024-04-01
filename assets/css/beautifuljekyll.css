@@ -10,8 +10,8 @@ a {
   transition: all 300ms;
 }
 
-a:hover #footerSocial {
-  color: #555;
+a #footerSocial {
+  color: #0f1e3c;
 }
 
 .invisible {
