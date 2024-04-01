@@ -72,15 +72,15 @@ code {
   }
 
 :hover#myBlueBox {
-  -webkit-box-shadow: 0px 0px 15px 5px #01c6ff22; 
-  box-shadow: 0px 0px 15px 5px #01c6ff22;
+  -webkit-box-shadow: 0px 0px 15px 5px #01c6ff44; 
+  box-shadow: 0px 0px 15px 5px #01c6ff44;
 }
 
 /* PINK STUFF */
 
 #myPinkBox {
-  background-color:#eec8eddd;
-  border-color: #d0aed0dd;
+  background-color:#e58be522;
+  border-color: #e58be5;
   border-width: 3px;
   border-style: solid;
   border-radius: 15px;
@@ -93,10 +93,8 @@ code {
   }
 
   :hover#myPinkBox {
-    background-color:#eec8ed;
-    border-color: #d0aed0;
-    -webkit-box-shadow: 0px 0px 15px 5px #d0aed0; 
-    box-shadow: 0px 0px 15px 5px #d0aed0;
+    -webkit-box-shadow: 0px 0px 15px 5px #e58be544; 
+    box-shadow: 0px 0px 15px 5px #e58be544;
   }
 
 #pinkBG {
