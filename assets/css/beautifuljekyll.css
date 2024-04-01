@@ -104,9 +104,9 @@ code {
 }
 
 :hover#pinkBG {
-  background-color: #eec8eddd;
-  -webkit-box-shadow: 0px 0px 15px 5px #d0aed0dd; 
-  box-shadow: 0px 0px 15px 5px #d0aed0dd;
+  background-color: #e58be522;
+  -webkit-box-shadow: 0px 0px 15px 5px #e58be544; 
+  box-shadow: 0px 0px 15px 5px #e58be544;
 }
 
 /* ON HOVER EXPAND */
