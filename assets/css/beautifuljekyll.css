@@ -7,7 +7,7 @@ layout: null
 /* --- MY CUSTOM ELEMENTS --- */
 
 a {
-  transition: all 300ms;
+  transition: all 200ms;
 }
 
 a #footerSocial {
@@ -68,7 +68,7 @@ code {
   margin-bottom: 15px;
   margin-right: 7px;
   margin-left: 7px;
-  transition: all 300ms;
+  transition: all 200ms;
   }
 
 :hover#myBlueBox {
@@ -89,7 +89,7 @@ code {
   margin-top: 15px;
   margin-right: 7px;
   margin-left: 7px;
-  transition: all 300ms;
+  transition: all 200ms;
   }
 
   :hover#myPinkBox {
@@ -103,7 +103,7 @@ code {
   border-width: 3px;
   border-style: solid;
   border-color: #00000000;
-  transition: all 300ms;
+  transition: all 200ms;
 }
 
 :hover#pinkBG {
@@ -114,7 +114,7 @@ code {
 /* ON HOVER EXPAND */
 
 .hoverExpand {
-  transition: all 300ms;
+  transition: all 200ms;
 }
 
 .hoverExpand:hover {
@@ -125,7 +125,7 @@ code {
 /* SHIELDS */
 
 .shield {
-  transition: all 300ms;
+  transition: all 200ms;
 }
 
 .shield:hover {
