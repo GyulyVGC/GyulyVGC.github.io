@@ -2,8 +2,8 @@
 layout: page
 ---
 <div align="center">
-  <a target="_blank" href="https://github.com/GyulyVGC/sniffnet"><img height="30px" class="shield" src="{{ 'assets/img/github_badge.svg' | relative_url }}"/></a>&nbsp;
-  <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/wiki"><img height="30px" class="shield" src="{{ 'assets/img/wiki_badge.svg' | relative_url }}"/></a>
+  <a target="_blank" alt="" title="GitHub" href="https://github.com/GyulyVGC/sniffnet"><img class="shield" height=25 src="https://img.shields.io/github/stars/GyulyVGC/sniffnet?logo=github&color=blue&style=for-the-badge"/></a>&nbsp;
+  <a alt="" title="Download" href="https://www.sniffnet.net/download"><img class="shield" height=25 src="https://img.shields.io/github/downloads/GyulyVGC/sniffnet/total?logo=github&color=blue&style=for-the-badge"/></a>
 </div><br/>
 
 <div align="center">
