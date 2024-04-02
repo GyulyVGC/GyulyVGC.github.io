@@ -3,7 +3,7 @@ layout: page
 ---
 <div align="center">
   <a href="https://github.com/GyulyVGC/sniffnet"><img class="shield" src="{{ 'assets/img/github_badge.svg' | relative_url }}"/></a>&nbsp;&nbsp;
-  <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/wiki"><img class="shield" src="{{ 'assets/img/wiki_badge.svg' | relative_url }}/></a>
+  <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/wiki"><img class="shield" src="{{ 'assets/img/wiki_badge.svg' | relative_url }}"/></a>
 </div><br/>
 
 <div align="center">
