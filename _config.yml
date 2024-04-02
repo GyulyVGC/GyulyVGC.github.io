@@ -114,14 +114,14 @@ keywords: "sniffnet,network,internet,monitor,rust"
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-# navbar-col: "#b3b3b3"
+navbar-col: "#081020"
 navbar-text-col: "#01c6ff"
 navbar-border-col: "#01c6ff"
 page-col: "#0f1e3c"
 text-col: "#cccccc"
 link-col: "#01c6ff"
 hover-col: "#a0e8f8"
-# footer-col: "#b3b3b3"
+footer-col: "#081020"
 footer-text-col: "#cccccc"
 footer-link-col: "#01c6ff"
 footer-hover-col: "#a0e8f8"
