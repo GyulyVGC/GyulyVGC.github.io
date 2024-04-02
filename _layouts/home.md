@@ -67,7 +67,7 @@ The Wiki includes step-by-step guides, tips, examples of usage, and answers to f
 
 <p align="center">
 <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/wiki">
-<img alt="" title="Sniffnet Wiki" src="https://raw.githubusercontent.com/GyulyVGC/sniffnet/main/resources/logos/wiki/wikilogo.svg" width="300px"/>
+<img alt="" title="Sniffnet Wiki" src="{{ 'assets/img/wikilogo.svg' | relative_url }}" width="300px"/>
 </a>
 </p>
 
