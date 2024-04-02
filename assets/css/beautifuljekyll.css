@@ -38,7 +38,7 @@ hr {
 }
 
 #myQuote {
-      color: #edac73;
+      color: #ffe572;
       }
 
 a:hover#myQuote {
@@ -46,10 +46,10 @@ a:hover#myQuote {
 }
 
 code {
-  color: #f09f36;
+  color: #ffe572;
   font-family: 'Courier New', Courier, monospace;
   padding: 0.125rem 0.25rem;
-  background-color: #555555;
+  background-color: #404040;
   border-radius: 0.25rem;
 }
 
