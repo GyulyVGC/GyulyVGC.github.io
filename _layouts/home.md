@@ -2,8 +2,8 @@
 layout: page
 ---
 <div align="center">
-  <a href="https://www.sniffnet.net/download"><img class="shield" height=25 src="https://img.shields.io/github/downloads/GyulyVGC/sniffnet/total?logo=github&color=blue"/></a>&nbsp;&nbsp;
-  <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/stargazers"><img class="shield" height=25 src="https://img.shields.io/github/stars/GyulyVGC/sniffnet?logo=github&color=blue"/></a>
+  <a href="https://github.com/GyulyVGC/sniffnet"><img class="shield" src="{{ 'assets/img/github_badge.svg' | relative_url }}"/></a>&nbsp;&nbsp;
+  <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/wiki"><img class="shield" src="{{ 'assets/img/wiki_badge.svg' | relative_url }}/></a>
 </div><br/>
 
 <div align="center">
@@ -64,7 +64,7 @@ Last but not least, this application is totally developed in <b>Rust</b>: a mode
 <hr/>
 
 <div align="center" class="hoverExpand">
-<h6>💻 <a href="https://www.sniffnet.net/download/">DOWNLOAD</a> | 💖 <a href="https://www.sniffnet.net/sponsor/">SPONSOR</a> | 📸 <a href="https://www.sniffnet.net/gallery/">GALLERY</a> | 🔗 <a target="_blank" href="https://github.com/GyulyVGC/sniffnet">GITHUB</a></h6>
+<h6>💻 <a href="https://www.sniffnet.net/download/">DOWNLOAD</a> | 💖 <a href="https://www.sniffnet.net/sponsor/">SPONSOR</a> | 📸 <a href="https://www.sniffnet.net/gallery/">GALLERY</a></h6>
 </div>
 
 <hr/>
