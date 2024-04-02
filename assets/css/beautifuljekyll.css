@@ -100,14 +100,14 @@ code {
 #pinkBG {
   padding: 10px;
   border-radius: 15px;
+  border-width: 3px;
+  border-style: solid;
   transition: all 300ms;
 }
 
 :hover#pinkBG {
   background-color: #e58be522;
   border-color: #e58be5;
-  border-width: 3px;
-  border-style: solid;
 }
 
 /* ON HOVER EXPAND */
