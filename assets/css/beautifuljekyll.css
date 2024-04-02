@@ -38,7 +38,7 @@ hr {
 }
 
 #myQuote {
-      color: #4f609a;
+      color: #edac73;
       }
 
 a:hover#myQuote {
@@ -46,10 +46,10 @@ a:hover#myQuote {
 }
 
 code {
-  color: #b59feb;
+  color: #f09f36;
   font-family: 'Courier New', Courier, monospace;
   padding: 0.125rem 0.25rem;
-  background-color: #303030;
+  background-color: #555555;
   border-radius: 0.25rem;
 }
 
@@ -104,9 +104,10 @@ code {
 }
 
 :hover#pinkBG {
-  background-color: #e58be544;
-  -webkit-box-shadow: 0px 0px 15px 5px #e58be544; 
-  box-shadow: 0px 0px 15px 5px #e58be544;
+  background-color: #e58be522;
+  border-color: #e58be5;
+  border-width: 3px;
+  border-style: solid;
 }
 
 /* ON HOVER EXPAND */
