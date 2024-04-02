@@ -65,16 +65,16 @@ Check out the <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/wiki
 thoroughly master the application from a basic setup to the most advanced functionalities. <br>
 The Wiki includes step-by-step guides, tips, examples of usage, and answers to frequent questions.
 
-<p align="center" class="hoverExpand">
+<p align="center">
 <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/wiki">
-<img alt="" title="Sniffnet Wiki" src="{{ 'assets/img/wikilogo.svg' | relative_url }}" width="300px"/>
+<img class="hoverExpand" alt="" title="Sniffnet Wiki" src="{{ 'assets/img/wikilogo.svg' | relative_url }}" width="300px"/>
 </a>
 </p>
 
 <hr/>
 
-<div align="center" class="hoverExpand">
-<h6>💻 <a href="https://www.sniffnet.net/download/">DOWNLOAD</a> | 💖 <a href="https://www.sniffnet.net/sponsor/">SPONSOR</a> | 📸 <a href="https://www.sniffnet.net/gallery/">GALLERY</a></h6>
+<div align="center">
+<h6>💻 <a href="https://www.sniffnet.net/download/">DOWNLOAD</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; 💖 <a href="https://www.sniffnet.net/sponsor/">SPONSOR</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; 📸 <a href="https://www.sniffnet.net/gallery/">GALLERY</a></h6>
 </div>
 
 <hr/>
