@@ -448,6 +448,10 @@ img {
 }
 
 .navbar-custom .avatar-container {
+  border-color: #01c6ff;
+  border-width: 1px;
+  -webkit-box-shadow: 0px 0px 15px 5px #01c6ff44; 
+  box-shadow: 0px 0px 15px 5px #01c6ff44;
   position: absolute;
   left: 50%;
   width: 3.125rem;
