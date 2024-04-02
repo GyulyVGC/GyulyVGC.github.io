@@ -23,7 +23,7 @@ Whether you want to <b>gather statistics</b>, or you need to <b>inspect more in 
 <div align="center"><h3> What makes Sniffnet unique? </h3></div>
 
 <div>
-<img align="right" width="70" src="{{ 'assets/img/simple.svg' | relative_url }}" alt="" />Sniffnet is a <b>technical tool</b>, but at the same time it strongly focuses on the overall <b>user experience</b>: most of the network analyzers out there are cumbersome to use, while one of Sniffnet's cornerstones is to be <b>usable with ease by everyone</b>.
+<img align="right" width="60" src="{{ 'assets/img/simple.svg' | relative_url }}" alt="" />Sniffnet is a <b>technical tool</b>, but at the same time it strongly focuses on the overall <b>user experience</b>: most of the network analyzers out there are cumbersome to use, while one of Sniffnet's cornerstones is to be <b>usable with ease by everyone</b>.
 </div><br/>
 
 <div>
