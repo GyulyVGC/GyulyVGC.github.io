@@ -448,10 +448,6 @@ img {
 }
 
 .navbar-custom .avatar-container {
-  border-color: #01c6ff;
-  border-width: 1px;
-  -webkit-box-shadow: 0px 0px 15px 5px #01c6ff44; 
-  box-shadow: 0px 0px 15px 5px #01c6ff44;
   position: absolute;
   left: 50%;
   width: 3.125rem;
@@ -484,6 +480,14 @@ img {
     border-radius: 50%;
   {% endunless %}
   display: block;
+}
+
+.avatar-img {
+  border-color: #01c6ff;
+  border-width: 1px;
+  border-style: solid;
+  -webkit-box-shadow: 0px 0px 15px 5px #01c6ff44; 
+  box-shadow: 0px 0px 15px 5px #01c6ff44;
 }
 
 .navbar-custom.top-nav-expanded .avatar-container {
