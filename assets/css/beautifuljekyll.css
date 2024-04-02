@@ -486,7 +486,7 @@ img {
   border-color: #01c6ff;
   border-width: 1px;
   border-style: solid;
-  border-radius: 15px;
+  border-radius: 18%;
   -webkit-box-shadow: 0px 0px 15px 5px #01c6ff44; 
   box-shadow: 0px 0px 15px 5px #01c6ff44;
 }
