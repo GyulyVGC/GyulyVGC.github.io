@@ -38,28 +38,38 @@ Last but not least, this application is totally developed in <b>Rust</b>: a mode
 
 <hr/>
 
-<div align="center"><h3> What can I do with Sniffnet? </h3></div>
+<div align="center"><h3> Features </h3></div>
 <ul>
+  <li>💻 choose a <b>network adapter</b> of your PC to inspect</li>
   <li>🏷️ select a set of <b>filters</b> to apply to the observed traffic</li>
   <li>📖 view overall <b>statistics</b> about your Internet traffic</li>
   <li>📈 view <b>real-time charts</b> about traffic intensity</li>
-  <li>🌐 get details about <b>domain names</b> and <b>network providers</b> of the hosts you are exchanging traffic with</li>
+  <li>📌 keep an eye on your network even when the application is <b>minimized</b></li>
+  <li>📁 <b>export</b> comprehensive capture reports as <b>PCAP</b> files</li>
+  <li>🔎 identify <b>6000+ upper layer services</b>, protocols, trojans, and worms</li>
+  <li>🌐 find out <b>domain name</b> and <b>ASN</b> of the hosts you are exchanging traffic with</li>
   <li>🏠 identify connections in your <b>local network</b></li>
   <li>🌍 discover the <b>geographical location</b> of the remote hosts</li>
-  <li> ⭐ save your <b>favorite</b> network hosts</li>
-  <li>🔉 set custom <b>notifications</b> to inform you when defined network events occur</li>
-  <li>🎨 choose the <b>style</b> that fits you the most from 4 different available themes</li>
+  <li>⭐ save your <b>favorite</b> network hosts</li>
   <li>🕵️‍♂️ <b>inspect</b> each of your network connections in real time</li>
-  <li>📁 save complete <b>textual report</b> with detailed information for each network connection:</li>
-  <ul>
-    <li>source and destination IP addresses
-    <li>source and destination ports
-    <li>carried protocols
-    <li>amount of exchanged packets and bytes
-    <li>initial and final timestamp of information exchange
-  </ul>
+  <li>🔉 set custom <b>notifications</b> to inform you when defined network events occur</li>
+  <li>🎨 choose the <b>style</b> that fits you the most, including custom themes support</li>
 <li><b>... and more!</b>
 </ul>
+
+<hr/>
+
+<div align="center"><h3> User manual </h3></div>
+Do you want to <b>learn more</b>? <br>
+Check out the <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/wiki"><b>Sniffnet Wiki</b></a>, a comprehensive manual to help you
+thoroughly master the application from a basic setup to the most advanced functionalities. <br>
+The Wiki includes step-by-step guides, tips, examples of usage, and answers to frequent questions.
+
+<p align="center">
+<a target="_blank" href="https://github.com/GyulyVGC/sniffnet/wiki">
+<img alt="" title="Sniffnet Wiki" src="https://raw.githubusercontent.com/GyulyVGC/sniffnet/main/resources/logos/wiki/wikilogo.svg" width="300px"/>
+</a>
+</p>
 
 <hr/>
 
