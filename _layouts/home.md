@@ -3,7 +3,7 @@ layout: page
 ---
 <div align="center">
   <a target="_blank" alt="" title="GitHub" href="https://github.com/GyulyVGC/sniffnet"><img class="shield" height="30px" src="https://img.shields.io/github/stars/GyulyVGC/sniffnet?logo=github&color=blue&style=for-the-badge"/></a>&nbsp;
-  <a alt="" title="Download" href="https://www.sniffnet.net/download"><img class="shield" height="30px" src="https://img.shields.io/github/downloads/GyulyVGC/sniffnet/total?logo=github&color=blue&style=for-the-badge"/></a>
+  <a alt="" title="Download" href="https://sniffnet.net/download"><img class="shield" height="30px" src="https://img.shields.io/github/downloads/GyulyVGC/sniffnet/total?logo=github&color=blue&style=for-the-badge"/></a>
 </div><br/>
 
 <div align="center">
@@ -74,7 +74,7 @@ The Wiki includes step-by-step guides, tips, examples of usage, and answers to f
 <hr/>
 
 <div align="center">
-<h6>💻 <a href="https://www.sniffnet.net/download/">DOWNLOAD</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; 💖 <a href="https://www.sniffnet.net/sponsor/">SPONSOR</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; 📸 <a href="https://www.sniffnet.net/gallery/">GALLERY</a></h6>
+<h6>💻 <a href="https://sniffnet.net/download/">DOWNLOAD</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; 💖 <a href="https://sniffnet.net/sponsor/">SPONSOR</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; 📸 <a href="https://sniffnet.net/gallery/">GALLERY</a></h6>
 </div>
 
 <hr/>
