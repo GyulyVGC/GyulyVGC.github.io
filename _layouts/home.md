@@ -27,7 +27,7 @@ Whether you want to <b>gather statistics</b>, or you need to <b>inspect more in 
 </div><br/>
 
 <div>
-<img align="right" width="75" src="{{ 'assets/img/github.svg' | relative_url }}" alt=""/>
+<a target="_blank" href="https://github.com/GyulyVGC/sniffnet"><img title="GitHub" align="right" width="75" src="{{ 'assets/img/github.svg' | relative_url }}" alt=""/></a>
 Furthermore, Sniffnet is completely <b>free and open-source</b>, dual-licensed under MIT or Apache-2.0: if you are interested you can find the full source code on <a target="_blank" href="https://github.com/GyulyVGC/sniffnet">GitHub</a>.
 </div><br/>
 
