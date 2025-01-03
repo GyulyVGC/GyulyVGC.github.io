@@ -4,6 +4,7 @@ _site
 .vagrant
 
 # general
+.idea
 .DS_Store
 Thumbs.db
 ehthumbs.db
