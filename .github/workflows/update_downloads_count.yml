@@ -1,0 +1,26 @@
+name: Update Downloads Count
+
+on:
+  schedule:
+    - cron: '0 18 * * *' # Every day at 6pm UTC
+  workflow_dispatch:
+
+jobs:
+  update-downloads-count:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: master
+
+      - name: Run generate_downloads_badge.sh
+        run: ./generate_downloads_badge.sh
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Daily downloads count update"
