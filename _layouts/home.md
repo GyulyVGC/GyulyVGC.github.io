@@ -73,9 +73,9 @@ The Wiki includes step-by-step guides, tips, examples of usage, and answers to f
 
 <hr/>
 
-<div align="center"><h3> Keep in touch </h3></div>
+<div align="center"><h3> Stay in the loop </h3></div>
 Join the new <a target="_blank" href="https://t.me/sniffnet"><b>Sniffnet Telegram Channel</b></a>
-to stay updated on the latest news and releases.
+to get updates about the latest releases and all the project news.
 
 <hr/>
 
