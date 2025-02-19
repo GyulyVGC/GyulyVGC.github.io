@@ -73,6 +73,12 @@ The Wiki includes step-by-step guides, tips, examples of usage, and answers to f
 
 <hr/>
 
+<div align="center"><h3> Keep in touch </h3></div>
+Join the new <a target="_blank" href="https://t.me/sniffnet"><b>Sniffnet Telegram Channel</b></a>
+to stay updated on the latest news and releases.
+
+<hr/>
+
 <div align="center">
 <h6>💻 <a href="https://sniffnet.net/download/">DOWNLOAD</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; 💖 <a href="https://sniffnet.net/sponsor/">SPONSOR</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; 📸 <a href="https://sniffnet.net/gallery/">GALLERY</a></h6>
 </div>
