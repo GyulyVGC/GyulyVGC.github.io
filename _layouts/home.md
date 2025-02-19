@@ -77,6 +77,12 @@ The Wiki includes step-by-step guides, tips, examples of usage, and answers to f
 Join the new <a target="_blank" href="https://t.me/sniffnet"><b>Sniffnet Telegram Channel</b></a>
 to get updates about the latest releases and all the project news.
 
+<p align="center">
+<a target="_blank" href="https://t.me/sniffnet">
+<img class="hoverExpand" alt="" title="Telegram Channel" src="{{ 'assets/img/telegram.svg' | relative_url }}"/>
+</a>
+</p>
+
 <hr/>
 
 <div align="center">
