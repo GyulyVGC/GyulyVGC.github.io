@@ -12,6 +12,18 @@
   </li>
 {%- endif -%}
 
+{%- if site.social-network-links.telegram -%}
+  <li class="list-inline-item">
+    <a target="_blank" href="https://t.me/{{ site.social-network-links.telegram }}" title="Telegram">
+      <span class="fa-stack fa-lg hoverExpand" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i id="footerSocial" class="fab fa-telegram-plane fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Telegram</span>
+    </a>
+  </li>
+{%- endif -%}
+
 {%- if site.social-network-links.linkedin -%}
   <li class="list-inline-item">
     <a target="_blank" href="https://linkedin.com/company/{{ site.social-network-links.linkedin }}" title="LinkedIn">
@@ -107,18 +119,6 @@
       </span>
       <span class="sr-only">Facebook</span>
    </a>
-  </li>
-{%- endif -%}
-
-{%- if site.social-network-links.telegram -%}
-  <li class="list-inline-item">
-    <a href="https://t.me/{{ site.social-network-links.telegram }}" title="Telegram">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fab fa-telegram-plane fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">Telegram</span>
-    </a>
   </li>
 {%- endif -%}
 
