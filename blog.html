@@ -7,11 +7,11 @@ share-description: Follow the latest news about Sniffnet.
 share-img: /assets/img/preview.png
 ---
 
-<p align="center">
+<div align="center">
 <a target="_blank" href="https://t.me/sniffnet">
 <img class="hoverExpand" alt="" title="Telegram Channel" src="{{ 'assets/img/telegram.svg' | relative_url }}"/>
 </a>
-</p>
+</div>
   
   <br/>
 
@@ -20,8 +20,6 @@ share-img: /assets/img/preview.png
   </div>
   
   <hr/>
-  
-<div align="center"><h3> Latest posts </h3></div>
 
 {% assign posts = paginator.posts | default: site.posts %}
 
@@ -65,9 +63,6 @@ share-img: /assets/img/preview.png
         {% endif %}
       </a>
 
-      {% if post.author %}
-        <span>By <strong>{{ post.author | strip_html }}</strong></span>
-      {% endif %}
       <p class="post-meta">
         {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
         Posted on {{ post.date | date: date_format }}
