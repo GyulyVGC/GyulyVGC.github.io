@@ -13,9 +13,9 @@ author: Giuliano Bellini
 ###############################################
 
 navbar-links:
-#  📢 Blog: "blog"
-  💻 Download: "download"
-  📸 Gallery: "gallery"
+  #  Blog: "blog"
+  Download: "download"
+  Gallery: "gallery"
   💖 Sponsor: "sponsor"
 
 ################
