@@ -1129,13 +1129,6 @@ pre {
   border-bottom-left-radius: 0.3125rem;
 }
 
-.blog-post hr {
-  max-width: 25%;
-  border-width: 0.25rem;
-  border-radius: 0.1875rem;
-  border-color: #808080;
-}
-
 .blog-post blockquote {
   padding: 0.625rem 1.25rem;
   margin: 0 0 1.25rem;
