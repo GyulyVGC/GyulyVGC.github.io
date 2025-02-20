@@ -3,6 +3,7 @@
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
         Source code <br>
+        <ul class="list-inline text-center footer-links">
         <li class="list-inline-item">
           <a target="_blank" href="https://github.com/{{ site.social-network-links.github }}" title="GitHub">
             <span class="fa-stack fa-lg hoverExpand" aria-hidden="true">
@@ -12,7 +13,9 @@
             <span class="sr-only">GitHub</span>
           </a>
         </li>
+        </ul>
         Social <br>
+        </ul>
         <li class="list-inline-item">
           <a target="_blank" href="https://x.com/{{ site.social-network-links.twitter }}" title="X">
             <span class="fa-stack fa-lg hoverExpand" aria-hidden="true">
@@ -49,6 +52,7 @@
             <span class="sr-only">LinkedIn</span>
           </a>
         </li>
+        </ul>
       {% if page.footer-extra %}
         <div class="footer-custom-content">
           {% for file in page.footer-extra %}
