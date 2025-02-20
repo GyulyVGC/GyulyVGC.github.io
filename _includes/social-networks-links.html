@@ -1,15 +1,27 @@
 <ul class="list-inline text-center footer-links">
 
-{%- if site.social-network-links.email -%}
-  <li class="list-inline-item">
-    <a target="_blank" href="mailto:{{ site.social-network-links.email }}" title="Email me">
-      <span class="fa-stack fa-lg hoverExpand" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i id="footerSocial" class="fas fa-envelope fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">Email me</span>
-   </a>
-  </li>
+<!--{%- if site.social-network-links.email -%}-->
+<!--  <li class="list-inline-item">-->
+<!--    <a target="_blank" href="mailto:{{ site.social-network-links.email }}" title="Email me">-->
+<!--      <span class="fa-stack fa-lg hoverExpand" aria-hidden="true">-->
+<!--        <i class="fas fa-circle fa-stack-2x"></i>-->
+<!--        <i id="footerSocial" class="fas fa-envelope fa-stack-1x fa-inverse"></i>-->
+<!--      </span>-->
+<!--      <span class="sr-only">Email me</span>-->
+<!--   </a>-->
+<!--  </li>-->
+<!--{%- endif -%}-->
+
+{%- if site.social-network-links.twitter -%}
+<li class="list-inline-item">
+  <a target="_blank" href="https://x.com/{{ site.social-network-links.twitter }}" title="X">
+    <span class="fa-stack fa-lg hoverExpand" aria-hidden="true">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i id="footerSocial" class="fab fa-x-twitter fa-stack-1x fa-inverse"></i>
+    </span>
+    <span class="sr-only">X</span>
+  </a>
+</li>
 {%- endif -%}
 
 {%- if site.social-network-links.telegram -%}
@@ -22,6 +34,18 @@
       <span class="sr-only">Telegram</span>
     </a>
   </li>
+{%- endif -%}
+
+{%- if site.social-network-links.reddit -%}
+<li class="list-inline-item">
+  <a target="_blank" href="https://reddit.com/r/{{ site.social-network-links.reddit }}" title="Reddit">
+    <span class="fa-stack fa-lg hoverExpand" aria-hidden="true">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i id="footerSocial" class="fab fa-reddit fa-stack-1x fa-inverse"></i>
+    </span>
+    <span class="sr-only">Reddit</span>
+  </a>
+</li>
 {%- endif -%}
 
 {%- if site.social-network-links.linkedin -%}
@@ -118,30 +142,6 @@
         <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
       </span>
       <span class="sr-only">Facebook</span>
-   </a>
-  </li>
-{%- endif -%}
-
-{%- if site.social-network-links.twitter -%}
-  <li class="list-inline-item">
-    <a href="https://twitter.com/{{ site.social-network-links.twitter }}" title="Twitter">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">Twitter</span>
-   </a>
-  </li>
-{%- endif -%}
-
-{%- if site.social-network-links.reddit -%}
-  <li class="list-inline-item">
-    <a href="https://reddit.com/u/{{ site.social-network-links.reddit }}" title="Reddit">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fab fa-reddit fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">Reddit</span>
    </a>
   </li>
 {%- endif -%}
