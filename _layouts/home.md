@@ -9,7 +9,7 @@ layout: page
 <div align="center">
   <img id="myShadowBig" width="100%" src="{{ 'assets/img/overview_page.png' | relative_url }}" alt="" />
   <br/><br/>
- <span id="myQuote"><i>"Cross-platform, Intuitive, Reliable"</i></span>
+ Cross-platform, Intuitive, Reliable
  </div>
 
 <hr/>
