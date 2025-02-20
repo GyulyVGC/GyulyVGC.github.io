@@ -193,6 +193,13 @@ blockquote {
 blockquote p:first-child {
   margin-top: 0;
 }
+
+hr.footer {
+  max-width: 50%;
+  height: 1px;
+  background-color:#777777;
+}
+
 hr.small {
   max-width: 6.25rem;
   margin: 1rem auto;
