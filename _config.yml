@@ -13,9 +13,10 @@ author: Giuliano Bellini
 ###############################################
 
 navbar-links:
+#  📢 Blog: "blog"
   💻 Download: "download"
-  💖 Sponsor: "sponsor"
   📸 Gallery: "gallery"
+  💖 Sponsor: "sponsor"
 
 ################
 # --- Logo --- #
@@ -86,16 +87,16 @@ social-network-links:
 # url-pretty: "MyWebsite.com"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
-# excerpt_length: 50
+excerpt_length: 50
 
 # Whether or not to show an excerpt for every blog post in the feed page
-# feed_show_excerpt: true
+feed_show_excerpt: true
 
 # Whether or not to show a list of tags below each post preview in the feed page
-# feed_show_tags: true
+feed_show_tags: true
 
 # Add a search button to the navbar
-# post_search: true
+post_search: true
 
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
 # edit_page_button: true
@@ -249,6 +250,14 @@ kramdown:
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: false
+      social-share: false
   -
     scope:
       path: "" # any file that's not a post will be a "page" layout by default

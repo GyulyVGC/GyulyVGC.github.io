@@ -2,8 +2,8 @@
 layout: page
 ---
 <div align="center">
-  <a alt="" title="Download" href="https://sniffnet.net/download"><img class="shield" height="30px" src="{{ 'assets/img/downloads_badge.svg' | relative_url }}"/></a>&nbsp;
-  <a target="_blank" alt="" title="GitHub" href="https://github.com/GyulyVGC/sniffnet"><img class="shield" height="30px" src="https://img.shields.io/github/stars/GyulyVGC/sniffnet?logo=github&color=blue&style=for-the-badge"/></a>
+  <a title="Download" href="https://sniffnet.net/download"><img alt="" class="shield" height="30px" src="{{ 'assets/img/downloads_badge.svg' | relative_url }}"/></a>&nbsp;
+  <a target="_blank" title="GitHub" href="https://github.com/GyulyVGC/sniffnet"><img alt="" class="shield" height="30px" src="https://img.shields.io/github/stars/GyulyVGC/sniffnet?logo=github&color=blue&style=for-the-badge"/></a>
 </div><br/>
 
 <div align="center">
@@ -14,13 +14,13 @@ layout: page
 
 <hr/>
 
-<div align="center"><h3> What is Sniffnet? </h3></div>
+<h2> What is Sniffnet? </h2>
 Sniffnet is a <b>network monitoring tool</b> to help you easily keep track of your Internet traffic.<br/><br/>
 Whether you want to <b>gather statistics</b>, or you need to <b>inspect more in depth</b> what's going on in your network, this app will get you covered.
   
 <hr/>
 
-<div align="center"><h3> What makes Sniffnet unique? </h3></div>
+<h2> What makes Sniffnet unique? </h2>
 
 <div>
 <img align="right" width="75" src="{{ 'assets/img/simple.svg' | relative_url }}" alt="" />Sniffnet is a <b>technical tool</b>, but at the same time it strongly focuses on the overall <b>user experience</b>: most of the network analyzers out there are cumbersome to use, while one of Sniffnet's cornerstones is to be <b>usable with ease by everyone</b>.
@@ -38,7 +38,7 @@ Last but not least, this application is totally developed in <b>Rust</b>: a mode
 
 <hr/>
 
-<div align="center"><h3> Features </h3></div>
+<h2> Features </h2>
 <ul>
   <li>💻 choose a <b>network adapter</b> of your PC to inspect</li>
   <li>🏷️ select a set of <b>filters</b> to apply to the observed traffic</li>
@@ -59,7 +59,7 @@ Last but not least, this application is totally developed in <b>Rust</b>: a mode
 
 <hr/>
 
-<div align="center"><h3> User manual </h3></div>
+<h2> User manual </h2>
 Do you want to <b>learn more</b>? <br>
 Check out the <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/wiki"><b>Sniffnet Wiki</b></a>, a comprehensive manual to help you
 thoroughly master the application from a basic setup to the most advanced functionalities. <br>
@@ -73,7 +73,7 @@ The Wiki includes step-by-step guides, tips, examples of usage, and answers to f
 
 <hr/>
 
-<div align="center"><h3> Stay in the loop </h3></div>
+<h2> Stay in the loop </h2>
 Join the new <a target="_blank" href="https://t.me/sniffnet"><b>Sniffnet Telegram Channel</b></a>
 to get updates about the latest releases and all the project news.
 
@@ -82,11 +82,5 @@ to get updates about the latest releases and all the project news.
 <img class="hoverExpand" alt="" title="Telegram Channel" src="{{ 'assets/img/telegram.svg' | relative_url }}"/>
 </a>
 </p>
-
-<hr/>
-
-<div align="center">
-<h6>💻 <a href="https://sniffnet.net/download/">DOWNLOAD</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; 💖 <a href="https://sniffnet.net/sponsor/">SPONSOR</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; 📸 <a href="https://sniffnet.net/gallery/">GALLERY</a></h6>
-</div>
 
 <hr/>
