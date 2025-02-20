@@ -11,9 +11,7 @@ author: Giuliano Bellini
 readtime: true
 ---
 
-<a href="https://github.com/GyulyVGC/sniffnet"><img align="right" alt="" src="https://github.com/GyulyVGC/sniffnet/blob/main/resources/repository/header_repository.png?raw=true" width="50%"/></a>
-
-[Sniffnet](https://github.com/GyulyVGC/sniffnet) has **grown a lot** during the past months, and it’s been a pleasure for me to spend most of my spare time on its development.
+Sniffnet has **grown a lot** during the past months, and it’s been a pleasure for me to spend most of my spare time on its development.
 I'm not gonna lie: passing hours and hours on this project has become my favorite hobby lately.
 
 I can’t deny that sometimes **it’s been hard** to balance Sniffnet’s development with the daily University routine, made of never-ending lectures, group projects, deliveries, and home study.<br>
@@ -23,9 +21,7 @@ Seeing Sniffnet getting traction and evolving, improving day after day, motivate
 **Long story short**: having more time to dedicate to open-source was one of my primary wishes (and needs 😅).
 
 <p>
-<a href="#x">
 <img alt="" src="https://user-images.githubusercontent.com/100347457/227869349-cc588f0f-13bf-45e4-aaf6-b55a5c641191.png" width=100%>
-</a>
 </p>
 
 <a href="https://accelerator.github.com">
@@ -42,14 +38,8 @@ This means that during the next few months I’ll be able to **work on Sniffnet 
 I’ve lots of ideas for new features and improvements and I’m looking forward to implementing them all 😁
 
 <p>
-<a href="#x">
 <img alt="" src="https://user-images.githubusercontent.com/100347457/227869349-cc588f0f-13bf-45e4-aaf6-b55a5c641191.png" width=100%>
-</a>
 </p>
-
-<a href="#x">
-<img alt="" align="right" src="" width=40%>
-</a>
 
 Turning such a huge passion into a full-time job is the best thing I could’ve ever asked for.<br>
 I truly wish that this journey will continue even after the 10 weeks of the program, with the hope of working on open-source for my **entire career**.<br>
@@ -57,6 +47,4 @@ I truly wish that this journey will continue even after the 10 weeks of the prog
 <br>I can’t wait to see what the future has in store, and I feel blessed to have such an amazing occasion.<br>
 I’ll do my best to get the most out of this experience 🌟
 
-<a href="#x">
 <img alt="" src="https://user-images.githubusercontent.com/100347457/231460175-6a0263d8-66d3-46e2-be61-2b35b912df24.jpg" width=100%>
-</a>
