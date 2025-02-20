@@ -71,18 +71,30 @@ The Wiki includes step-by-step guides, tips, examples of usage, and answers to f
 </a>
 </p>
 
-<hr/>
+[//]: # (<hr/>)
 
-<h2 class="myHeading"> Stay in the loop </h2>
-Follow Sniffnet on your favorite social media
-to get updates about the latest releases and all the project news.
+[//]: # ()
+[//]: # (<h2 class="myHeading"> Stay in the loop </h2>)
 
-<div align="center">
-<a target="_blank" href="https://x.com/sniffnet_app"><img class="hoverExpand" alt="" title="X" src="{{ 'assets/img/x.svg' | relative_url }}"/></a>
-&nbsp;
-<a target="_blank" href="https://t.me/sniffnet"><img class="hoverExpand" alt="" title="Telegram" src="{{ 'assets/img/telegram.svg' | relative_url }}"/></a>
-&nbsp;
-<a target="_blank" href="https://www.reddit.com/r/sniffnet"><img class="hoverExpand" alt="" title="Reddit" src="{{ 'assets/img/reddit.svg' | relative_url }}"/></a>
-&nbsp;
-<a target="_blank" href="https://www.linkedin.com/company/sniffnet"><img class="hoverExpand" alt="" title="LinkedIn" src="{{ 'assets/img/linkedin.svg' | relative_url }}"/></a>
-</div>
+[//]: # (Follow Sniffnet on your favorite social media)
+
+[//]: # (to get updates about the latest releases and all the project news.)
+
+[//]: # ()
+[//]: # (<div align="center">)
+
+[//]: # (<a target="_blank" href="https://x.com/sniffnet_app"><img class="hoverExpand" alt="" title="X" src="{{ 'assets/img/x.svg' | relative_url }}"/></a>)
+
+[//]: # (&nbsp;)
+
+[//]: # (<a target="_blank" href="https://t.me/sniffnet"><img class="hoverExpand" alt="" title="Telegram" src="{{ 'assets/img/telegram.svg' | relative_url }}"/></a>)
+
+[//]: # (&nbsp;)
+
+[//]: # (<a target="_blank" href="https://www.reddit.com/r/sniffnet"><img class="hoverExpand" alt="" title="Reddit" src="{{ 'assets/img/reddit.svg' | relative_url }}"/></a>)
+
+[//]: # (&nbsp;)
+
+[//]: # (<a target="_blank" href="https://www.linkedin.com/company/sniffnet"><img class="hoverExpand" alt="" title="LinkedIn" src="{{ 'assets/img/linkedin.svg' | relative_url }}"/></a>)
+
+[//]: # (</div>)
