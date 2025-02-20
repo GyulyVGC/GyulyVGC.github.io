@@ -42,4 +42,6 @@ I truly wish that this journey will continue even after the 10 weeks of the prog
 <br>I can’t wait to see what the future has in store, and I feel blessed to have such an amazing occasion.<br>
 I’ll do my best to get the most out of this experience 🌟
 
+<picture>
 <img alt="" src="{{ 'assets/img/post-github-accelerator.jpeg' | relative_url }}" width=100%/>
+</picture>
