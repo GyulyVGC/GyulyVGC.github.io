@@ -19,9 +19,7 @@ Seeing Sniffnet getting traction and evolving, improving day after day, motivate
 
 **Long story short**: having more time to dedicate to open-source was one of my primary wishes (and needs 😅).
 
-<p>
-<img alt="" src="https://user-images.githubusercontent.com/100347457/227869349-cc588f0f-13bf-45e4-aaf6-b55a5c641191.png" width=100%/>
-</p>
+<hr>
 
 <a href="https://accelerator.github.com">
 <img width="40%" alt="" align="right" src="https://user-images.githubusercontent.com/100347457/230674800-c4bf0556-c1de-4bc6-aef3-aab9dae5204f.png"/>
@@ -36,9 +34,7 @@ The maintainers of such projects will participate in a 10-week program receiving
 This means that during the next few months I’ll be able to **work on Sniffnet full-time**, with the aspiration to bring it to the next level.<br>
 I’ve lots of ideas for new features and improvements and I’m looking forward to implementing them all 😁
 
-<p>
-<img alt="" src="https://user-images.githubusercontent.com/100347457/227869349-cc588f0f-13bf-45e4-aaf6-b55a5c641191.png" width=100%/>
-</p>
+<hr>
 
 Turning such a huge passion into a full-time job is the best thing I could’ve ever asked for.<br>
 I truly wish that this journey will continue even after the 10 weeks of the program, with the hope of working on open-source for my **entire career**.<br>
@@ -46,4 +42,4 @@ I truly wish that this journey will continue even after the 10 weeks of the prog
 <br>I can’t wait to see what the future has in store, and I feel blessed to have such an amazing occasion.<br>
 I’ll do my best to get the most out of this experience 🌟
 
-<img alt="" src="https://user-images.githubusercontent.com/100347457/231460175-6a0263d8-66d3-46e2-be61-2b35b912df24.jpg" width=100%/>
+<img alt="" src="{{ '/assets/img/post-github-accelerator.jpeg' | relative_url }}" width=100%/>
