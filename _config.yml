@@ -13,7 +13,7 @@ author: Giuliano Bellini
 ###############################################
 
 navbar-links:
-  #  Blog: "blog"
+  #  News: "news"
   Download: "download"
   Gallery: "gallery"
   💖 Sponsor: "sponsor"
@@ -87,7 +87,7 @@ social-network-links:
 # url-pretty: "MyWebsite.com"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
-excerpt_length: 50
+excerpt_length: 30
 
 # Whether or not to show an excerpt for every blog post in the feed page
 feed_show_excerpt: true
