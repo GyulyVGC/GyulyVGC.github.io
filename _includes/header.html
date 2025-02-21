@@ -65,8 +65,13 @@
           {% endif %}
 
           {% if include.type == "post" %}
-            <span class="post-meta">Posted on {{ page.date | date: date_format }}</span><br>
-            <span class="post-meta">By Giuliano Bellini &nbsp; <a target="_blank" href="https://github.com/GyulyVGC"><img alt="" title="Giuliano Bellini" height="48px" style="border-radius: 50%" src="https://github.com/GyulyVGC.png"/></a></span>
+          <div>
+            <div>
+              <div><i>Posted on {{ page.date | date: date_format }}</i></div>
+              <span>By Giuliano Bellini</span>
+            </div>
+            <a target="_blank" href="https://github.com/GyulyVGC"><img class="hoverExpand" alt="" title="Giuliano Bellini" height="48px" style="border-radius: 50%" src="https://github.com/GyulyVGC.png"/></a>
+          </div>
             {% if page.readtime %}
               {% include readtime.html %}
             {% endif %}
