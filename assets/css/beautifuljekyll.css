@@ -723,8 +723,13 @@ footer .footer-custom-content {
   opacity: 0.8;
 }
 
-.blog-tags .list-inline-item {
+.blog-tags {
   margin-right: 0;
+}
+
+.list-inline-item {
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .blog-tags a {
