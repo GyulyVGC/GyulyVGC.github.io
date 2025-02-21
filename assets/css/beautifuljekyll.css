@@ -196,8 +196,6 @@ blockquote p:first-child {
 
 hr.footer {
   background-color:#444444;
-  clear: both;
-  margin-top: 20px;
 }
 
 hr.small {
