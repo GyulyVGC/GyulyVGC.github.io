@@ -555,7 +555,6 @@ footer a:focus {
 footer .list-inline {
   margin: 0;
   padding: 0;
-  margin-bottom: 0;
 }
 footer .copyright {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -598,11 +597,6 @@ footer .footer-custom-content {
     content: "\A";
     white-space: pre;
   }
-
-    footer .list-inline-right:after {
-        content: "\A";
-        white-space: pre;
-    }
 }
 
 @media (min-width: 768px) {
