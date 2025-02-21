@@ -631,14 +631,14 @@ footer .footer-custom-content {
   border-bottom: 0;
 }
 
-.post-preview a .post-title {
+.post-preview h2.post-title {
   text-decoration: none;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: {{ site.text-col | default: "#404040" }};
 }
 
-.post-preview a:focus .post-title,
-.post-preview a:hover .post-title {
+.post-preview h2.post-title,
+.post-preview h2.post-title {
   text-decoration: none;
   color: {{ site.hover-col | default: "#0085A1" }};
 }
