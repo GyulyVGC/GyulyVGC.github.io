@@ -637,8 +637,8 @@ footer .footer-custom-content {
   color: {{ site.text-col | default: "#404040" }};
 }
 
-.post-preview h2.post-title,
-.post-preview h2.post-title {
+.post-preview h2.post-title:hover,
+.post-preview h2.post-title:focus {
   text-decoration: none;
   color: {{ site.hover-col | default: "#0085A1" }};
 }
