@@ -588,6 +588,30 @@ footer .footer-custom-content {
   }
 }
 
+@media (max-width: 767px) {
+  footer .list-inline-left:after {
+    content: "\A";
+    white-space: pre;
+  }
+
+  footer .list-inline:after {
+    content: "\A";
+    white-space: pre;
+  }
+}
+
+@media (min-width: 768px) {
+  footer .list-inline-left {
+    float: left;
+  }
+}
+
+@media (min-width: 768px) {
+  footer .list-inline-right {
+    float: right;
+  }
+}
+
 /* --- Post preview (feed) --- */
 
 .posts-list {
