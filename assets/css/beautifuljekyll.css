@@ -196,6 +196,8 @@ blockquote p:first-child {
 
 hr.footer {
   background-color:#444444;
+  clear: both;
+  margin-top: 20px;
 }
 
 hr.small {
@@ -723,13 +725,8 @@ footer .footer-custom-content {
   opacity: 0.8;
 }
 
-.blog-tags {
+.blog-tags .list-inline-item {
   margin-right: 0;
-}
-
-.list-inline-item {
-  margin-left: 6px;
-  margin-right: 6px;
 }
 
 .blog-tags a {
