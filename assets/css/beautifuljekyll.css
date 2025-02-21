@@ -631,7 +631,7 @@ footer .footer-custom-content {
   border-bottom: 0;
 }
 
-.post-preview a {
+.post-preview .post-title a {
   text-decoration: none;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: {{ site.text-col | default: "#404040" }};
