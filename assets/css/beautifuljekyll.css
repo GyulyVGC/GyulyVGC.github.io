@@ -33,7 +33,7 @@ figure:hover .invisible {
     }
 
 hr {
-  height: 1px;
+  height: 2px;
   background-color:#081020
 }
 
@@ -196,6 +196,8 @@ blockquote p:first-child {
 
 hr.footer {
   background-color:#444444;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 
 hr.small {
