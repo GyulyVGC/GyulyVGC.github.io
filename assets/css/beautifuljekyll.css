@@ -195,8 +195,6 @@ blockquote p:first-child {
 }
 
 hr.footer {
-  max-width: 50%;
-  height: 1px;
   background-color:#444444;
 }
 
