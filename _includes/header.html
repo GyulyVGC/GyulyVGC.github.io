@@ -65,12 +65,12 @@
           {% endif %}
 
           {% if include.type == "post" %}
-          <div style="align-content: center; display: flex;">
-            <div id="myQuote" style="display: inline;">
+          <div style="display: flex;">
+            <div id="myQuote" style="display: inline; margin-right: 10px;">
               <i>Posted on {{ page.date | date: date_format }}<br>
               <span>By Giuliano Bellini</span></i>
             </div>
-              <a target="_blank" href="https://github.com/GyulyVGC"><img class="hoverExpand" alt="" title="Giuliano Bellini" height="48px" style="border-radius: 50%" src="https://github.com/GyulyVGC.png"/></a>
+              <a target="_blank" href="https://github.com/GyulyVGC"><img class="hoverExpand" alt="" title="Giuliano Bellini" height="54px" style="border-radius: 50%" src="https://github.com/GyulyVGC.png"/></a>
           </div>
             {% if page.readtime %}
               {% include readtime.html %}
