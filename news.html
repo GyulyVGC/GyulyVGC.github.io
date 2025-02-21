@@ -58,7 +58,7 @@ share-img: /assets/img/preview.png
       {% endif %}
 
       <a href="{{ post.url | absolute_url }}">
-        <h2 class="post-title">{{ post.title | strip_html }}</h2>
+        <h2 class="post-title" style="text-decoration: none;">{{ post.title | strip_html }}</h2>
 
         {% if post.subtitle %}
           <h3 class="post-subtitle">
