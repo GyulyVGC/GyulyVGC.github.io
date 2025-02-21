@@ -609,9 +609,7 @@ footer .footer-custom-content {
   footer .list-inline-left {
     float: left;
   }
-}
 
-@media (min-width: 768px) {
   footer .list-inline-right {
     float: right;
   }
