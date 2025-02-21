@@ -593,7 +593,7 @@ footer .footer-custom-content {
     white-space: pre;
   }
 
-  footer .list-inline:after {
+  footer li.list-inline:after {
     content: "\A";
     white-space: pre;
   }
