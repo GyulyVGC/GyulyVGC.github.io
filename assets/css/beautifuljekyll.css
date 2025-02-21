@@ -598,6 +598,11 @@ footer .footer-custom-content {
     content: "\A";
     white-space: pre;
   }
+
+    footer .list-inline-right:after {
+        content: "\A";
+        white-space: pre;
+    }
 }
 
 @media (min-width: 768px) {
