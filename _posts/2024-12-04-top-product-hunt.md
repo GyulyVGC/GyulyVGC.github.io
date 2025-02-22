@@ -1,0 +1,36 @@
+---
+layout: post
+title: Sniffnet 1.3 was released this week and is today among the top launches on Product Hunt!
+share-title: Sniffnet 1.3 was released this week and is today among the top launches on Product Hunt!
+thumbnail-img: /assets/img/post-top-product-hunt.png
+share-img: /assets/img/post-top-product-hunt.png
+tags: [show-and-tell]
+---
+
+A [new major version](https://github.com/GyulyVGC/sniffnet/releases/tag/v1.3.0) of Sniffnet was published just a few days ago, featuring some really cool functionalities that aim to enrich the **networking capabilities** of the app as well as to improve the overall **user experience**.
+
+Moreover, this release finally comes with a [complete user manual](https://github.com/GyulyVGC/sniffnet/wiki) and gives a **new identity** to the app by replacing the old logo with a simpler and more modern-looking one.
+
+***
+
+In occasion of this remarkable release, Sniffnet was today launched on [Product Hunt](https://www.producthunt.com), a website that showcases daily collections of the **best new tech products**.
+
+It's a huge pleasure for me to see that Sniffnet received appreciation by the public, being **featured among the TOP 5 products of the day**.
+
+<div align="center">
+
+<a href="https://www.producthunt.com/posts/sniffnet-3?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-sniffnet&#0045;3" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=450197&theme=light&period=daily" alt="" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
+<img alt="" src="{{ 'assets/img/post-top-product-hunt.png' | relative_url }}"/>
+
+</div>
+
+***
+
+Many times we hear about **Rust** as a low-level programming language, but several projects day after day start to show that it can also be used to build successful products that are **closer to the end users**.
+
+I'm honoured that Sniffnet is one of the examples out there showing that **graphical user interfaces** in Rust have a **great potential**.
+
+I'm confident we'll see more and more **ground-breaking, open-source projects** built in Rust in the following years.
+
+_Keep pushing!_ 🙌
