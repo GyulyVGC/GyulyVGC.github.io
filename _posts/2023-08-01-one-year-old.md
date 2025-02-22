@@ -17,7 +17,7 @@ It’s an unspeakable good feeling to have made a software people use and apprec
 Sometimes it still feels unreal that Sniffnet is now one of the most popular network analysers on GitHub, having passed **10k stars** just a few days ago and being in the [top 100 most starred Rust repositories](https://github.com/EvanLi/Github-Ranking/blob/master/Top100/Rust.md) ever made.
 
 <div align="center">
-<img alt="" src="{{ 'assets/img/post-one-year-old.png' | relative_url }}" width="100%"/>
+<img alt="" src="{{ 'assets/img/post-one-year-old.png' | relative_url }}"/>
 </div>
 
 <hr>
