@@ -687,7 +687,6 @@ footer .footer-custom-content {
 }
 .post-preview .post-image:hover {
   filter: grayscale(0%);
-  transform: scale(1.1);
 }
 .post-preview .post-image img {
   max-height: 100%;

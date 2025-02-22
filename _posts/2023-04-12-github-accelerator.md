@@ -4,7 +4,7 @@ title: Sniffnet has been selected for the GitHub Accelerator Program
 share-title: Sniffnet has been selected for the GitHub Accelerator Program
 thumbnail-img: /assets/img/post-github-accelerator.jpeg
 share-img: /assets/img/post-github-accelerator.jpeg
-tags: [show and tell]
+tags: [show-and-tell]
 ---
 
 Sniffnet has **grown a lot** during the past months, and it’s been a pleasure for me to spend most of my spare time on its development.
