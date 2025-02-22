@@ -86,9 +86,14 @@ share-img: /assets/img/preview.png
       {% if site.feed_show_tags != false and post.tags.size > 0 %}
       <div class="blog-tags">
         <i class="fas fa-tag" aria-hidden="true"></i>&nbsp;
-        {% for tag in page.tags %}
-        <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
-        {% endfor %}
+        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
+        <ul class="d-inline list-inline" role="list">
+          {% for tag in post.tags %}
+          <li class="list-inline-item">
+            <a href="{{ '/tags' | absolute_url }}#{{- tag -}}">{{- tag -}}</a>
+          </li>
+          {% endfor %}
+        </ul>
       </div>
       {% endif %}
 
