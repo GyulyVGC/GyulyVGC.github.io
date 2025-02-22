@@ -74,5 +74,5 @@ The Wiki includes step-by-step guides, tips, examples of usage, and answers to f
 <hr/>
 
 <h2 class="myHeading"> Latest from Sniffnet </h2>
-Wait... there's more! Sniffnet is rapidly evolving, and new features are added on a regular basis.<br>
+Wait... there's more!<br>Sniffnet is rapidly evolving, and new features are added on a regular basis.<br><br>
 Check out the <a href="https://sniffnet.net/news"><b>news</b></a> to never miss an update.
