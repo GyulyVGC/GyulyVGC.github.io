@@ -4,7 +4,7 @@ layout: base
 
 <ul class="pagination blog-pager">
   <li class="page-item previous">
-    <a class="page-link" href="https://sniffnet.net/news/" data-toggle="tooltip" data-placement="top" title="All news">&larr; All News</a>
+    <a class="page-link" href="https://sniffnet.net/news/" data-toggle="tooltip" data-placement="top" title="All news">&#9664; All News</a>
   </li>
 </ul>
 
@@ -45,12 +45,12 @@ layout: base
       <ul class="pagination blog-pager">
         {% if page.previous.url %}
         <li class="page-item previous">
-          <a class="page-link" href="{{ page.previous.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title | strip_html | xml_escape}}">&larr; Previous Post</a>
+          <a class="page-link" href="{{ page.previous.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title | strip_html | xml_escape}}">&#9664; Previous Post</a>
         </li>
         {% endif %}
         {% if page.next.url %}
         <li class="page-item next">
-          <a class="page-link" href="{{ page.next.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title | strip_html | xml_escape}}">Next Post &rarr;</a>
+          <a class="page-link" href="{{ page.next.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title | strip_html | xml_escape}}">Next Post &#9654;</a>
         </li>
         {% endif %}
       </ul>
