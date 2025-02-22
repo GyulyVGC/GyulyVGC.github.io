@@ -682,11 +682,12 @@ footer .footer-custom-content {
   width: 12rem;
 }
 .post-preview .post-image {
-  filter: grayscale(100%);
+  filter: grayscale(70%);
   transition: all 200ms;
 }
 .post-preview .post-image:hover {
   filter: grayscale(0%);
+  scale(1.1);
 }
 .post-preview .post-image img {
   max-height: 100%;
