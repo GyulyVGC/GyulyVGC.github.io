@@ -70,3 +70,9 @@ The Wiki includes step-by-step guides, tips, examples of usage, and answers to f
 <img class="hoverExpand" alt="" title="Sniffnet Wiki" src="{{ 'assets/img/wikilogo.svg' | relative_url }}" width="300px"/>
 </a>
 </p>
+
+<hr/>
+
+<h2 class="myHeading"> Latest from Sniffnet </h2>
+Wait... there's more! Sniffnet is rapidly evolving, and new features are added on a regular basis.<br>
+Check out the <a href="https://sniffnet.net/news"><b>news</b></a> to never miss an update.
