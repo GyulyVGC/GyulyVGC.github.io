@@ -83,6 +83,15 @@ share-img: /assets/img/preview.png
       </div>
       {% endunless %}
 
+      {% if site.feed_show_tags != false and post.tags.size > 0 %}
+      <div class="blog-tags">
+        <i class="fas fa-tag" aria-hidden="true"></i>&nbsp;
+        {% for tag in page.tags %}
+        <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+
    </article>
   </li>
   {% endfor %}
