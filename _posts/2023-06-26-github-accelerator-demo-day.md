@@ -2,8 +2,8 @@
 layout: post
 title: Sniffnet at GitHub Accelerator Demo Day
 share-title: Sniffnet at GitHub Accelerator Demo Day
-thumbnail-img: /assets/img/post-accelerator-demo-day.png
-share-img: /assets/img/post-accelerator-demo-day.png
+thumbnail-img: /assets/img/post-github-accelerator-demo-day.png
+share-img: /assets/img/post-github-accelerator-demo-day.png
 tags: [show-and-tell]
 ---
 
@@ -16,5 +16,5 @@ This is also an occasion for you all to know more about what it means to build a
 In the hope the event is of your interest, wish me good luck 🤞 🍀 
 
 <div align="center">
-<img alt="" src="{{ 'assets/img/post-accelerator-demo-day.png' | relative_url }}" width="100%"/>
+<img alt="" src="{{ 'assets/img/post-github-accelerator-demo-day.png' | relative_url }}" width="100%"/>
 </div>
