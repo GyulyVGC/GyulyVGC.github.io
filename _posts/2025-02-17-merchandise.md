@@ -7,8 +7,7 @@ share-img: /assets/img/merch.png
 tags: [show-and-tell]
 ---
 
-**Sniffnet merch is finally real** 🎉 
-
+**Sniffnet merch is finally real** 🎉 <br>
 A couple weeks ago Sniffnet reached the remarkable milestone of **20k stars** on GitHub — to celebrate we're dropping brand new apparel today! Such an awesome logo had to be featured on physical goods sooner or later 🕵️‍♂️
 
 You can visit the online store [here](https://grindhouse.dev/collections/sniffnet).
