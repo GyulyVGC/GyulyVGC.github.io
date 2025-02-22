@@ -20,7 +20,7 @@ It's a huge pleasure for me to see that Sniffnet received appreciation by the pu
 <div align="center">
 
 <a href="https://www.producthunt.com/posts/sniffnet-3?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-sniffnet&#0045;3" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=450197&theme=light&period=daily" alt="" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-
+<br><br>
 <img alt="" src="{{ 'assets/img/post-top-product-hunt.png' | relative_url }}"/>
 
 </div>
