@@ -21,7 +21,7 @@ layout: base
 
       {% if page.tags.size > 0 %}
         <div class="blog-tags">
-          <span>Tags:</span>
+          <i class="fas fa-tag" aria-hidden="true"></i>&nbsp;
           {% for tag in page.tags %}
             <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
           {% endfor %}
@@ -48,7 +48,6 @@ layout: base
         </li>
         {% endif %}
       </ul>
-      {% include comments.html %}
     </div>
   </div>
 </div>
