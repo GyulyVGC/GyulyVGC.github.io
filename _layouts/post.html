@@ -21,7 +21,7 @@ layout: base
 
       {% if page.tags.size > 0 %}
         <div class="blog-tags">
-          <i class="fas fa-tag" aria-hidden="true"></i>&nbsp;
+          <i class="fas fa-tag" aria-hidden="true"></i>
           {% for tag in page.tags %}
             <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
           {% endfor %}

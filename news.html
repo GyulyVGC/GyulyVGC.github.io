@@ -85,12 +85,12 @@ share-img: /assets/img/preview.png
 
       {% if site.feed_show_tags != false and post.tags.size > 0 %}
       <div class="blog-tags">
-        <i class="fas fa-tag" aria-hidden="true"></i>&nbsp;
+        <i class="fas fa-tag" aria-hidden="true" style="color: #808080;"></i>
         <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
           {% for tag in post.tags %}
           <li class="list-inline-item">
-            <a href="{{ '/tags' | absolute_url }}#{{- tag -}}">{{- tag -}}</a>
+            <a href="{{ '/tags' | absolute_url }}#{{- tag -}}" style="color: #808080;">{{- tag -}}</a>
           </li>
           {% endfor %}
         </ul>
