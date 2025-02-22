@@ -10,7 +10,7 @@ tags: [show-and-tell]
 I'm super excited to share that after [yesterday's release](https://github.com/GyulyVGC/sniffnet/releases/tag/v1.2.0), Sniffnet has made it to [Hacker News](https://news.ycombinator.com) front page!
 
 <div align="center">
-<img  width=70% src="https://github.com/GyulyVGC/sniffnet/assets/100347457/09f62fe8-addf-4352-8f2f-317a5ea7dc24"/>
+<img  width="70%" src="https://github.com/GyulyVGC/sniffnet/assets/100347457/09f62fe8-addf-4352-8f2f-317a5ea7dc24"/>
 </div>
 
 I take advantage of this moment to also celebrate another milestone: Sniffnet just surpassed Wireshark stars on GitHub!
