@@ -13,7 +13,7 @@ author: Giuliano Bellini
 ###############################################
 
 navbar-links:
-  #  News: "news"
+  News: "news"
   Download: "download"
   Gallery: "gallery"
   💖 Sponsor: "sponsor"
