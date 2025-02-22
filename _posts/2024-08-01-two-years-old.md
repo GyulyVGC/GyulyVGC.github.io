@@ -4,7 +4,7 @@ title: Balancing open-source and a full-time job (Sniffnet’s 2nd anniversary)
 share-title: Balancing open-source and a full-time job (Sniffnet’s 2nd anniversary)
 thumbnail-img: /assets/img/post-two-years-old.png
 share-img: /assets/img/post-two-years-old.png
-tags: [show-and-tell]
+tags: [anniversary]
 ---
 
 _Woah_.<br>
@@ -48,7 +48,7 @@ Something I understood during the past year is that every single activity we per
 Instead of seeing it as a crossroads, I now like to see it as _**two pieces of the same puzzle**_: they can live on their own, but together they can form a bigger and more complete picture.
 
 <div align="center">
-<img alt="" width="50%" src="{{ 'assets/img/post-top-product-hunt.png' | relative_url }}"/>
+<img alt="" width="50%" src="{{ 'assets/img/post-two-years-old.png' | relative_url }}"/>
 </div>
 
 Every working day, I notice how helpful are the skills that I built through thousands of hours maintaining Sniffnet.<br>

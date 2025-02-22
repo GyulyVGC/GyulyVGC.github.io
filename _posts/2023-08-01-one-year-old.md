@@ -4,7 +4,7 @@ title: "Sniffnet is one year old today: lessons learned and next steps"
 share-title: "Sniffnet is one year old today: lessons learned and next steps"
 thumbnail-img: /assets/img/post-one-year-old.png
 share-img: /assets/img/post-one-year-old.png
-tags: [show-and-tell]
+tags: [anniversary]
 ---
 
 I’m excited to share with y’all that Sniffnet is **one year old today**!
