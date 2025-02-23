@@ -4,7 +4,7 @@ title: Sniffnet 1.3 was released this week and is today among the top launches o
 share-title: Sniffnet 1.3 was released this week and is today among the top launches on Product Hunt!
 thumbnail-img: /assets/img/post/top-product-hunt/cover.png
 share-img: /assets/img/post/top-product-hunt/cover.png
-tags: [show-and-tell]
+tags: [trending]
 ---
 
 A [new major version](https://github.com/GyulyVGC/sniffnet/releases/tag/v1.3.0) of Sniffnet was published just a few days ago, featuring some really cool functionalities that aim to enrich the **networking capabilities** of the app as well as to improve the overall **user experience**.

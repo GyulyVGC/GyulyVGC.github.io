@@ -4,7 +4,7 @@ title: Sniffnet made it to Hacker News front page!
 share-title: Sniffnet made it to Hacker News front page!
 thumbnail-img: /assets/img/post/hacker-news/cover.png
 share-img: /assets/img/post/hacker-news/cover.png
-tags: [show-and-tell]
+tags: [trending]
 ---
 
 I'm super excited to share that after [yesterday's release](https://github.com/GyulyVGC/sniffnet/releases/tag/v1.2.0), Sniffnet has made it to [Hacker News](https://news.ycombinator.com) front page!

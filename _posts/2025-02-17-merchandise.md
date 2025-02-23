@@ -4,7 +4,7 @@ title: Sniffnet official merchandise released!
 share-title: Sniffnet official merchandise released!
 thumbnail-img: /assets/img/merch.png
 share-img: /assets/img/merch.png
-tags: [show-and-tell]
+tags: [sponsor]
 ---
 
 **Sniffnet merch is finally real** 🎉 <br>
