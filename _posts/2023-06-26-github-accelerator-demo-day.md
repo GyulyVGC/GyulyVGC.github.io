@@ -7,7 +7,9 @@ share-img: /assets/img/post/github-accelerator-demo-day/cover.png
 tags: [event]
 ---
 
-I'm excited to share that on June 28, the [GitHub Accelerator Demo Day](https://www.eventbrite.com/e/github-accelerator-open-source-demo-day-tickets-662569482157) will take place: you can follow the event live on GitHub social channels (YouTube, Twitch, LinkedIn).
+I'm excited to share that on June 28,
+the <a target="_blank" href="https://www.eventbrite.com/e/github-accelerator-open-source-demo-day-tickets-662569482157">GitHub Accelerator Demo Day</a> will take place:
+you can follow the event live on GitHub social channels (YouTube, Twitch, LinkedIn).
 
 I'll be talking about Sniffnet, and I can't wait to present this project to the world!
 
