@@ -7,7 +7,7 @@ share-img: /assets/img/post/hacker-news/cover.png
 tags: [trending]
 ---
 
-I'm super excited to share that after <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/releases/tag/v1.2.0">yesterday's release</a>, Sniffnet has made it to <a target="_blank" src="https://news.ycombinator.com">Hacker News</a> front page!
+I'm super excited to share that after <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/releases/tag/v1.2.0">yesterday's release</a>, Sniffnet has made it to <a target="_blank" href="https://news.ycombinator.com">Hacker News</a> front page!
 
 <div align="center">
 <img  width="70%" src="{{ 'assets/img/post/hacker-news/hn.jpeg' | relative_url }}"/>
