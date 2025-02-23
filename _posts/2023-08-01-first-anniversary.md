@@ -55,7 +55,7 @@ Some of the features planned for the **future** are:
 
 This project has **changed my life forever**, no matter if I won't work on it full-time for the rest of my days.
 
-I was suggested by some friends to make Sniffnet a **freeware**, introducing features reserved to paid users, and I was really tempted to do it with the functionalities introduced in <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/releases/tag/v1.2.0">v1.2</a>).<br>
+I was suggested by some friends to make Sniffnet a **freeware**, introducing features reserved to paid users, and I was really tempted to do it with the functionalities introduced in <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/releases/tag/v1.2.0">v1.2</a>.<br>
 On the other hand, the open-source ecosystem gave me a lot, and it didn’t feel right to turn away.<br>
 Eventually, **I decided to listen to none other than my heart**: Sniffnet is and will remain forever and ever **completely open-source** software.
 
