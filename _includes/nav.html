@@ -25,7 +25,7 @@
             </div>
           </li>
         {% else %}
-          {%- if link[1] = "sponsor" %}
+          {%- if link[0] = "Sponsor" %}
             <li class="nav-item">
               <a class="nav-link" style="color: #e58be5 !important;" href="{{ link[1] | relative_url }}">{{ link[0] }}</a>
             </li>
