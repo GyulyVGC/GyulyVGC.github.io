@@ -632,6 +632,10 @@ footer .footer-custom-content {
   }
 }
 
+.post-preview:last-child {
+  margin-bottom: 50px;
+}
+
 .post-preview h2.post-title {
   text-decoration: none;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
