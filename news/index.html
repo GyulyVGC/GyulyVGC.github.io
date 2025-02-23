@@ -102,17 +102,17 @@ share-img: /assets/img/preview.png
 {% if paginator.total_pages > 1 %}
 <ul class="pagination main-pager">
   {% if paginator.previous_page %}
-  <li class="page-item previous">
+  <li class="page-item previous" title="Newer Posts">
     <a class="page-link" href="{{ paginator.previous_page_path | absolute_url }}">
-      <span><i class="fas fa-arrow-left" alt="Newer Posts"></i>&nbsp;Newer Posts</span>
+      <span><i class="fas fa-arrow-left" alt="Newer Posts"></i></span>
     </a>
   </li>
   {% endif %}
-  <span style="color: #808080;">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  <span style="color: #808080; margin: auto;">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
-  <li class="page-item next">
+  <li class="page-item next" title="Older Posts">
     <a class="page-link" href="{{ paginator.next_page_path | absolute_url }}">
-      <span>Older Posts&nbsp;<i class="fas fa-arrow-right" alt="Older Posts"></i></span>
+      <span><i class="fas fa-arrow-right" alt="Older Posts"></i></span>
     </a>
   </li>
   {% endif %}
