@@ -331,6 +331,10 @@ img {
   font-weight: 800;
   color: {{ site.navbar-text-col | default: "#404040" }};
 }
+.navbar-custom .navbar-nav #sponsor.nav-link {
+  font-weight: 800;
+  color: #e58be5;
+}
 
 .navbar-toggler {
   font-size: 1rem;
