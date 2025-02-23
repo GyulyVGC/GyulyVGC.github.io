@@ -2,8 +2,8 @@
 layout: post
 title: Sniffnet has been selected for the GitHub Accelerator Program
 share-title: Sniffnet has been selected for the GitHub Accelerator Program
-thumbnail-img: /assets/img/post-github-accelerator.jpeg
-share-img: /assets/img/post-github-accelerator.jpeg
+thumbnail-img: /assets/img/post/github-accelerator/cover.jpeg
+share-img: /assets/img/post/github-accelerator/cover.jpeg
 tags: [show-and-tell]
 ---
 
@@ -39,4 +39,4 @@ I truly wish that this journey will continue even after the 10 weeks of the prog
 <br>I can’t wait to see what the future has in store, and I feel blessed to have such an amazing occasion.<br>
 I’ll do my best to get the most out of this experience 🌟
 
-<img alt="" src="{{ 'assets/img/post-github-accelerator.jpeg' | relative_url }}" width="100%"/>
+<img alt="" src="{{ 'assets/img/post/github-accelerator/cover.jpeg' | relative_url }}" width="100%"/>

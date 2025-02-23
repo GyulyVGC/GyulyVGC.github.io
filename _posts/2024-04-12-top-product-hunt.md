@@ -2,8 +2,8 @@
 layout: post
 title: Sniffnet 1.3 was released this week and is today among the top launches on Product Hunt!
 share-title: Sniffnet 1.3 was released this week and is today among the top launches on Product Hunt!
-thumbnail-img: /assets/img/post-top-product-hunt.png
-share-img: /assets/img/post-top-product-hunt.png
+thumbnail-img: /assets/img/post/top-product-hunt/cover.png
+share-img: /assets/img/post/top-product-hunt/cover.png
 tags: [show-and-tell]
 ---
 
@@ -21,7 +21,7 @@ It's a huge pleasure for me to see that Sniffnet received appreciation by the pu
 
 <a href="https://www.producthunt.com/posts/sniffnet-3?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-sniffnet&#0045;3" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=450197&theme=light&period=daily" alt="" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 <br><br>
-<img alt="" src="{{ 'assets/img/post-top-product-hunt.png' | relative_url }}"/>
+<img alt="" src="{{ 'assets/img/post/top-product-hunt/cover.png' | relative_url }}"/>
 
 </div>
 

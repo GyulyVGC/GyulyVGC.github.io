@@ -2,8 +2,8 @@
 layout: post
 title: "Sniffnet is one year old today: lessons learned and next steps"
 share-title: "Sniffnet is one year old today: lessons learned and next steps"
-thumbnail-img: /assets/img/post-first-anniversary.png
-share-img: /assets/img/post-first-anniversary.png
+thumbnail-img: /assets/img/post/first-anniversary/cover.png
+share-img: /assets/img/post/first-anniversary/cover.png
 tags: [anniversary]
 ---
 
@@ -17,7 +17,7 @@ It’s an unspeakable good feeling to have made a software people use and apprec
 Sometimes it still feels unreal that Sniffnet is now one of the most popular network analysers on GitHub, having passed **10k stars** just a few days ago and being in the [top 100 most starred Rust repositories](https://github.com/EvanLi/Github-Ranking/blob/master/Top100/Rust.md) ever made.
 
 <div align="center">
-<img alt="" src="{{ 'assets/img/post-first-anniversary.png' | relative_url }}"/>
+<img alt="" src="{{ 'assets/img/post/first-anniversary/cover.png' | relative_url }}"/>
 </div>
 
 <hr>
