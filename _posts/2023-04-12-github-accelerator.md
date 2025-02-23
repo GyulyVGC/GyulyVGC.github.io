@@ -18,14 +18,15 @@ Seeing Sniffnet getting traction and evolving, improving day after day, motivate
 
 <hr>
 
-<a href="https://accelerator.github.com">
-<img width="40%" alt="" align="right" src="https://user-images.githubusercontent.com/100347457/230674800-c4bf0556-c1de-4bc6-aef3-aab9dae5204f.png"/>
+<a target="_blank" href="https://accelerator.github.com">
+<img width="40%" alt="" align="right" src="{{ 'assets/img/post/github-accelerator/purple.png' | relative_url }}"/>
 </a>
 
 Today, the 12th of April 2023, it’s such a joy for me to announce that **Sniffnet has been selected for the GitHub Accelerator Program** 🎉
 
-The [GitHub Accelerator](https://accelerator.github.com) is a program to pioneer new ways for developers to sustainably work on their **open-source projects full-time**.<br>
-20 promising and influential open-source projects [have been elected](https://github.blog/2023-04-12-github-accelerator-our-first-cohort-and-whats-next/), out of more than a thousand total applicants.<br>
+The <a target="_blank" href="https://accelerator.github.com">GitHub Accelerator</a> is a program to pioneer new ways for developers to sustainably work on their **open-source projects full-time**.<br>
+20 promising and influential open-source projects <a target="_blank" href="https://github.blog/2023-04-12-github-accelerator-our-first-cohort-and-whats-next/">have been elected</a>,
+out of more than a thousand total applicants.<br>
 The maintainers of such projects will participate in a 10-week program receiving an initial **sponsorship** as well as **mentorship** from open-source leaders and enterprise partners on how to grow software projects and build durable streams of funding.<br>
 
 This means that during the next few months I’ll be able to **work on Sniffnet full-time**, with the aspiration to bring it to the next level.<br>
