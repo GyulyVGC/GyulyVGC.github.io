@@ -41,3 +41,5 @@ I truly wish that this journey will continue even after the 10 weeks of the prog
 I’ll do my best to get the most out of this experience 🌟
 
 <img alt="" src="{{ 'assets/img/post/github-accelerator/cover.jpeg' | relative_url }}" width="100%"/>
+
+_Originally posted on <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/discussions/133">GitHub Discussions</a>._
