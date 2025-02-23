@@ -19,4 +19,7 @@ I take advantage of this moment to also celebrate another milestone: Sniffnet ju
 <img alt="" src="{{ 'assets/img/post/hacker-news/cover.png' | relative_url }}" width="70%"/>
 </div>
 
-I know that those are just numbers, but make me really proud and are a small reward for me after all the efforts I'm putting on this project 💖 
+I know that those are just numbers, but make me really proud and are a small reward for me after all the efforts I'm putting on this project 💖
+
+_Originally posted on <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/discussions/195">GitHub Discussions</a>._
+ 

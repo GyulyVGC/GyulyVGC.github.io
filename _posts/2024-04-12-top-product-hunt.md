@@ -37,3 +37,5 @@ I'm honoured that Sniffnet is one of the examples out there showing that **graph
 I'm confident we'll see more and more **ground-breaking, open-source projects** built in Rust in the following years.
 
 _Keep pushing!_ 🙌
+
+_Originally posted on <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/discussions/501">GitHub Discussions</a>._

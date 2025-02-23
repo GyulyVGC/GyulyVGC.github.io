@@ -91,4 +91,5 @@ It’s never too late to go back and retrace our steps, while an opportunity not
 
 _**Not all the pieces always fit together.<br>
 But if we don’t even try to build the puzzle, we won’t ever be able to grasp the whole picture.**_
- 
+
+_Originally posted on <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/discussions/574">GitHub Discussions</a>._

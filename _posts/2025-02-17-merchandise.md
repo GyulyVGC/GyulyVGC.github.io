@@ -26,3 +26,5 @@ Sniffnet merchandise isn’t only about the **cool apparel**: it’s also a way 
 Let us know if you’d like to see items that aren’t currently available, and we’ll try to make your wishes true!
 
 _The store is hosted on <a target="_blank" href="https://grindhouse.dev">Grindhouse</a>, a creator outlet for open-source developers, artists, and visionaries who are driven by passion, innovation, and relentless pursuit of their goals._
+
+_Originally posted on <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/discussions/722">GitHub Discussions</a>._

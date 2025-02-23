@@ -20,3 +20,5 @@ In the hope the event is of your interest, wish me good luck 🤞 🍀
 <div align="center">
 <img alt="" src="{{ 'assets/img/post/github-accelerator-demo-day/cover.png' | relative_url }}" width="100%"/>
 </div>
+
+_Originally posted on <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/discussions/287">GitHub Discussions</a>._
