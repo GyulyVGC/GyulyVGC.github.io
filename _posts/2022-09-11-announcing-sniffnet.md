@@ -24,3 +24,5 @@ If you like the project, consider giving it a star!
 <img  width="70%" title="Textual report summary" src="{{ 'assets/img/post/announcing-sniffnet/r1.png' | relative_url }}"/><br><br>
 <img  width="70%" title="Textual report details" src="{{ 'assets/img/post/announcing-sniffnet/r2.png' | relative_url }}"/>
 </div>
+
+_Originally posted on <a target="_blank" href="https://www.reddit.com/r/rust/comments/xbn5o6/announcing_sniffnet_v040_a_multithreaded/">Reddit</a>._
