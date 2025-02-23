@@ -7,8 +7,7 @@ share-img: /assets/img/post/announcing-sniffnet/cover.png
 tags: [release]
 ---
 
-I'm thrilled to announce **Sniffnet**!
-
+I'm thrilled to announce **Sniffnet**!<br>
 This framework consists of a **network packet sniffer/filter** generating a graphical and a textual report,
 providing statistics about the filtered traffic and a list of source and destination addresses and ports,
 with their exchanged packets and the respective carried protocols.
