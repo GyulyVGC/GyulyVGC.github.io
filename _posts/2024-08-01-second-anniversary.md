@@ -9,7 +9,7 @@ tags: [anniversary]
 
 _Woah_.<br>
 Another year has flown away.<br>
-It seems like yesterday that I was writing down the [post](https://sniffnet.net/news/one-year-old) to celebrate Sniffnet’s first anniversary.<br>
+It seems like yesterday that I was writing down the [post](https://sniffnet.net/news/first-anniversary) to celebrate Sniffnet’s first anniversary.<br>
 On that day, I was coming from a period in which I totally dedicated myself to the app development. <br>
 Like 12 hours per day, and that was cool.
 
@@ -31,7 +31,7 @@ At first, I thought I was at a _**crossroads**_:
 
 <div align="center">
 <picture>
-<img alt="" title="The crossroads" src="https://github.com/user-attachments/assets/2c6f40d0-7690-49c8-8aeb-c4046c23aa0c" width="50%"/>
+<img alt="" title="The crossroads" src="{{ 'assets/img/post/second-anniversary/roads.png' | relative_url }}" width="50%"/>
 </picture>
 </div>
 
@@ -59,19 +59,25 @@ Sure, I have less time for Sniffnet now.<br>
 But I’m no longer sure that it’s a real loss — neither for me nor for the project itself.<br>
 I come back to Sniffnet when I feel to — _without any pressure and with a bag of new experiences_ — also thanks to the fact that remote jobs eliminate commute times and have more flexible schedules.
 
-During the past year, a new [major version](https://github.com/GyulyVGC/sniffnet/releases/tag/v1.3.0) was released, as well as a new [minor version](https://github.com/GyulyVGC/sniffnet/releases/tag/v1.3.1) just a few days ago.<br>
+During the past year, a new <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/releases/tag/v1.3.0">major version</a> was released, as well as a new <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/releases/tag/v1.3.1">minor version</a> just a few days ago.<br>
 The project is in **constant expansion**, and I’m really glad to see that many new users are still adopting Sniffnet.<br>
-Just considering the past week, the repository got about 1k more stars, the app was downloaded 10k more times, and Sniffnet is now the most popular GitHub project by the following topics: [#utility](https://github.com/topics/utility), [#pcap](https://github.com/topics/pcap), [#network-monitoring](https://github.com/topics/network-monitoring), [#packet-sniffer](https://github.com/topics/packet-sniffer), and more.
+Just considering the past week, the repository got about 1k more stars, the app was downloaded 10k more times, and Sniffnet is now the most popular GitHub project by the following topics:
+<a target="_blank" href="https://github.com/topics/utility">#utility</a>,
+<a target="_blank" href="https://github.com/topics/pcap">#pcap</a>,
+<a target="_blank" href="https://github.com/topics/network-monitoring">#network-monitoring</a>,
+<a target="_blank" href="https://github.com/topics/packet-sniffer">#packet-sniffer</a>,
+ and more.
 
 <div align="center">
 <picture>
-<img alt="" title="Adoption on Arch Linux" src="https://github.com/user-attachments/assets/ff675bf1-2937-4254-984b-ad2e19ae3385" width="52%"/>
+<img alt="" title="Adoption on Arch Linux" src="{{ 'assets/img/post/second-anniversary/arch.png' | relative_url }}" width="52%"/>
 </picture>
 <picture>
-<img alt="" title="GitHub stars" src="https://github.com/user-attachments/assets/796c974e-08d0-4cec-aa55-a5380150d4a3" width="42%"/>
+<img alt="" title="GitHub stars" src="{{ 'assets/img/post/second-anniversary/stars.png' | relative_url }}" width="42%"/>
 </picture>
+<br>
 <picture>
-<img alt="" title="Rust trending repository of the day" src="https://github.com/user-attachments/assets/d692c9d0-a3cb-4849-8cdb-718dd0bad083" width="95%"/>
+<img alt="" title="Rust trending repository of the day" src="{{ 'assets/img/post/second-anniversary/gh.png' | relative_url }}" width="95%"/>
 </picture>
 </div>
 
