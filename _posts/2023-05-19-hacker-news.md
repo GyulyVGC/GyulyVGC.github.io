@@ -7,10 +7,10 @@ share-img: /assets/img/post/hacker-news/cover.png
 tags: [trending]
 ---
 
-I'm super excited to share that after [yesterday's release](https://github.com/GyulyVGC/sniffnet/releases/tag/v1.2.0), Sniffnet has made it to [Hacker News](https://news.ycombinator.com) front page!
+I'm super excited to share that after <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/releases/tag/v1.2.0">yesterday's release</a>, Sniffnet has made it to <a target="_blank" src="https://news.ycombinator.com">Hacker News</a> front page!
 
 <div align="center">
-<img  width="70%" src="https://github.com/GyulyVGC/sniffnet/assets/100347457/09f62fe8-addf-4352-8f2f-317a5ea7dc24"/>
+<img  width="70%" src="{{ 'assets/img/post/hacker-news/hn.jpeg' | relative_url }}"/>
 </div>
 
 I take advantage of this moment to also celebrate another milestone: Sniffnet just surpassed Wireshark stars on GitHub!
