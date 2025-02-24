@@ -34,7 +34,7 @@ figure:hover .invisible {
 
 hr {
   height: 2px;
-  background: linear-gradient(to right, #00000000 15%, #01c6ff77 50%, #00000000 85%);
+  background: linear-gradient(to right, #00000000 0%, #01c6ff77 50%, #00000000 100%);
   border: 0;
 }
 
@@ -165,13 +165,8 @@ h1 {
 h2 {
   font-size: 1.875rem;
 }
-h2.myHeading {
-  font-size: 1.875rem;
-  color: #a0e8f8;
-}
 h3 {
   font-size: 1.5rem;
-  color: #a0e8f8;
 }
 h4 {
   font-size: 1.125rem;
@@ -195,7 +190,6 @@ blockquote p:first-child {
 }
 
 hr.footer {
-  background-color:#444444;
   margin-top: 35px;
   margin-bottom: 35px;
 }
@@ -625,7 +619,9 @@ footer .footer-custom-content {
 
 .post-preview {
   padding: 1.25rem 0;
-  border-bottom: 2px solid #081020;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-image: linear-gradient(to right, #00000000 0%, #01c6ff77 50%, #00000000 100%) 1;
   overflow: hidden;
 }
 

@@ -100,7 +100,7 @@ share-img: /assets/img/preview.png
 </ul>
 
 {% if paginator.total_pages > 1 %}
-<ul class="pagination main-pager">
+<ul class="pagination main-pager" style="position: relative;">
   {% if paginator.previous_page %}
   <li class="page-item previous" title="Newer Posts">
     <a class="page-link" href="{{ paginator.previous_page_path | absolute_url }}">
@@ -108,7 +108,7 @@ share-img: /assets/img/preview.png
     </a>
   </li>
   {% endif %}
-  <span style="color: #808080; margin: auto;">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  <span style="color: #808080; position: absolute; width: 100%; text-align: center; align-self: center;">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
   <li class="page-item next" title="Older Posts">
     <a class="page-link" href="{{ paginator.next_page_path | absolute_url }}">
