@@ -4,7 +4,7 @@ title: Sniffnet will be supported by the Next Generation Internet program
 share-title: Sniffnet will be supported by the Next Generation Internet program
 thumbnail-img: /assets/img/post/ngi-program/cover.svg
 share-img: /assets/img/post/ngi-program/cover.svg
-tags: [sponsor]
+tags: [sponsorship]
 ---
 
 It's such a joy for me to announce that Sniffnet was <a target="_blank" href="https://nlnet.nl/news/2024/20241014-announcing-CommonsFund-call.html">
