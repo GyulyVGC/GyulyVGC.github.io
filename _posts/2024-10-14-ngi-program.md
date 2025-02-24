@@ -27,3 +27,5 @@ an initiative to **re-imagine and re-engineer the Internet for the third millenn
 
 This is an incredible opportunity for me to further improve and expand the project,
 and it's a strong signal that awesome organizations exist out there to facilitate open source advancement!
+
+_Originally posted on <a target="_blank" href="https://www.reddit.com/r/rust/comments/1g3k6i2/my_rustbased_project_will_be_supported_by_the/">Reddit</a>._
