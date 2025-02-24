@@ -33,8 +33,8 @@ figure:hover .invisible {
     }
 
 hr {
-  height: 2px;
-  background: linear-gradient(to right, #00000000 0%, #01c6ff77 50%, #00000000 100%);
+  height: 1px;
+  background: linear-gradient(to right, #01c6ff00 0%, #01c6ffff 50%, #01c6ff00 100%);
   border: 0;
 }
 
@@ -619,9 +619,9 @@ footer .footer-custom-content {
 
 .post-preview {
   padding: 1.25rem 0;
-  border-bottom-width: 2px;
+  border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-image: linear-gradient(to right, #00000000 0%, #01c6ff77 50%, #00000000 100%) 1;
+  border-image: linear-gradient(to right, #01c6ff00 0%, #01c6ffff 50%, #01c6ff00 100%) 1;
   overflow: hidden;
 }
 
