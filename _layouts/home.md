@@ -73,6 +73,6 @@ The Wiki includes step-by-step guides, tips, examples of usage, and answers to f
 
 <hr/>
 
-<h2 class="myHeading"> Latest from Sniffnet </h2>
+<h2 class="myHeading"> Stay in the loop </h2>
 Wait... there's more!<br>Sniffnet is rapidly evolving, and new features are added on a regular basis.<br><br>
 Follow the <a href="https://sniffnet.net/news"><b>news</b></a> to never miss an update.
