@@ -7,7 +7,7 @@ share-img: /assets/img/post/github-accelerator/cover.jpeg
 tags: [sponsor]
 ---
 
-Sniffnet has **grown a lot** during the past months, and it’s been a pleasure for me to spend most of my spare time on its development.
+Sniffnet has **grown a lot** during the past months, and it’s been a pleasure for me to spend most of my spare time on its development.<br>
 I'm not gonna lie: passing hours and hours on this project has become my favorite hobby lately.
 
 I can’t deny that sometimes **it’s been hard** to balance Sniffnet’s development with the daily University routine, made of never-ending lectures, group projects, deliveries, and home study.<br>

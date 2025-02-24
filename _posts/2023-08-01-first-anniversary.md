@@ -7,7 +7,7 @@ share-img: /assets/img/post/first-anniversary/cover.png
 tags: [anniversary]
 ---
 
-I’m excited to share with y’all that Sniffnet is **one year old today**!<br>
+I’m excited to share with y’all that Sniffnet is **one year old today**!<br><br>
 The last 365 days of my life have been almost totally dedicated to this project, and I’ve learned a lot along the way.
 
 On August 1st 2022, I’d never have imagined this project would have become what’s today.<br>

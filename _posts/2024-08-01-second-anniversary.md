@@ -8,7 +8,7 @@ tags: [anniversary]
 ---
 
 _Woah_.<br>
-Another year has flown away.<br>
+Another year has flown away.<br><br>
 It seems like yesterday that I was writing down the [post](https://sniffnet.net/news/first-anniversary) to celebrate Sniffnet’s first anniversary.<br>
 On that day, I was coming from a period in which I totally dedicated myself to the app development. <br>
 Like 12 hours per day, and that was cool.

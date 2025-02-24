@@ -7,7 +7,7 @@ share-img: /assets/img/merch.png
 tags: [branding, sponsor]
 ---
 
-**Sniffnet merch is finally real** 🎉 <br>
+**Sniffnet merch is finally real** 🎉 <br><br>
 A couple weeks ago Sniffnet reached the remarkable milestone of **20k stars** on GitHub — to celebrate we're dropping brand new apparel today!<br>
 Such an awesome logo had to be featured on physical goods sooner or later 🕵️‍♂️
 
