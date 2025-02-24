@@ -71,7 +71,7 @@ Just considering the past week, the repository got about 1k more stars, the app 
 <div align="center">
 <picture>
 <img alt="" title="Adoption on Arch Linux" src="{{ 'assets/img/post/second-anniversary/arch.png' | relative_url }}" width="52%"/>
-</picture>
+</picture>&nbsp;
 <picture>
 <img alt="" title="GitHub stars" src="{{ 'assets/img/post/second-anniversary/stars.png' | relative_url }}" width="42%"/>
 </picture>
