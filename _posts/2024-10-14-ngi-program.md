@@ -8,8 +8,7 @@ tags: [sponsor]
 ---
 
 It's such a joy for me to announce that Sniffnet was <a target="_blank" href="https://nlnet.nl/news/2024/20241014-announcing-CommonsFund-call.html">
-elected to receive funding from NLnet</a>.
-
+elected to receive funding from NLnet</a>.<br><br>
 The **NLnet Foundation** supports organizations and people who contribute to an open internet for all.<br>
 It funds projects that help fix the internet through open hardware, open software, open standards, open science and open data.
 
@@ -19,7 +18,7 @@ from libre silicon to middleware, from P2P infrastructure to convenient end user
 
 <div align="center">
     <a target="_blank" href="https://nlnet.nl/NGI0/">
-        <img width="70%" title="NGI0" src="{{ 'assets/img/post/ngi-program/ph.svg' | relative_url }}" alt=""/>
+        <img width="70%" title="NGI0" src="{{ 'assets/img/post/ngi-program/cover.svg' | relative_url }}" alt=""/>
     </a>
 </div>
 
