@@ -244,18 +244,6 @@ img {
   margin-top: -1.5625rem;
 }
 
-/* Comments */
-
-.disqus-comments {
-  margin-top: 1.875rem;
-}
-
-@media (min-width: 768px) {
-  .disqus-comments {
-    margin-top: 2.5rem;
-  }
-}
-
 /* --- Navbar --- */
 .navbar-custom {
   background: {{ site.navbar-col | default: "#333333" }};
@@ -1098,13 +1086,6 @@ pre {
 
 .gist, .gist-file table tr td {
   border: unset;
-}
-
-/* --- Social media sharing section --- */
-
-#social-share-section {
-  margin-bottom: 1.875rem;
-  margin-top: 1.875rem;
 }
 
 /* --- Notification boxes --- */

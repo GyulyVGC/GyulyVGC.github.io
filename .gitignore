@@ -16,3 +16,7 @@ beautiful-jekyll-theme-*.gem
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+.sass-cache/
+.jekyll-cache/
+node_modules/

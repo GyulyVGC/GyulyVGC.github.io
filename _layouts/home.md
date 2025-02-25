@@ -2,7 +2,7 @@
 layout: page
 ---
 <div align="center">
-  <a title="Download" href="https://sniffnet.net/download"><img alt="" class="shield" height="30px" src="{{ 'assets/img/downloads_badge.svg' | relative_url }}"/></a>&nbsp;
+  <a title="Download" href="{{ 'download' | relative_url }}"><img alt="" class="shield" height="30px" src="{{ 'assets/img/downloads_badge.svg' | relative_url }}"/></a>&nbsp;
   <a target="_blank" title="GitHub" href="https://github.com/GyulyVGC/sniffnet"><img alt="" class="shield" height="30px" src="https://img.shields.io/github/stars/GyulyVGC/sniffnet?logo=github&color=blue&style=for-the-badge"/></a>
 </div><br/>
 
@@ -15,7 +15,7 @@ layout: page
 <hr/>
 
 <h2 class="myHeading"> What is Sniffnet? </h2>
-Sniffnet is a <b>network monitoring tool</b> to help you easily keep track of your Internet traffic.<br/><br/>
+Sniffnet is a <b>network monitoring tool</b> to help you easily keep track of your Internet traffic.<br/>
 Whether you want to <b>gather statistics</b>, or you need to <b>inspect more in depth</b> what's going on in your network, this app will get you covered.
   
 <hr/>
@@ -74,5 +74,5 @@ The Wiki includes step-by-step guides, tips, examples of usage, and answers to f
 <hr/>
 
 <h2 class="myHeading"> Stay in the loop </h2>
-Wait... there's more!<br>Sniffnet is rapidly evolving, and new features are added on a regular basis.<br><br>
-Follow the <a href="https://sniffnet.net/news"><b>news</b></a> to never miss an update.
+Wait... there's more!<br>Sniffnet is <b>rapidly evolving</b>, and new features are added on a regular basis.<br>
+Follow the <a href="{{ 'news' | relative_url }}"><b>news</b></a> to never miss an update.

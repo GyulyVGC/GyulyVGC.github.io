@@ -10,7 +10,7 @@ tags: [event]
 The last 18 months have been crazy:
 - a **university course** made me discover the Rust programming language
 - I started a Rust **project**, today known as Sniffnet, that rapidly got more than 10k stars on GitHub
-- I had the luck of [being part of the first GitHub Accelerator cohort](https://sniffnet.net/news/github-accelerator/)
+- I had the luck of <a href="{{ 'news/github-accelerator' | relative_url }}">being part of the first GitHub Accelerator cohort</a>
 - last month I started working as a **remote Rust developer**
 - two days ago I defended a **Master's thesis** about Sniffnet
 
