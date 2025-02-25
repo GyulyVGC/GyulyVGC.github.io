@@ -11,7 +11,9 @@ Some weeks ago, Sniffnet reached the GitHub trending page — I was so proud abo
 But I would have never imagined what happened earlier today: **GitHub itself tweeted about the project** and I’m feeling blessed.
 
 <div align="center">
-    <img  width="70%" title="GitHub tweet about Sniffnet" alt="GitHub tweet about Sniffnet" src="{{ 'assets/img/post/github-tweet/cover.png' | relative_url }}"/>
+    <a target="_blank" href="https://x.com/github/status/1605652851245649931">
+        <img  width="70%" title="GitHub tweet about Sniffnet" alt="GitHub tweet about Sniffnet" src="{{ 'assets/img/post/github-tweet/cover.png' | relative_url }}"/>
+    </a>
 </div>
 
 I’ve never experienced such a joy for something I’ve built with my hands.<br>
