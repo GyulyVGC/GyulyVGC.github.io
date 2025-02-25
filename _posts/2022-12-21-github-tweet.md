@@ -7,7 +7,7 @@ share-img: /assets/img/post/github-tweet/cover.png
 tags: [trending]
 ---
 
-Some weeks ago, Sniffnet reached the GitHub trending page — I was so proud about it.<br><br>
+<a href="{{ 'news/github-trending' | relative_url }}">Some weeks ago</a>, Sniffnet reached the GitHub trending page — I was so proud about it.<br><br>
 But I would have never imagined what happened earlier today: **GitHub itself tweeted about the project** and I’m feeling blessed.
 
 <div align="center">
