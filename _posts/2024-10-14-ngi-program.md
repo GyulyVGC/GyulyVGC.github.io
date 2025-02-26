@@ -2,8 +2,8 @@
 layout: post
 title: Sniffnet will be supported by the Next Generation Internet program
 share-title: Sniffnet will be supported by the Next Generation Internet program
-thumbnail-img: /assets/img/post/ngi-program/cover.svg
-share-img: /assets/img/post/ngi-program/cover.svg
+thumbnail-img: /assets/img/post/ngi-program/cover.jpeg
+share-img: /assets/img/post/ngi-program/cover.jpeg
 tags: [sponsorship]
 ---
 
@@ -18,12 +18,18 @@ from libre silicon to middleware, from P2P infrastructure to convenient end user
 
 <div align="center">
     <a target="_blank" href="https://nlnet.nl/NGI0/">
-        <img width="70%" title="NGI0" src="{{ 'assets/img/post/ngi-program/cover.svg' | relative_url }}" alt=""/>
+        <img width="50%" title="NGI0 Commons" src="{{ 'assets/img/post/ngi-program/commons.svg' | relative_url }}" alt="NGI0 Commons"/>
     </a>
 </div>
 
 The NGI Zero Commons Fund exists thanks to financial support from the European Commission's <a target="_blank" href="https://ngi.eu/">Next Generation Internet</a> programme,
 an initiative to **re-imagine and re-engineer the Internet for the third millennium and beyond**, shaping a value-centric, human, and inclusive society for all.
+
+<div align="center">
+    <a target="_blank" href="https://ngi.eu/">
+        <img width="70%" title="NGI" src="{{ 'assets/img/post/ngi-program/cover.jpeg' | relative_url }}" alt="NGI"/>
+    </a>
+</div>
 
 This is an incredible opportunity for me to further improve and expand the project,
 and it's a strong signal that awesome organizations exist out there to facilitate open source advancement!
