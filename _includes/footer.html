@@ -39,15 +39,8 @@
       © 2022-{{ site.time | date: '%Y' }}
       &nbsp;&bull;&nbsp;
       <a target="_blank" href="https://github.com/GyulyVGC">Giuliano Bellini</a>
-
-
-      {% if site.url-pretty %}
         &nbsp;&bull;&nbsp;
-        <span class="author-site">
-          <a href="{% if site.url-canonical %}{{ site.url-canonical }}{% else %}{{ '' | absolute_url }}{% endif %}">{{ site.url-pretty }}</a>
-        </span>
-      {% endif %}
-
+        <a href="{{ 'feed.xml' | relative_url }}"><img style="width: 1.0em; height: 1.0em;" alt="RSS feed" title="RSS feed" src="{{ 'assets/img/rss.svg' | relative_url }}"/></a>
       </p>
       </div>
     </div>
