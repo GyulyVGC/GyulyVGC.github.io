@@ -59,7 +59,7 @@ Sure, I have less time for Sniffnet now.<br>
 But I’m no longer sure that it’s a real loss — neither for me nor for the project itself.<br>
 I come back to Sniffnet when I feel to — _without any pressure and with a bag of new experiences_ — also thanks to the fact that remote jobs eliminate commute times and have more flexible schedules.
 
-During the past year, a new <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/releases/tag/v1.3.0">major version</a> was released, as well as a new <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/releases/tag/v1.3.1">minor version</a> just a few days ago.<br>
+During the past year, a new <a href="{{ 'news/v1.3' | relative_url }}">major version</a> was released, as well as a new <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/releases/tag/v1.3.1">minor version</a> just a few days ago.<br>
 The project is in **constant expansion**, and I’m really glad to see that many new users are still adopting Sniffnet.<br>
 Just considering the past week, the repository got about 1k more stars, the app was downloaded 10k more times, and Sniffnet is now the most popular GitHub project by the following topics:
 <a target="_blank" href="https://github.com/topics/utility">#utility</a>,

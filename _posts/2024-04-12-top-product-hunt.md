@@ -7,7 +7,7 @@ share-img: /assets/img/post/top-product-hunt/cover.png
 tags: [trending]
 ---
 
-A <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/releases/tag/v1.3.0">new major version</a> of Sniffnet was published just a few days ago,
+A <a href="{{ 'news/v1.3' | relative_url }}">new major version</a> of Sniffnet was published just a few days ago,
 featuring some really cool functionalities that aim to enrich the **networking capabilities** of the app as well as to improve the overall **user experience**.<br><br>
 Moreover, this release finally comes with a <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/wiki">complete user manual</a>
 and gives a **new identity** to the app by replacing the old logo with a simpler and more modern-looking one.
