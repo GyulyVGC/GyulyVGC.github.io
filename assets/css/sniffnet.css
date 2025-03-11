@@ -22,9 +22,11 @@ figure:hover .invisible {
   display: inline;
 }
 
-#myShadowSmall {
+img#myShadowSmall {
   -webkit-box-shadow: 3px -3px 10px 0px #000000; 
   box-shadow: 3px -3px 10px 0px #000000;
+  margin-bottom: 10px;
+  margin-top: 15px;
   }
 
 #myShadowBig {
@@ -34,7 +36,7 @@ figure:hover .invisible {
 
 hr {
   height: 1px;
-  background: linear-gradient(to right, #01c6ff00 0%, #01c6ffff 50%, #01c6ff00 100%);
+  background: linear-gradient(to right, #01c6ff11 0%, #01c6ffff 50%, #01c6ff11 100%);
   border: 0;
 }
 

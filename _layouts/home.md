@@ -9,14 +9,14 @@ layout: page
 <div align="center">
   <img id="myShadowBig" width="100%" src="{{ 'assets/img/overview_page.png' | relative_url }}" alt="" />
   <br/><br/>
- Cross-platform, Intuitive, Reliable
+ Cross-platform. Intuitive. Reliable.
  </div>
 
 <hr/>
 
 <h2 class="myHeading"> What is Sniffnet? </h2>
 Sniffnet is a <b>network monitoring tool</b> to help you easily keep track of your Internet traffic.<br/>
-Whether you want to <b>gather statistics</b>, or you need to <b>inspect more in depth</b> what's going on in your network, this app will get you covered.
+Whether you want to <b>gather statistics</b>, you’re curious to see <b>who you are exchanging data with</b>, or you need to <b>inspect more in depth</b> what's going on in your network, this app will get you covered.
   
 <hr/>
 
@@ -24,6 +24,10 @@ Whether you want to <b>gather statistics</b>, or you need to <b>inspect more in 
 
 <div>
 <img align="right" width="75" src="{{ 'assets/img/simple.svg' | relative_url }}" alt="" />Sniffnet is a <b>technical tool</b>, but at the same time it strongly focuses on the overall <b>user experience</b>: most of the network analyzers out there are cumbersome to use, while one of Sniffnet's cornerstones is to be <b>usable with ease by everyone</b>.
+</div><br/>
+
+<div>
+<img align="right" width="75" src="{{ 'assets/img/translations.svg' | relative_url }}" alt="" />In the spirit of being approachable by as many users as possible, the application is available in <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/issues/60">20 different languages</a> thanks to the <b>translations by native speakers</b> from all over the world.
 </div><br/>
 
 <div>
