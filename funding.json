@@ -38,9 +38,19 @@
     ],
     "plans": [
       {
-        "guid": "developer-time",
+        "guid": "developer-time-yearly",
         "status": "active",
-        "name": "Developer compensation",
+        "name": "Developer yearly compensation",
+        "description": "This will cover one year of part-time working on Sniffnet.",
+        "amount": 18000,
+        "currency": "EUR",
+        "frequency": "yearly",
+        "channels": ["mybank"]
+      },
+      {
+        "guid": "developer-time-monthly",
+        "status": "active",
+        "name": "Developer monthly compensation",
         "description": "This will cover one month of part-time working on Sniffnet.",
         "amount": 1500,
         "currency": "EUR",
