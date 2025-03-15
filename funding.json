@@ -1,0 +1,63 @@
+{
+  "$schema": "https://floss.fund/schema/v1.0.0/funding.schema.json#",
+  "version": "v1.0.0",
+  "entity": {
+    "type": "individual",
+    "role": "maintainer",
+    "name": "Giuliano Bellini",
+    "email": "gyulyvgc99@gmail.com",
+    "phone": "",
+    "description": "I'm a software engineer from Italy. I'm the creator and maintainer of Sniffnet.",
+    "webpageUrl": {
+      "url": "https://github.com/GyulyVGC",
+      "wellKnown": "https://github.com/GyulyVGC/sniffnet/blob/main/.well-known/funding-manifest-urls"
+    }
+  },
+  "projects": [{
+    "guid": "sniffnet",
+    "name": "Sniffnet",
+    "description": "An application to comfortably monitor your Internet traffic",
+    "webpageUrl": {
+      "url": "https://sniffnet.net"
+    },
+    "repositoryUrl": {
+      "url": "https://github.com/GyulyVGC/sniffnet",
+      "wellKnown": "https://github.com/GyulyVGC/sniffnet/blob/main/.well-known/funding-manifest-urls"
+    },
+    "licenses": ["spdx:MIT", "spdx:Apache-2.0"],
+    "tags": ["networking", "security", "data-visualization", "cross-platform"]
+  }],
+  "funding": {
+    "channels": [
+      {
+        "guid": "mybank",
+        "type": "bank",
+        "address": "",
+        "description": "Will accept direct bank transfers. Please e-mail me for details."
+      }
+    ],
+    "plans": [
+      {
+        "guid": "developer-time",
+        "status": "active",
+        "name": "Developer compensation",
+        "description": "This will cover one month of part-time working on Sniffnet.",
+        "amount": 1500,
+        "currency": "EUR",
+        "frequency": "monthly",
+        "channels": ["mybank"]
+      },
+      {
+        "guid": "angel-plan",
+        "status": "active",
+        "name": "Goodwill plan",
+        "description": "Pay anything you wish to show your goodwill for the project.",
+        "amount": 0,
+        "currency": "EUR",
+        "frequency": "one-time",
+        "channels": ["mybank"]
+      }
+    ]
+  }
+}
+
