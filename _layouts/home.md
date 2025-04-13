@@ -32,7 +32,7 @@ Whether you want to <b>gather statistics</b>, you’re curious to see <b>who you
 
 <div>
 <img align="right" width="75" src="{{ 'assets/img/security.svg' | relative_url }}" alt="" />
-Sniffnet is designed with a <b>security-first</b> approach: one of the top priorities has always been to protect <b>user privacy</b> and <b>system integrity</b>, as demonstrated by <a href="{{ 'news/security-audit' | relative_url }}">security audits</a> assessing the application safety.
+Sniffnet is designed with a <b>security-first approach</b>: one of the top priorities has always been to protect users' <b>data privacy</b> and <b>system integrity</b>, as demonstrated by <a href="{{ 'news/security-audit' | relative_url }}">security audits</a> assessing the application safety.
 </div><br/>
 
 <div>
