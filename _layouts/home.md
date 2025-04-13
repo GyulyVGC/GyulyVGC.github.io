@@ -31,8 +31,13 @@ Whether you want to <b>gather statistics</b>, you’re curious to see <b>who you
 </div><br/>
 
 <div>
+<img align="right" width="75" src="{{ 'assets/img/security.svg' | relative_url }}" alt="" />
+Sniffnet is designed with a <b>security-first</b> approach: one of the top priorities has always been to protect <b>user privacy</b> and <b>system integrity</b>, as demonstrated by <a href="{{ 'news/security-audit' | relative_url }}">security audits</a> assessing the application safety.
+</div><br/>
+
+<div>
 <a target="_blank" href="https://github.com/GyulyVGC/sniffnet"><img title="GitHub" align="right" width="75" src="{{ 'assets/img/github.svg' | relative_url }}" alt=""/></a>
-Furthermore, Sniffnet is completely <b>free and open-source</b>, dual-licensed under MIT or Apache-2.0: if you are interested you can find the full source code on <a target="_blank" href="https://github.com/GyulyVGC/sniffnet">GitHub</a>.
+Furthermore, Sniffnet is completely <b>free and open-source</b>, dual-licensed under MIT or Apache-2.0: if you are interested you can find the <a target="_blank" href="https://github.com/GyulyVGC/sniffnet">full source code on GitHub</a>.
 </div><br/>
 
 <div>

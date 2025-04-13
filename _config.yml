@@ -86,7 +86,7 @@ text-col: "#cccccc"
 link-col: "#01c6ff"
 hover-col: "#a0e8f8"
 footer-col: "#081020"
-footer-text-col: "#777777"
+footer-text-col: "#888888"
 footer-link-col: "#01c6ff"
 footer-hover-col: "#a0e8f8"
 
