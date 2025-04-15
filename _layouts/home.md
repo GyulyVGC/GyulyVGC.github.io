@@ -15,7 +15,7 @@ layout: page
 <hr/>
 
 <h2 class="myHeading"> What is Sniffnet? </h2>
-Sniffnet is a <b>network monitoring tool</b> to help you easily keep track of your Internet traffic.<br/>
+Sniffnet is a <b>network monitoring tool</b> to help you easily keep track of your Internet traffic.<br/><br/>
 Whether you want to <b>gather statistics</b>, you’re curious to see <b>who you are exchanging data with</b>, or you need to <b>inspect more in depth</b> what's going on in your network, this app will get you covered.
   
 <hr/>
