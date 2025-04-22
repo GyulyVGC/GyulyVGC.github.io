@@ -2,6 +2,7 @@
 layout: post
 title: Sniffnet will be supported by the Next Generation Internet program
 share-title: Sniffnet will be supported by the Next Generation Internet program
+nav-title: News
 thumbnail-img: /assets/img/post/ngi-program/cover.jpeg
 share-img: /assets/img/post/ngi-program/cover.jpeg
 tags: [sponsorship]

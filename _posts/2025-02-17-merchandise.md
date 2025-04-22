@@ -2,6 +2,7 @@
 layout: post
 title: Sniffnet official merchandise released!
 share-title: Sniffnet official merchandise released!
+nav-title: News
 thumbnail-img: /assets/img/merch.png
 share-img: /assets/img/merch.png
 tags: [branding]

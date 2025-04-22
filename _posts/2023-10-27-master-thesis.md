@@ -2,6 +2,7 @@
 layout: post
 title: I concluded a Master's degree defending a thesis about Sniffnet
 share-title: I concluded a Master's degree defending a thesis about Sniffnet
+nav-title: News
 thumbnail-img: /assets/img/post/master-thesis/cover.png
 share-img: /assets/img/post/master-thesis/cover.png
 tags: [event]

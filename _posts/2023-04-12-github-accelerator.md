@@ -2,6 +2,7 @@
 layout: post
 title: Sniffnet has been selected for the GitHub Accelerator Program
 share-title: Sniffnet has been selected for the GitHub Accelerator Program
+nav-title: News
 thumbnail-img: /assets/img/post/github-accelerator/cover.jpeg
 share-img: /assets/img/post/github-accelerator/cover.jpeg
 tags: [sponsorship]

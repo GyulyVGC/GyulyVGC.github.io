@@ -2,6 +2,7 @@
 layout: post
 title: "Sniffnet is one year old today: lessons learned and next steps"
 share-title: "Sniffnet is one year old today: lessons learned and next steps"
+nav-title: News
 thumbnail-img: /assets/img/post/first-anniversary/cover.png
 share-img: /assets/img/post/first-anniversary/cover.png
 tags: [anniversary]

@@ -2,6 +2,7 @@
 layout: post
 title: Sniffnet at GitHub Accelerator Demo Day
 share-title: Sniffnet at GitHub Accelerator Demo Day
+nav-title: News
 thumbnail-img: /assets/img/post/github-accelerator-demo-day/cover.png
 share-img: /assets/img/post/github-accelerator-demo-day/cover.png
 tags: [event]

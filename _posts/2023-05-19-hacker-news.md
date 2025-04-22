@@ -2,6 +2,7 @@
 layout: post
 title: Sniffnet made it to Hacker News front page!
 share-title: Sniffnet made it to Hacker News front page!
+nav-title: News
 thumbnail-img: /assets/img/post/hacker-news/cover.png
 share-img: /assets/img/post/hacker-news/cover.png
 tags: [trending]

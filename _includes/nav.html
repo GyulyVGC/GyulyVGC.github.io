@@ -3,7 +3,7 @@
   {%- if site.title-img -%}
     <a class="navbar-brand navbar-brand-logo" href="{{ '' | absolute_url }}"><img alt="{{ site.title }} Logo" src="{{ site.title-img | relative_url}}"/></a>
   {%- elsif site.title -%}
-    <a class="navbar-brand" href="{{ '' | absolute_url }}" translate="no">{{ site.title }}</a>
+    <a class="navbar-brand {% if page.title == 'Sniffnet' %}active-now{% endif %}" href="{{ '' | absolute_url }}" translate="no">{{ site.title }}</a>
   {%- endif -%}
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,15 +25,9 @@
             </div>
           </li>
         {% else %}
-          {% if link[1] == "sponsor" %}
-            <li class="nav-item">
-              <a class="nav-link" id="sponsor" href="{{ link[1] | relative_url }}">{{ link[0] }}</a>
-            </li>
-          {% else %}
-            <li class="nav-item">
-              <a class="nav-link" href="{{ link[1] | relative_url }}">{{ link[0] }}</a>
-            </li>
-          {% endif %}
+          <li class="nav-item">
+            <a class="nav-link {% if link[0] == page.nav-title %}active-now{% endif %} {% if link[1] == 'sponsor' %}sponsor{% endif %}" href="{{ link[1] | relative_url }}">{{ link[0] }}</a>
+          </li>
         {%- endif -%}
       {%- endfor -%}
       {% if site.post_search %}

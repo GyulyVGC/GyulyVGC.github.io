@@ -2,6 +2,7 @@
 layout: post
 title: "Announcing Sniffnet v0.4: A multithreaded, cross-platform network analyzer"
 share-title: "Announcing Sniffnet v0.4: A multithreaded, cross-platform network analyzer"
+nav-title: News
 thumbnail-img: /assets/img/post/announcing-sniffnet/cover.png
 share-img: /assets/img/post/announcing-sniffnet/cover.png
 tags: [release]

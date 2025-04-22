@@ -269,8 +269,7 @@ img {
 
 .navbar-custom .navbar-brand {
   line-height: 1.5;
-  padding-top: 0.625rem;
-  padding-bottom: 0.625rem;
+  padding: 0.625rem;
   font-size: 1.125rem;
 }
 
@@ -318,7 +317,14 @@ img {
   font-weight: 800;
   color: {{ site.navbar-text-col | default: "#404040" }};
 }
-.navbar-custom .navbar-nav #sponsor.nav-link {
+.navbar-custom .navbar-nav .nav-link.active-now {
+  background-color: #0f1e3c;
+  border-radius: 10px;
+  border: 1px solid #01c6ff88;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+.navbar-custom .navbar-nav .nav-link.sponsor {
   font-weight: 800;
   color: #e58be5;
 }
@@ -341,6 +347,28 @@ img {
 }
 
 @media (min-width: 1200px) {
+  .navbar-custom .navbar-nav .nav-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .navbar-custom.top-nav-short .navbar-brand.active-now,
+  .navbar-custom.top-nav-short .navbar-nav .nav-link.active-now {
+    background-color: #0f1e3c;
+    border-radius: 10px;
+    border: 1px solid #01c6ff88;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+  }
+  .navbar-custom .navbar-brand.active-now {
+    background-color: #0f1e3c;
+    border-radius: 10px;
+    border: 1px solid #01c6ff88;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+  }
+
   .navbar-custom {
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
@@ -442,8 +470,8 @@ img {
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .navbar-nav .nav-link:hover,
 .navbar-custom .navbar-nav .nav-link:focus,
-.navbar-custom .navbar-nav #sponsor.nav-link:hover,
-.navbar-custom .navbar-nav #sponsor.nav-link:focus,
+.navbar-custom .navbar-nav .nav-link.sponsor:hover,
+.navbar-custom .navbar-nav .nav-link.sponsor:focus,
 .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:hover,
 .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:focus {
   color: #ffcc00 ;
