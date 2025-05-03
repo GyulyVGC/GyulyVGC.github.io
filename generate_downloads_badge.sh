@@ -6,7 +6,9 @@ CRATES_COUNT=$(curl -s https://crates.io/api/v1/crates/sniffnet | grep -E -o '"d
 
 HOMEBREW_COUNT=$(curl -s https://github.com/Homebrew/homebrew-core/pkgs/container/core%2Fsniffnet | grep -A1 "Total downloads" | grep -o 'title="[0-9]*"' | cut '-d=' -f 2 | sed 's/"//g')
 
-TOTAL_DOWNLOADS=$((GITHUB_COUNT+CRATES_COUNT+HOMEBREW_COUNT))
+GHCR_COUNT=$(curl -s https://github.com/gyulyvgc/sniffnet/pkgs/container/sniffnet | grep -A1 "Total downloads" | grep -o 'title="[0-9]*"' | cut '-d=' -f 2 | sed 's/"//g')
+
+TOTAL_DOWNLOADS=$((GITHUB_COUNT+CRATES_COUNT+HOMEBREW_COUNT+GHCR_COUNT))
 
 PREVIOUS_DOWNLOADS=$(cat download_count.txt)
 
