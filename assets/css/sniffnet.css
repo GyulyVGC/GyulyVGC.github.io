@@ -329,6 +329,20 @@ img {
   color: #e58be5;
 }
 
+.tag-button {
+  margin: 0.3125rem;
+  background-color: {{ site.page-col | default: "#333333" }};
+  border-radius: 10px;
+  border: 1px solid #01c6ff88;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  color: {{ site.text-col | default: "#404040" }};
+}
+.tag-button:hover {
+  background-color: {{ site.navbar-col | default: "#333333" }};
+  color: {{ site.text-col | default: "#404040" }};
+}
+
 .navbar-toggler {
   font-size: 1rem;
   margin: 0.5rem 0;
@@ -801,10 +815,6 @@ footer .footer-custom-content {
 }
 
 /* Tags page */
-
-.tag-btn {
-  margin: 0.3125rem;
-}
 
 #full-tags-list {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
