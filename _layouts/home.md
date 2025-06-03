@@ -69,7 +69,7 @@ Last but not least, this application is totally developed in <b>Rust</b>: a mode
 <hr/>
 
 <h2 class="myHeading"> User manual </h2>
-Do you want to <b>learn more</b>? <br>
+Do you want to learn more? <br>
 Check out the <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/wiki"><b>Sniffnet Wiki</b></a>, a comprehensive manual to help you
 thoroughly master the application from a basic setup to the most advanced functionalities. <br>
 The Wiki includes step-by-step guides, tips, examples of usage, and answers to frequent questions.
@@ -83,5 +83,10 @@ The Wiki includes step-by-step guides, tips, examples of usage, and answers to f
 <hr/>
 
 <h2 class="myHeading"> Stay in the loop </h2>
-Wait... there's more!<br>Sniffnet is <b>rapidly evolving</b>, and new features are added on a regular basis.<br>
-Follow the <a href="{{ 'news' | relative_url }}"><b>news</b></a> to never miss an update.
+Wait... there's more!<br>
+A lot is happening behind the scenes: follow the <a href="{{ 'news' | relative_url }}"><b>news</b></a> to never miss an update.<br><br>
+
+The project is rapidly evolving, with new features rolling out regularly.<br>
+Check out the <b>visual roadmap</b> below to see where Sniffnet is headed next.<br><br>
+
+<iframe style="border:none; border-radius: 20px;" width="100%" height="350" src="https://whimsical.com/embed/Damodrdfx22V9jGnpHSCGo"></iframe>
