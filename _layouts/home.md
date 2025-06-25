@@ -7,7 +7,7 @@ layout: page
 </div><br/>
 
 <div align="center">
-  <img id="myShadowBig" width="100%" src="{{ 'assets/img/overview_page.png' | relative_url }}" alt="" />
+  <img id="myShadow" width="100%" src="{{ 'assets/img/overview_page.png' | relative_url }}" alt="" />
   <br/><br/>
  Cross-platform. Intuitive. Reliable.
  </div>
@@ -27,7 +27,7 @@ Whether you want to <b>gather statistics</b>, you’re curious to see <b>who you
 </div><br/>
 
 <div>
-<img align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/translations.svg' | relative_url }}" alt="" />In the spirit of being approachable by as many users as possible, the application is available in <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/issues/60">20 different languages</a> thanks to the <b>translations by native speakers</b> from all over the world.
+<img align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/translations.svg' | relative_url }}" alt="" />In the spirit of being approachable by as many users as possible, the application is available in <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/issues/60">22 different languages</a> thanks to the <b>translations by native speakers</b> from all over the world.
 </div><br/>
 
 <div>
@@ -54,13 +54,13 @@ Last but not least, this application is totally developed in <b>Rust</b>: a mode
   <li>📖 view overall <b>statistics</b> about your Internet traffic</li>
   <li>📈 view <b>real-time charts</b> about traffic intensity</li>
   <li>📌 keep an eye on your network even when the application is <b>minimized</b></li>
-  <li>📁 <b>export</b> comprehensive capture reports as <b>PCAP</b> files</li>
+  <li>📁 <b>import</b> and <b>export</b> comprehensive capture reports as <b>PCAP</b> files</li>
   <li>🔎 identify <b>6000+ upper layer services</b>, protocols, trojans, and worms</li>
   <li>🌐 find out <b>domain name</b> and <b>ASN</b> of the hosts you are exchanging traffic with</li>
   <li>🏠 identify connections in your <b>local network</b></li>
-  <li>🌍 discover the <b>geographical location</b> of the remote hosts</li>
+  <li>🌍 discover the <b>geographical location</b> of remote hosts</li>
   <li>⭐ save your <b>favorite</b> network hosts</li>
-  <li>🕵️‍♂️ <b>inspect</b> each of your network connections in real time</li>
+  <li>🕵️‍♂️ search and <b>inspect</b> each of your network connections in real time</li>
   <li>🔉 set custom <b>notifications</b> to inform you when defined network events occur</li>
   <li>🎨 choose the <b>style</b> that fits you the most, including custom themes support</li>
 <li><b>... and more!</b>
