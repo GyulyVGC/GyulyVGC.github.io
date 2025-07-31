@@ -38,7 +38,7 @@ fi
 
 echo "DOWNLOADS_STRING: $DOWNLOADS_STRING"
 
-if ! [[ $DOWNLOADS_STRING =~ ^[1-9][0-9]*([.][0-9])?[KM]$ ]] ; then
+if ! [[ $DOWNLOADS_STRING =~ ^[1-9][0-9]{0,2}(\.[0-9]M|K)$ ]] ; then
        echo "Error: Invalid format for DOWNLOADS_STRING"
        exit 1
 fi
