@@ -34,7 +34,7 @@ drop cool <a target="_blank" href="https://grindhouse.dev/collections/sniffnet">
 
 As you can see, the plan is to keep Sniffnet alive and kicking for a long time, with new features and improvements being added regularly.
 
-While we are at it, I want to preview something I'm really excited about: **process identification** will land in the next major version of Sniffnet!<br>
+While we are at it, I want to give you a little spoiler: **process identification** will land in the next major version of Sniffnet!<br>
 This is possibly the single <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/issues/170">most requested</a> feature since the start of the project,
 and will allow you to see which application is responsible for each network connection, making Sniffnet an even more powerful tool for troubleshooting and monitoring your system's network activity.<br>
 I started working on it and, despite still being a draft, I already can't wait to share it with you all!
