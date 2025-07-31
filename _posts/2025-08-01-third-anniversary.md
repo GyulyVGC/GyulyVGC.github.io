@@ -8,108 +8,112 @@ share-img: /assets/img/post/third-anniversary/cover.png
 tags: [anniversary]
 ---
 
-<div align="center">
-<picture>
-<img alt="Downloads" title="Downloads" style="border-radius: 15px" src="{{ 'assets/img/post/third-anniversary/downloads.png' | relative_url }}" width="70%"/>
-</picture>
-</div>
-
-<br>
-
-<div align="center">
-<picture>
-<img alt="GitHub Stars" title="GitHub Stars" style="border-radius: 15px" src="{{ 'assets/img/post/third-anniversary/stars.png' | relative_url }}" width="70%"/>
-</picture>
-</div>
-
-
-
-
-
-
-_Woah_.<br>
-Another year has flown away.<br><br>
-It seems like yesterday that I was writing down the <a href="{{ 'news/first-anniversary' | relative_url }}">post</a> to celebrate Sniffnet’s first anniversary.<br>
-On that day, I was coming from a period in which I totally dedicated myself to the app development. <br>
-Like 12 hours per day, and that was cool.
+Sniffnet is 3 years old today!<br><br>
+This is the perfect occasion to look back at the past year, share some insights on the future of the project,
+and talk about the importance of sustainable open source development.
 
 <hr>
 
-### The crossroads 🔀
+### Planning
 
-However, in the long run, **Sniffnet alone wasn’t enough to pay the bills** — even a part-time job is way more profitable.<br>
-For this reason, I decided to open myself to new opportunities, and last September **I was hired as a full-time Rust developer** on a cybersecurity product.<br>
-I was lucky enough to get hired for a _remote_ position, allowing me to code from the comfort of my room, where I’m the most inspired and productive.<br>
-Moreover, the fact that I’m still using Rust on a daily basis makes it awesome — _I really can’t complain_.
+When I launched Sniffnet three years ago, I could never imagine that it would become such a long-term project.<br>
+After the first few months, I had the feeling ideas would run out soon and that I'd have abandoned the project to focus on something else.
 
-_Well… then what?_<br>
-Being busy on other software projects 40 hours per week obviously doesn’t allow me to develop Sniffnet at the pace I used to.<br>
-At first, I thought I was at a _**crossroads**_: 
-- Sniffnet on one side
-- a full-time job on the other side
+Today, I'm happy to say I was wrong.<br>
+As time passes, Sniffnet is increasingly shifting from a toy project to an established software product.<br>
+As such, it needs accurate **management and planning** to keep it on track without getting lost.
 
+It's no longer just a matter of adding new features, but it's also about building solid foundations to ensure the project's **longevity**.<br>
+This is the reason why the past year didn't only bring two new releases of the app (<a target="_blank" href="https://github.com/GyulyVGC/sniffnet/releases/tag/v1.3.2">v1.3.2</a> and <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/releases/tag/v1.4.0">v1.4.0</a>),
+but was also characterised by a bunch of behind-the-scenes work to set up this blog, write down extensive <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/wiki">documentation</a>,
+drop cool <a target="_blank" href="https://grindhouse.dev/collections/sniffnet">merchandise</a>, and come up with a detailed project roadmap that you can find below.
 
-<div align="center">
-<picture>
-<img alt="" title="The crossroads" src="{{ 'assets/img/post/second-anniversary/roads.png' | relative_url }}" width="50%"/>
-</picture>
+<div style="width:100%; padding-top:50%; position:relative;">
+    <iframe style="position:absolute; top:0; bottom:0; border:none; border-radius:20px;" width="100%" height="100%" src="https://whimsical.com/embed/Damodrdfx22V9jGnpHSCGo"></iframe>
 </div>
 
-It’s a tough decision.<br>
-In such circumstances, taking the full-time job road seemed the wisest and most reasonable thing to do.<br>
-But what if I tell you that it doesn’t have to be a _decision_?<br>
-I mean, it’s not physically a crossroads, right?
+As you can see, the plan is to keep Sniffnet alive and kicking for a long time, with new features and improvements being added regularly.
 
-<hr>
-
-### The puzzle 🧩
-
-Something I understood during the past year is that every single activity we perform brings added value to us as professionals, but most importantly as _thinkers_ and as _people_.<br>
-Instead of seeing it as a crossroads, I now like to see it as _**two pieces of the same puzzle**_: they can live on their own, but together they can form a bigger and more complete picture.
-
-<div align="center">
-<img alt="" title="The puzzle" width="50%" src="{{ 'assets/img/post/second-anniversary/cover.png' | relative_url }}"/>
-</div>
-
-Every working day, I notice how helpful are the skills that I built through thousands of hours maintaining Sniffnet.<br>
-Without the experience gained from open-source development, I wouldn’t have even been hired for my current position in the first place.<br>
-At the same time, digging further into Rust at work is enabling me to master and deeply understand aspects that I can now better apply to Sniffnet itself (generics, trait objects, and lifetimes, just to name a few).
-
-Sure, I have less time for Sniffnet now.<br>
-But I’m no longer sure that it’s a real loss — neither for me nor for the project itself.<br>
-I come back to Sniffnet when I feel to — _without any pressure and with a bag of new experiences_ — also thanks to the fact that remote jobs eliminate commute times and have more flexible schedules.
-
-During the past year, a new <a href="{{ 'news/v1.3' | relative_url }}">major version</a> was released, as well as a new <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/releases/tag/v1.3.1">minor version</a> just a few days ago.<br>
-The project is in **constant expansion**, and I’m really glad to see that many new users are still adopting Sniffnet.<br>
-Just considering the past week, the repository got about 1k more stars, the app was downloaded 10k more times, and Sniffnet is now the most popular GitHub project by the following topics:
-<a target="_blank" href="https://github.com/topics/utility">#utility</a>,
-<a target="_blank" href="https://github.com/topics/pcap">#pcap</a>,
-<a target="_blank" href="https://github.com/topics/network-monitoring">#network-monitoring</a>,
-<a target="_blank" href="https://github.com/topics/packet-sniffer">#packet-sniffer</a>,
- and more.
+While we are at it, I want to preview something I'm really excited about: **process identification** will land in the next major version of Sniffnet!<br>
+This is possibly the single <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/issues/170">most requested</a> feature since the start of the project,
+and will allow you to see which application is responsible for each network connection, making Sniffnet an even more powerful tool for troubleshooting and monitoring your system's network activity.<br>
+I started working on it and, despite still being a draft, I already can't wait to share it with you all!
 
 <div align="center">
 <picture>
-<img alt="" title="Adoption on Arch Linux" src="{{ 'assets/img/post/second-anniversary/arch.png' | relative_url }}" width="52%"/>
-</picture>&nbsp;
-<picture>
-<img alt="" title="GitHub stars" src="{{ 'assets/img/post/second-anniversary/stars.png' | relative_url }}" width="42%"/>
-</picture>
-<br><br>
-<picture>
-<img alt="" title="Rust trending repository of the day" src="{{ 'assets/img/post/second-anniversary/gh.png' | relative_url }}" width="95%"/>
+<img alt="Process identification" title="Process identification" src="{{ 'assets/img/post/third-anniversary/spoiler.png' | relative_url }}" width="45%"/>
 </picture>
 </div>
 
 <hr>
 
-### Wrap up 🤝
+### Community
 
-Often, we believe that having a _new priority_ implies _giving up_ on something else.<br>
-But it’s probably enough to shift our point of view in order to notice that a change in our habits is an _opportunity_ that can make us grow even further.<br>
-It’s never too late to go back and retrace our steps, while an opportunity not seized is something that may turn into a permanent regret.
+_"I can't wait to share it with you all"._
 
-_**Not all the pieces always fit together.<br>
-But if we don’t even try to build the puzzle, we won’t ever be able to grasp the whole picture.**_
+This is a phrase I often use when talking about Sniffnet's future, and it perfectly describes the force that drives me to keep working on it.<br>
+I love sharing my work with the community, and receiving feedback from users is an invaluable help in shaping the app's future.
 
-_Originally posted on <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/discussions/574">GitHub Discussions</a>._
+One of the pillars of software success is its **users**, and Sniffnet is no exception.<br>
+What I feared to be a scarcity of ideas in the long run, is rather turning into a constant **flow of inspiration** that keeps my will to work on Sniffnet more alive than ever.<br>
+
+Every year I think it won't be possible to keep the same pace of growth, but so far I've always been proven wrong.<br>
+In the past 12-month period Sniffnet was downloaded 145k times (more than the two previous years combined), and the GitHub repository gained 14k additional stars
+(even more than the year the project went viral).
+
+
+<div align="center">
+<picture>
+  <img alt="Downloads" title="Downloads" style="border-radius: 15px" src="{{ 'assets/img/post/third-anniversary/downloads.png' | relative_url }}" width="48%"/>
+</picture>
+<picture>
+  <img alt="GitHub Stars" title="GitHub Stars" style="border-radius: 15px" src="{{ 'assets/img/post/third-anniversary/stars.png' | relative_url }}" width="48%"/>
+</picture>
+</div>
+
+The best part?<br>
+This is a **vicious cycle**: the more the community grows, the more feedback I receive, the more motivated I am to work on Sniffnet, the more it improves, the more users it attracts, and so on.
+
+<hr>
+
+### Funding
+
+_"Energy can neither be created nor destroyed"._
+
+This is a fundamental law of physics, and it applies to open source work as well.<br>
+The energy that we as maintainers have for software development can neither be created nor destroyed.<br>
+Such energy is rather transformed into new features, bug fixes, user assistance, project planning, and so on.
+
+The problem is that our energy is limited and the **risk of burnout** is tangible, even more so if we're also juggling a full-time job.<br>
+As stated in the previous section, the community is a great source of motivation, which partially transforms into new energy for us.<br>
+However, getting paid for the work we carry out is the best way to make a project's sustainability viable, especially in the long term.
+
+Monetary support from end-users is typically narrow in open source, so part of our efforts is directed towards finding alternative funding sources.<br>
+In the past year, I was lucky enough to be able to work on Sniffnet while also being employed full-time.<br>
+This was made possible not only by my intrinsic motivation but also by the **financial support** received from the European Union's <a target="_blank" href="https://ngi.eu/ngi-projects/ngi-zero-commons-fund/">Next Generation Internet</a> program,
+which allocated 21.6 million euros to support hundreds of projects just like Sniffnet.
+
+Having this kind of support should be the norm for widespread and impactful open source projects,
+and organizations are starting to realise that — see <a target="_blank" href="https://floss.fund">FLOSS/fund</a> and <a target="_blank" href="https://www.sovereign.tech/programs/fund">Sovereign Tech Fund</a> for other examples.
+
+It's still a very long way to go, but recently more and more initiatives of this sort are being launched, and I hope Sniffnet and other applications and libraries will be able to benefit from them in the near future.
+
+<hr>
+
+### Wrapping up
+
+Everyone wants to be sure that the software they use will be **maintained over time**.<br>
+This is especially true for open source projects, where the risk of abandonment is always lurking around the corner.
+
+For a project to be long-lasting, it needs to be sustainable, and this requires a combination of factors: a strong community, motivated maintainers, and financial support.
+
+<div align="center">
+<picture>
+<img alt="Open source pillars" title="Open source pillars" style="border-radius: 15px" src="{{ 'assets/img/post/third-anniversary/cover.png' | relative_url }}" width="50%"/>
+</picture>
+</div>
+
+I want to **thank you all** from the bottom of my heart for being one of the pillars of Sniffnet's sustainability.<br>
+You can expect more exciting in-app features coming soon, as well as new content on this blog.
+
+Let's hope for lots more anniversaries to come!
