@@ -38,6 +38,11 @@ fi
 
 echo "DOWNLOADS_STRING: $DOWNLOADS_STRING"
 
+if ! [[ $DOWNLOADS_STRING =~ ^[1-9][0-9]*([.][0-9])?[KM]$ ]] ; then
+       echo "Error: Invalid format for DOWNLOADS_STRING"
+       exit 1
+fi
+
 curl -o assets/img/downloads_badge.svg https://img.shields.io/badge/Downloads-$DOWNLOADS_STRING-blue?style=for-the-badge
 
 exit 0
