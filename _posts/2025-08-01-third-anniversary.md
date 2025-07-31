@@ -17,16 +17,16 @@ and talk about the importance of sustainable open source development.
 ### Planning
 
 When I launched Sniffnet three years ago, I could never imagine that it would become such a long-term project.<br>
-After the first few months, I had the feeling ideas would run out soon and that I'd have abandoned the project to focus on something else.
+After the first few months, I had the feeling ideas would run out soon and that I'd have abandoned the ship to focus on something else.
 
 Today, I'm happy to say I was wrong.<br>
-As time passes, Sniffnet is increasingly shifting from a toy project to an established software product.<br>
+As time passes, Sniffnet is increasingly shifting from a toy application to an established software product.<br>
 As such, it needs accurate **management and planning** to keep it on track and ensure its steady progress.
 
-It's no longer just a matter of adding new features, but it's also about building solid foundations to ensure the project's **longevity**.<br>
+It's no longer just a matter of coding, but it's also about building solid foundations to ensure the project's **longevity**.<br>
 This is the reason why the past year didn't only bring two new releases of the app (<a target="_blank" href="https://github.com/GyulyVGC/sniffnet/releases/tag/v1.3.2">v1.3.2</a> and <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/releases/tag/v1.4.0">v1.4.0</a>),
-but was also characterised by a bunch of behind-the-scenes work to set up this blog, write down extensive <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/wiki">documentation</a>,
-drop cool <a target="_blank" href="https://grindhouse.dev/collections/sniffnet">merchandise</a>, and come up with a detailed project roadmap that you can find below.
+but was also characterised by a bunch of behind-the-scenes efforts to set up this blog, write down extensive <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/wiki">documentation</a>,
+drop cool <a target="_blank" href="https://grindhouse.dev/collections/sniffnet">merchandise</a>, and come up with a detailed roadmap that you can find below.
 
 <div style="width:100%; padding-top:50%; position:relative;">
     <iframe style="position:absolute; top:0; bottom:0; border:none; border-radius:20px;" width="100%" height="100%" src="https://whimsical.com/embed/Damodrdfx22V9jGnpHSCGo"></iframe>
@@ -36,7 +36,7 @@ As you can see, the plan is to keep Sniffnet alive and kicking for a long time, 
 
 While we are at it, I want to give you a little spoiler: **process identification** will land in the next major version of Sniffnet!<br>
 This is possibly the single <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/issues/170">most requested</a> feature since the start of the project,
-and will allow you to see which application is responsible for each network connection, making Sniffnet an even more powerful tool for troubleshooting and monitoring your system's network activity.<br>
+and will allow you to see which application is responsible for each connection, making Sniffnet an even more powerful tool for troubleshooting and monitoring your system's network activity.<br>
 I started working on it and, despite still being a draft, I already can't wait to share it with you all!
 
 <div align="center">
@@ -51,7 +51,7 @@ I started working on it and, despite still being a draft, I already can't wait t
 
 _"I can't wait to share it with you all"._
 
-This is a phrase I often use when talking about Sniffnet's future, and it perfectly describes the force that drives me to keep working on it.<br>
+This is a phrase I often use when talking about Sniffnet, and it perfectly describes the force that drives me to keep investing my time on it.<br>
 I love sharing my work with the community, and receiving feedback from users is an invaluable help in shaping the app's future.
 
 One of the pillars of software success is its **users**, and Sniffnet is no exception.<br>
@@ -80,13 +80,13 @@ This is a **vicious cycle**: the more the community grows, the more feedback I r
 
 _"Energy can neither be created nor destroyed"._
 
-This is a fundamental law of physics, and it applies to open source work as well.<br>
+This is a fundamental law of physics, and it applies to open source as well.<br>
 The energy that we as maintainers have for software development can neither be created nor destroyed.<br>
-Such energy is rather transformed into new features, bug fixes, user assistance, project planning, and so on.
+Such energy is rather transformed into new features, bug fixes, user assistance, project planning.
 
 The problem is that our energy is limited and the **risk of burnout** is tangible, even more so if we're also juggling a full-time job.<br>
 As stated in the previous section, the community is a great source of motivation, which partially transforms into new energy for us.<br>
-However, getting paid for the work we carry out is the best way to make a project's sustainability viable, especially in the long term.
+However, getting paid for the work we carry out is a much more stable way to make sustainability viable, especially in the long term.
 
 Monetary support from end-users is typically narrow in open source, so part of our efforts is directed towards finding alternative funding sources.<br>
 In the past year, I was lucky enough to be able to work on Sniffnet while also being employed full-time.<br>
@@ -96,14 +96,14 @@ which allocated 21.6 million euros to support hundreds of projects just like Sni
 Having this kind of support should be the norm for widespread and impactful open source projects,
 and organizations are starting to realise it — see <a target="_blank" href="https://floss.fund">FLOSS/fund</a> and <a target="_blank" href="https://www.sovereign.tech/programs/fund">Sovereign Tech Fund</a> for other examples.
 
-It's still a very long way to go, but recently more and more initiatives of this sort are being launched, and I hope Sniffnet and other applications and libraries will be able to benefit from them in the near future.
+It's still a very long way to go, but recently multiple initiatives of this sort are being launched, and I hope Sniffnet and other applications and libraries will be able to benefit from them in the near future.
 
 <hr>
 
 ### Wrapping up
 
-Everyone wants to be sure that the software they use will be **maintained over time**.<br>
-This is especially true for open source projects, where the risk of abandonment is always lurking around the corner.
+Everyone wants to be sure that the applications they use will be **maintained over time**.<br>
+This is especially true for open source software, where the risk of abandonment is always lurking around the corner.
 
 For a project to be long-lasting, it needs to be sustainable, and this requires a combination of factors: a strong community, motivated maintainers, and financial support.
 
@@ -113,7 +113,7 @@ For a project to be long-lasting, it needs to be sustainable, and this requires 
 </picture>
 </div>
 
-I want to **thank you all** from the bottom of my heart for being one of the pillars of Sniffnet's sustainability.<br>
-You can expect more exciting in-app features coming soon, as well as new content on this blog.
+I want to **thank you all** from the bottom of my heart for being one of the pillars behind Sniffnet's success.<br>
+You can expect exciting in-app features coming soon, as well as new content on this blog.
 
 Let's hope for lots more anniversaries to come!
