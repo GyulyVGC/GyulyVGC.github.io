@@ -21,7 +21,7 @@ After the first few months, I had the feeling ideas would run out soon and that 
 
 Today, I'm happy to say I was wrong.<br>
 As time passes, Sniffnet is increasingly shifting from a toy project to an established software product.<br>
-As such, it needs accurate **management and planning** to keep it on track without getting lost.
+As such, it needs accurate **management and planning** to keep it on track and ensure its steady progress.
 
 It's no longer just a matter of adding new features, but it's also about building solid foundations to ensure the project's **longevity**.<br>
 This is the reason why the past year didn't only bring two new releases of the app (<a target="_blank" href="https://github.com/GyulyVGC/sniffnet/releases/tag/v1.3.2">v1.3.2</a> and <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/releases/tag/v1.4.0">v1.4.0</a>),
@@ -58,7 +58,7 @@ One of the pillars of software success is its **users**, and Sniffnet is no exce
 What I feared to be a scarcity of ideas in the long run, is rather turning into a constant **flow of inspiration** that keeps my will to work on Sniffnet more alive than ever.<br>
 
 Every year I think it won't be possible to keep the same pace of growth, but so far I've always been proven wrong.<br>
-In the past 12-month period Sniffnet was downloaded 145k times (more than the two previous years combined), and the GitHub repository gained 14k additional stars
+In the past 12-month period Sniffnet was downloaded 145k times (equal to the two previous years combined), and the GitHub repository gained 14k additional stars
 (even more than the year the project went viral).
 
 
@@ -94,7 +94,7 @@ This was made possible not only by my intrinsic motivation but also by the **fin
 which allocated 21.6 million euros to support hundreds of projects just like Sniffnet.
 
 Having this kind of support should be the norm for widespread and impactful open source projects,
-and organizations are starting to realise that — see <a target="_blank" href="https://floss.fund">FLOSS/fund</a> and <a target="_blank" href="https://www.sovereign.tech/programs/fund">Sovereign Tech Fund</a> for other examples.
+and organizations are starting to realise it — see <a target="_blank" href="https://floss.fund">FLOSS/fund</a> and <a target="_blank" href="https://www.sovereign.tech/programs/fund">Sovereign Tech Fund</a> for other examples.
 
 It's still a very long way to go, but recently more and more initiatives of this sort are being launched, and I hope Sniffnet and other applications and libraries will be able to benefit from them in the near future.
 
