@@ -23,9 +23,25 @@ if [ $TOTAL_DOWNLOADS -lt $PREVIOUS_DOWNLOADS ]; then
     exit 1
 fi
 
+DIFF=$((TOTAL_DOWNLOADS - PREVIOUS_DOWNLOADS))
+echo "DIFF: $DIFF"
+
 echo -n $TOTAL_DOWNLOADS > download_count.txt
 
-DOWNLOADS_STRING=$((TOTAL_DOWNLOADS/1000))k
+if [ $TOTAL_DOWNLOADS -ge 1000000 ]; then
+    FLOAT=$(bc -l <<< "$TOTAL_DOWNLOADS/1000000")
+    DOWNLOADS_STRING=$(printf "%.1f" $FLOAT)M
+else
+    FLOAT=$(bc -l <<< "$TOTAL_DOWNLOADS/1000")
+    DOWNLOADS_STRING=$(printf "%.0f" $FLOAT)K
+fi
+
+echo "DOWNLOADS_STRING: $DOWNLOADS_STRING"
+
+if ! [[ $DOWNLOADS_STRING =~ ^[1-9][0-9]{0,2}(\.[0-9]M|K)$ ]] ; then
+       echo "Error: Invalid format for DOWNLOADS_STRING"
+       exit 1
+fi
 
 curl -o assets/img/downloads_badge.svg https://img.shields.io/badge/Downloads-$DOWNLOADS_STRING-blue?style=for-the-badge
 
