@@ -6,6 +6,7 @@ nav-title: News
 thumbnail-img: /assets/img/post/third-anniversary/cover.png
 share-img: /assets/img/post/third-anniversary/cover.png
 tags: [anniversary]
+github-discussion: 915
 ---
 
 Sniffnet is 3 years old today!<br><br>

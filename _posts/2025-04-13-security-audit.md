@@ -6,6 +6,7 @@ nav-title: News
 thumbnail-img: /assets/img/post/security-audit/cover.png
 share-img: /assets/img/post/security-audit/cover.png
 tags: [event]
+github-discussion: 778
 ---
 
 It's not a secret that modern world heavily relies on software.<br>

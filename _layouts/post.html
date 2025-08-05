@@ -36,9 +36,27 @@ layout: base
         </div>
       {% endif %}
 
-      <hr style="margin-bottom: 50px; margin-top: 5px">
+      <hr style="margin-top: 5px">
 
-      <ul class="pagination blog-pager">
+      {% if page.github-discussion %}
+      <div style="margin-top: 30px">
+        <script src="https://giscus.app/client.js"
+                data-repo="GyulyVGC/sniffnet"
+                data-repo-id="R_kgDOHvz5Qw"
+                data-mapping="number"
+                data-term="{{ page.github-discussion }}"
+                data-reactions-enabled="1"
+                data-emit-metadata="0"
+                data-input-position="bottom"
+                data-theme="cobalt"
+                data-lang="en"
+                crossorigin="anonymous"
+                async>
+        </script>
+      </div>
+      {% endif %}
+
+      <ul style="margin-top: 50px" class="pagination blog-pager">
         {% if page.previous.url %}
         <li class="page-item previous">
           <a class="page-link" href="{{ page.previous.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title | strip_html | xml_escape}}">

@@ -6,6 +6,7 @@ nav-title: News
 thumbnail-img: /assets/img/post/top-product-hunt/cover.png
 share-img: /assets/img/post/top-product-hunt/cover.png
 tags: [trending]
+github-discussion: 501
 ---
 
 A <a href="{{ 'news/v1.3' | relative_url }}">new major version</a> of Sniffnet was published just a few days ago,

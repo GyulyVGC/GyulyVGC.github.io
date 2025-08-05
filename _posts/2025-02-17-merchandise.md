@@ -6,6 +6,7 @@ nav-title: News
 thumbnail-img: /assets/img/merch.png
 share-img: /assets/img/merch.png
 tags: [branding]
+github-discussion: 722
 ---
 
 **Sniffnet merch is finally real** 🎉 <br><br>

@@ -6,6 +6,7 @@ nav-title: News
 thumbnail-img: /assets/img/post/github-accelerator-demo-day/cover.png
 share-img: /assets/img/post/github-accelerator-demo-day/cover.png
 tags: [event]
+github-discussion: 287
 ---
 
 I'm excited to share that on June 28,

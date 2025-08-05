@@ -6,6 +6,7 @@ nav-title: News
 thumbnail-img: /assets/img/post/rethink-over-workaround/cover.png
 share-img: /assets/img/post/rethink-over-workaround/cover.png
 tags: [development]
+github-discussion: 809
 ---
 
 This is a different kind of post from what you're used to read on this blog.<br>

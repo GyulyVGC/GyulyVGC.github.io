@@ -6,6 +6,7 @@ nav-title: News
 thumbnail-img: /assets/img/post/second-anniversary/cover.png
 share-img: /assets/img/post/second-anniversary/cover.png
 tags: [anniversary]
+github-discussion: 574
 ---
 
 _Woah_.<br>
