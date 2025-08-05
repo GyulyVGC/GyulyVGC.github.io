@@ -6,6 +6,7 @@ nav-title: News
 thumbnail-img: /assets/img/post/hacker-news/cover.png
 share-img: /assets/img/post/hacker-news/cover.png
 tags: [trending]
+github-discussion: 195
 ---
 
 I'm super excited to share that after <a href="{{ 'news/v1.2' | relative_url }}">yesterday's release</a>, Sniffnet has made it to <a target="_blank" href="https://news.ycombinator.com">Hacker News</a> front page!<br>

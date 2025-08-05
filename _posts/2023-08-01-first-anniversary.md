@@ -6,6 +6,7 @@ nav-title: News
 thumbnail-img: /assets/img/post/first-anniversary/cover.png
 share-img: /assets/img/post/first-anniversary/cover.png
 tags: [anniversary]
+github-discussion: 329
 ---
 
 I’m excited to share with y’all that Sniffnet is **one year old today**!<br><br>
