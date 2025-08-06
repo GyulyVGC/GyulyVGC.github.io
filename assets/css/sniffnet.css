@@ -217,14 +217,12 @@ hr.small {
 }
 
 ::-moz-selection {
-  color: #000;
   text-shadow: none;
-  background-color: #B4D5FE;
+  background-color: #B4D5FE55;
 }
 ::selection {
-  color: #000;
   text-shadow: none;
-  background-color: #B4D5FE;
+  background-color: #B4D5FE55;
 }
 img::selection {
   color: #fff;
