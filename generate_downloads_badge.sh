@@ -1,6 +1,6 @@
 #!/bin/bash
 
-GITHUB_COUNT=$(curl -s https://api.github.com/repos/gyulyvgc/sniffnet/releases | grep -E 'download_count' | cut '-d:' -f 2 | sed 's/,//g' | paste -s -d+ - | bc)
+GITHUB_COUNT=$(curl -s https://api.github.com/repos/gyulyvgc/sniffnet/releases | grep '"download_count"' | awk '{sum += $2} END {print sum}')
 echo "GITHUB_COUNT: $GITHUB_COUNT"
 
 CRATES_COUNT=$(curl -s https://crates.io/api/v1/crates/sniffnet | grep -E -o '"downloads":[0-9]*' | head -1 | cut '-d:' -f 2)
@@ -43,6 +43,6 @@ if ! [[ $DOWNLOADS_STRING =~ ^[1-9][0-9]{0,2}(\.[0-9]M|K)$ ]] ; then
        exit 1
 fi
 
-curl -o assets/img/downloads_badge.svg https://img.shields.io/badge/Downloads-$DOWNLOADS_STRING-blue?style=for-the-badge
+curl -s -f -o assets/img/downloads_badge.svg https://img.shields.io/badge/Downloads-$DOWNLOADS_STRING-blue?style=for-the-badge
 
 exit 0
