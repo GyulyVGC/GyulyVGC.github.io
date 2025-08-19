@@ -5,6 +5,9 @@ on:
     - cron: '0 18 * * *' # Every day at 6pm UTC
   workflow_dispatch:
 
+env:
+  GH_API_TOKEN: ${{ secrets.GH_API_TOKEN }}
+
 jobs:
   update-downloads-count:
     runs-on: macos-latest

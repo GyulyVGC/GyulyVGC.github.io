@@ -1,6 +1,6 @@
 #!/bin/bash
 
-GITHUB_CURL=$(curl -s https://api.github.com/repos/gyulyvgc/sniffnet/releases)
+GITHUB_CURL=$(curl -s https://api.github.com/repos/gyulyvgc/sniffnet/releases --header "Authorization: Bearer $GH_API_TOKEN")
 echo "---> GITHUB_CURL: $GITHUB_CURL"
 GITHUB_COUNT=$(echo "$GITHUB_CURL" | grep '"download_count"' | awk '{sum += $2} END {print sum}')
 echo "---> GITHUB_COUNT: $GITHUB_COUNT"
