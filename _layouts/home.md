@@ -22,25 +22,25 @@ Whether you want to <b>gather statistics</b>, you’re curious to see <b>who you
 
 <h2 class="myHeading"> What makes Sniffnet unique? </h2>
 
-<div>
+<div class="hoverRotateChildImg">
 <img align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/simple.svg' | relative_url }}" alt="" />Sniffnet is a <b>technical tool</b>, but at the same time it strongly focuses on the overall <b>user experience</b>: most of the network analyzers out there are cumbersome to use, while one of Sniffnet's cornerstones is to be <b>usable with ease by everyone</b>.
 </div><br/>
 
-<div>
+<div class="hoverRotateChildImg">
 <img align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/translations.svg' | relative_url }}" alt="" />In the spirit of being approachable by as many users as possible, the application is available in <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/issues/60">22 different languages</a> thanks to the <b>translations by native speakers</b> from all over the world.
 </div><br/>
 
-<div>
+<div class="hoverRotateChildImg">
 <img align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/security.svg' | relative_url }}" alt="" />
 Sniffnet is designed with a <b>security-first approach</b>: one of the top priorities has always been to protect users' <b>data privacy</b> and <b>system integrity</b>, as demonstrated by <a href="{{ 'news/security-audit' | relative_url }}">security audits</a> assessing the application safety.
 </div><br/>
 
-<div>
+<div class="hoverRotateChildImg">
 <a target="_blank" href="https://github.com/GyulyVGC/sniffnet"><img title="GitHub" align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/github.svg' | relative_url }}" alt=""/></a>
 Furthermore, Sniffnet is completely <b>free and open-source</b>, dual-licensed under MIT or Apache-2.0: if you are interested you can find the <a target="_blank" href="https://github.com/GyulyVGC/sniffnet">full source code on GitHub</a>.
 </div><br/>
 
-<div>
+<div class="hoverRotateChildImg">
 <img align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/rust.svg' | relative_url }}" alt="" />
 Last but not least, this application is totally developed in <b>Rust</b>: a modern programming language to build <b>efficient and reliable</b> software, emphasizing performance and safety.
 </div>
