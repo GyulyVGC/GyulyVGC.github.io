@@ -27,7 +27,7 @@ Whether you want to <b>gather statistics</b>, you’re curious to see <b>who you
 </div><br/>
 
 <div class="hoverRotateChildImg">
-<img align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/translations.svg' | relative_url }}" alt="" />In the spirit of being approachable by as many users as possible, the application is available in <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/issues/60">22 different languages</a> thanks to the <b>translations by native speakers</b> from all over the world.
+<img align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/translations.svg' | relative_url }}" alt="" />In the spirit of being approachable by as many users as possible, the application is available in <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/issues/60">23 different languages</a> thanks to the <b>translations by native speakers</b> from all over the world.
 </div><br/>
 
 <div class="hoverRotateChildImg">
