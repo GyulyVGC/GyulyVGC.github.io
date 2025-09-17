@@ -34,6 +34,7 @@ fi
 DIFF=$((TOTAL_DOWNLOADS - PREVIOUS_DOWNLOADS))
 echo "DIFF: $DIFF"
 echo "$(date +%F) $DIFF" >> download_daily.txt
+echo -n "$(tail -n 31 download_daily.txt)" > download_daily_31.txt
 
 echo -n $TOTAL_DOWNLOADS > download_count.txt
 
@@ -52,6 +53,6 @@ if ! [[ $DOWNLOADS_STRING =~ ^[1-9][0-9]{0,2}(\.[0-9]M|K)$ ]] ; then
        exit 1
 fi
 
-curl -s -f -o assets/img/downloads_badge.svg https://img.shields.io/badge/Downloads-$DOWNLOADS_STRING-blue?style=for-the-badge
+sed "s/REPLACE_ME/$DOWNLOADS_STRING/g" assets/img/downloads_badge_template.svg > assets/img/downloads_badge.svg
 
 exit 0

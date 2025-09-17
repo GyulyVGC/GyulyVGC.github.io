@@ -1,0 +1,107 @@
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1"></script>
+
+<div align="center" style="padding-top: 20px">
+    <div style="padding: 10px; margin-bottom: 35px; font-size: 1.3rem; float: left; width: 47.5%; border: 2px solid #77777777; border-radius: 10px">
+        <b><i>All-time downloads</i></b><br>
+        <span id="totalDownloads" style="font-size: 2rem; color: #999999"></span>
+    </div>
+    <div style="padding: 10px; margin-bottom: 35px; font-size: 1.3rem; float: right; width: 47.5%; border: 2px solid #77777777; border-radius: 10px">
+        <b><i>Past-month downloads</i></b><br>
+        <span id="pastMonthDownloads" style="font-size: 2rem; color: #999999"></span>
+    </div>
+</div>
+
+<div style="clear: both; text-align: center; padding: 10px; border: 2px solid #77777777; border-radius: 10px">
+    <span style="font-size: 1.3rem"><b><i>Past-month daily downloads</i></b></span>
+    <canvas id="downloadChart" style="width:100%; padding-top: 10px"></canvas>
+</div>
+
+<script>
+    fetch("../download_count.txt")
+        .then((res) => res.text())
+        .then((text) => {
+            let count = parseInt(text);
+            document.getElementById("totalDownloads").innerText = count.toLocaleString("en-US");
+        })
+        .catch((e) => console.error(e));
+
+    fetch("../download_daily_31.txt")
+        .then((res) => res.text())
+        .then((text) => {
+                let xValues = [];
+                let yValues = [];
+                let pastMonthCount = 0;
+                const options = {
+                    month: "short",
+                    day: "numeric",
+                };
+                const dateTimeFormat = new Intl.DateTimeFormat("en-US", options);
+                for (const line of text.split("\n")) {
+                    const parts = line.split(" ");
+                    if (parts.length === 2) {
+                        let date = Date.parse(parts[0]);
+                        let date_formatted = dateTimeFormat.format(date);
+                        let val = parseInt(parts[1]);
+                        xValues.push(date_formatted);
+                        yValues.push(val);
+                        pastMonthCount += val;
+                    }
+                }
+                document.getElementById("pastMonthDownloads").innerText = pastMonthCount.toLocaleString("en-US");
+                new Chart("downloadChart", {
+                    type: "line",
+                    data: {
+                        labels: xValues,
+                        datasets: [{
+                            pointRadius: 3.5,
+                            pointHoverRadius: 7,
+                            fill: true,
+                            cubicInterpolationMode: "default",
+                            lineTension: 0.4,
+                            borderColor: "#01c6ff",
+                            backgroundColor: "#01c6ff22",
+                            pointBackgroundColor: "#081020",
+                            pointBorderColor: "#01c6ff",
+                            pointBorderWidth: 2,
+                            pointHoverBorderWidth: 2,
+                            data: yValues
+                        }]
+                    },
+                    options: {
+                        devicePixelRatio: 3,
+                        plugins: {
+                            legend: {display: false},
+                            tooltip: {
+                                borderColor: "#77777777",
+                                borderWidth: 2,
+                                backgroundColor: "#081020",
+                                titleColor: "#999999",
+                                bodyColor: "#999999",
+                                boxWidth: 10,
+                                boxHeight: 10,
+                                boxPadding: 3,
+                                caretSize: 7,
+                                caretPadding: 7
+                            }
+                        },
+                        scales: {
+                            x: {
+                                ticks: { maxTicksLimit: 5, color: "#999999", maxRotation: 0, minRotation: 0 },
+                                grid: { color: "#77777777" },
+                            },
+                            y: {
+                                beginAtZero: true,
+                                ticks: { precision: 0, maxTicksLimit: 6, color: "#999999", maxRotation: 0, minRotation: 0 },
+                                grid: { color: "#77777777" },
+                            },
+                        },
+                        interaction: {
+                            intersect: false,
+                            mode: "index"
+                        },
+                    }
+                });
+            }
+        )
+        .catch((e) => console.error(e));
+</script>
