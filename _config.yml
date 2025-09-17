@@ -163,7 +163,6 @@ exclude:
   - screenshot.png
   - docs/
   - generate_downloads_badge.sh
-  - download_count.txt
   - download_daily.txt
   - .sass-cache/
   - .jekyll-cache/
