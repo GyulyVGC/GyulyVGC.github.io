@@ -57,8 +57,97 @@ share-img: /assets/img/preview.png
     </div>
   </div>
 
-<hr/>
-
 Not what you're looking for? Check out <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/wiki/Alternative-installation-methods">alternative installation methods</a>.<br/><br/>
 In case of problems with the installation, make sure your system has the <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/wiki/Required-dependencies">required dependencies</a>.<br/><br/>
 If problems persist or you have doubts, don't hesitate to open an <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/issues">issue</a>.
+
+<hr/>
+
+<!DOCTYPE html>
+<html>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1"></script>
+<body>
+<div align="center" style="padding-top: 20px">
+  <span style="color: #999999"><b>Downloads over the past month</b></span>
+  <canvas id="myChart" style="width:100%; padding-top: 10px"></canvas>
+</div>
+
+<script>
+  fetch("../download_daily_31.txt")
+          .then((res) => res.text())
+          .then((text) => {
+            let xValues = [];
+            let yValues = [];
+            const options = {
+              month: "short",
+              day: "numeric",
+            };
+            const dateTimeFormat = new Intl.DateTimeFormat("en-US", options);
+            for (const line of text.split("\n")) {
+              const parts = line.split(" ");
+              if (parts.length === 2) {
+                let date = Date.parse(parts[0]);
+                let date_formatted = dateTimeFormat.format(date);
+                xValues.push(date_formatted);
+                yValues.push(parseInt(parts[1]));
+              }
+            }
+                    new Chart("myChart", {
+                      type: "line",
+                      data: {
+                        labels: xValues,
+                        datasets: [{
+                          borderWidth: 1.5,
+                          pointRadius: 3,
+                          pointHoverRadius: 5,
+                          fill: true,
+                          cubicInterpolationMode: "default",
+                          lineTension: 0.4,
+                          borderColor: "#01c6ff",
+                          backgroundColor: "#01c6ff22",
+                          pointBackgroundColor: "#01c6ff",
+                          data: yValues
+                        }]
+                      },
+                      options: {
+                        responsive: false,
+                        devicePixelRatio: 3,
+                        plugins: {
+                          legend: {display: false},
+                          tooltip: {
+                            borderColor: "#77777777",
+                            borderWidth: 2,
+                            backgroundColor: "#081020",
+                            titleColor: "#999999",
+                            bodyColor: "#999999",
+                            boxWidth: 10,
+                            boxHeight: 10,
+                            boxPadding: 3,
+                            caretSize: 7,
+                            caretPadding: 7
+                          }
+                        },
+                        scales: {
+                          x: {
+                            ticks: { maxTicksLimit: 5, color: "#999999", maxRotation: 0, minRotation: 0 },
+                            grid: { color: "#77777777" },
+                          },
+                          y: {
+                            beginAtZero: true,
+                            ticks: { precision: 0, maxTicksLimit: 6, color: "#999999" },
+                            grid: { color: "#77777777" },
+                          },
+                        },
+                        interaction: {
+                          intersect: false,
+                          mode: "index"
+                        },
+                      }
+                    });
+          }
+          )
+          .catch((e) => console.error(e));
+</script>
+
+</body>
+</html>
