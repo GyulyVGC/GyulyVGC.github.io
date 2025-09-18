@@ -162,7 +162,7 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
-  - generate_downloads_badge.sh
+  - update_download_stats.sh
   - download_daily.txt
   - .sass-cache/
   - .jekyll-cache/

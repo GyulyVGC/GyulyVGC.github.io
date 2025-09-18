@@ -33,7 +33,7 @@ fi
 
 DIFF=$((TOTAL_DOWNLOADS - PREVIOUS_DOWNLOADS))
 echo "DIFF: $DIFF"
-echo "$(date +%F) $DIFF" >> download_daily.txt
+echo "$(date -v -1d +%F) $DIFF" >> download_daily.txt
 echo -n "$(tail -n 31 download_daily.txt)" > download_daily_31.txt
 
 echo -n $TOTAL_DOWNLOADS > download_count.txt
