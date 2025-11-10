@@ -113,7 +113,7 @@ footer-hover-col: "#a0e8f8"
 #################################
 
 # Fill in your Google Analytics tag ID (or "Measurement ID") to track your website usage
-gtag: "G-H233XSGNTM"
+#gtag: "G-H233XSGNTM"
 
 ################
 # --- Date --- #
