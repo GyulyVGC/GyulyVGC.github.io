@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["gyulyvgc99@gmail.com"]
 
   spec.summary       = "Sniffnet is a cross-platform application to help you comfortably monitor your Internet traffic."
-  spec.homepage      = "https://www.sniffnet.net"
+  spec.homepage      = "https://www.sniffnet.app"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|LICENSE|README|feed|404|_data|tags|staticman)}i) }
