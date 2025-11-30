@@ -21,7 +21,7 @@ Or even you're a network administrator in need to be alerted about events happen
 </picture>
 </div>
 
-Today you'll understand how to do all of this, and you'll also learn how to get the most out of built-in notifications by setting up advanced packet filter programs.
+Today you'll understand how Sniffnet makes this possible, and you'll also learn how to get the most out of built-in notifications by setting up advanced packet filter programs.
 
 The only prerequisite is to <a href="{{ 'download' | relative_url }}">install Sniffnet 1.4.2</a>. <br>
 If you already downloaded it, sit back and have a good read!
@@ -32,27 +32,27 @@ If you already downloaded it, sit back and have a good read!
 
 For a long time Sniffnet allowed its users to be warned about certain network events in the form of **in-app notifications**. <br>
 While this is useful to get alerts on the monitored machine, it doesn't allow one to be notified remotely. <br>
-To fill this gap, we recently added support for remote notifications via webhook.
+To fill this gap, support for remote notifications via webhook was added recently.
 
 A **webhook** is a real-time, automated message sent from one app to another, acting as a notification mechanism to 
 signal that an event has occurred.<br>
 The webhook producer (Sniffnet in this case) sends an object (typically in JSON format) containing the event details to a
 consumer, which listens for messages at a given endpoint and shows them to the user.<br>
-Webhooks are powerful yet simple in how they are conceived: in more practical terms they consist of
+Webhooks are powerful yet simple in how they are conceived: in practical terms they consist of
 HTTP POST requests sent to a URL — this means that you could even set up your own server to handle such messages in a custom way.
 
 <div align="center">
 <picture>
-<img alt="Webhook" title="Webhook" src="{{ 'assets/img/post/remote-notifications/webhook.png' | relative_url }}" width="50%"/>
+<img alt="Webhook diagram" title="Webhook diagram" src="{{ 'assets/img/post/remote-notifications/webhook.png' | relative_url }}" width="50%"/>
 </picture>
 </div>
 
-Since creating a custom web server is beyond the scope of this blog post, the first step we need to take is **determine which service** to use as the consumer of Sniffnet's alerts. <br>
+Since creating a custom web server is beyond the scope of this blog post, the first step we need to take is **determine which service to use** as the consumer of Sniffnet's alerts. <br>
 Said in a different way, we need a solution that makes available for us a pre-configured URL to receive webhooks:
 <a target="_blank" href="https://www.svix.com">Svix</a>,
 <a target="_blank" href="https://ifttt.com/maker_webhooks/">IFTTT</a>,
 and <a target="_blank" href="https://www.signl4.com">SIGNL4</a> are some examples of enterprise-ready services,
-but if you're just playing around and want to test things out you can also use something more straightforward like <a target="_blank" href="https://webhook.site">Webhook.site</a>.
+but if you're just playing around and want to test things out you can also look at something ready-to-use like <a target="_blank" href="https://webhook.site">Webhook.site</a>.
 
 <hr>
 
@@ -84,10 +84,10 @@ Feel free to explore other SIGNL4 settings, as you can customize alerts categori
 
 ### Configuring Sniffnet
 
-Now that we have a webhook URL ready to receive notifications, it's time to configure Sniffnet to send them. <br>
+Now that we have a webhook URL ready to receive notifications, it's time to configure Sniffnet to send them out. <br>
 
 1. Open Sniffnet and head to the settings by clicking on the button at the top right.
-2. Select the "Notifications" tab.
+2. Select the _"Notifications"_ tab.
 3. Enable the events you want to be alerted about: you can learn more about them in the <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/wiki/Notifications">_Notifications_</a> Wiki page.
 4. In the same settings tab, enable the _"Remote notifications"_ toggle, and paste the SIGNL4 URL you got from the previous section.
 
@@ -131,7 +131,7 @@ To do so, you can set a filter like the following one:
 </div>
 
 This program checks whether the TCP flags field (the 14th byte of the TCP header, hence the index 13) has the SYN bit set (indicating a new connection) and whether the destination port is 22. <br>
-With this filter in place, Sniffnet will only monitor packets matching these criteria:
+With this filter in place, Sniffnet will only monitor packets matching such criteria:
 in this scenario, you can set the notifications data threshold to zero to effectively get an alert for every new SSH connection attempt.
 
 <div align="center">
@@ -157,4 +157,4 @@ If you have in mind more events of interest to trigger a notification, don't hes
 This post is the first tutorial-like article published on the blog, and I hope you found it useful. <br>
 I may consider writing more tutorials in the future, especially targeted at covering the app's most advanced use cases.
 
-I wish you all in advance a joyful holiday season, a prosperous new year, and, as always, happy sniffing!
+I wish you all a joyful holiday season in advance and, as always, happy sniffing!
