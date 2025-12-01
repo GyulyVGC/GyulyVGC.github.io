@@ -6,7 +6,7 @@ nav-title: News
 thumbnail-img: /assets/img/post/remote-notifications/cover.png
 share-img: /assets/img/post/remote-notifications/cover.png
 tags: [tutorial]
-github-discussion: xxx
+github-discussion: 1015
 ---
 
 Less than a month ago a <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/releases/tag/v1.4.2">new version</a> of Sniffnet was released, and
