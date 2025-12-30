@@ -42,7 +42,7 @@
         "status": "active",
         "name": "Developer yearly compensation",
         "description": "This will cover one year of part-time working on Sniffnet.",
-        "amount": 18000,
+        "amount": 42000,
         "currency": "EUR",
         "frequency": "yearly",
         "channels": ["mybank"]
@@ -52,7 +52,7 @@
         "status": "active",
         "name": "Developer monthly compensation",
         "description": "This will cover one month of part-time working on Sniffnet.",
-        "amount": 1500,
+        "amount": 3500,
         "currency": "EUR",
         "frequency": "monthly",
         "channels": ["mybank"]
