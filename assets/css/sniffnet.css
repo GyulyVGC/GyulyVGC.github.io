@@ -367,6 +367,22 @@ img {
   border-width: 0.4em;
 }
 
+@media (max-width: 399px) {
+  .download-chart-container {
+    height: 260px;
+  }
+}
+@media (min-width: 400px) and (max-width: 499px) {
+  .download-chart-container {
+    height: 310px;
+  }
+}
+@media (min-width: 500px) {
+  .download-chart-container {
+    height: 360px;
+  }
+}
+
 @media (min-width: 1200px) {
   .navbar-custom .navbar-nav .nav-item {
     display: flex;
