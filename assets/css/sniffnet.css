@@ -150,9 +150,9 @@ html {
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 1.125rem;
-  color: {{ site.text-col | default: "#404040" }};
+  color: {{ site.text-col }};
   position: relative;
-  background-color: {{ site.page-col | default: "#FFFFFF" }};
+  background-color: {{ site.navbar-col }};
   {% if site.page-img %}
   background-image: url({{ site.page-img | relative_url }});
   background-attachment: fixed;
@@ -587,17 +587,8 @@ img {
 footer {
   padding: 1.875rem 0;
   border-top: 1px #01c6ff solid;
-  margin-top: 3.125rem;
   font-size: 0.875rem;
   background: {{ site.footer-col | default: "#333333" }};
-  {% if site.footer-img %}
-    background-image: url({{ site.footer-img | relative_url }});
-    background-attachment: fixed;
-  {% endif %}
-}
-
-footer p.text-muted {
-  color: {{ site.footer-text-col | default: "#888888" }} !important;
 }
 
 footer a {
@@ -620,15 +611,6 @@ footer .copyright {
   margin-top: 0;
   color: #888888;
 }
-footer .theme-by {
-  text-align: center;
-  margin: 0.625rem 0 0;
-}
-footer .footer-custom-content {
-  text-align: center;
-  margin-bottom: 0.9375rem;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
 
 @media (min-width: 768px) {
   footer {
@@ -638,9 +620,6 @@ footer .footer-custom-content {
     font-size: 1.125rem;
   }
   footer .copyright {
-    font-size: 1rem;
-  }
-  footer .footer-custom-content {
     font-size: 1rem;
   }
 }
@@ -858,7 +837,7 @@ footer .footer-custom-content {
 /* --- Post and page headers --- */
 
 .intro-header {
-  margin: 5rem 0 1.25rem;
+  padding: 5rem 0 1.25rem;
   position: relative;
 }
 .intro-header.big-img {
@@ -871,10 +850,10 @@ footer .footer-custom-content {
   margin-bottom: 2.1875rem;
 }
 nav.top-nav-short-permanent ~ header > .intro-header {
-  margin-top: 5rem;
+  padding-top: 5rem;
 }
 nav.top-nav-short-permanent ~ header > .intro-header.big-img {
-  margin-top: 3.1875rem;
+  padding-top: 3.1875rem;
 }
 .intro-header.big-img .big-img-transition {
   position: absolute;
@@ -944,7 +923,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 }
 @media (min-width: 1200px) {
   .intro-header {
-    margin-top: 8.125rem;
+    padding-top: 8.125rem;
   }
   .intro-header.big-img {
     margin-top: 5.6875rem; /* Full navbar is small navbar + 20px padding on each side when expanded */

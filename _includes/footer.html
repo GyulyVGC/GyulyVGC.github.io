@@ -28,13 +28,6 @@
       </ul>
         <div style="clear: both"></div>
         <hr class="footer">
-      {% if page.footer-extra %}
-        <div class="footer-custom-content">
-          {% for file in page.footer-extra %}
-            {% include {{ file }} %}
-          {% endfor %}
-        </div>
-      {% endif %}
         <div class="copyright">
       <span class="copyright" style="vertical-align: middle">
       © 2022-{{ site.time | date: '%Y' }}
