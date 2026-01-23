@@ -33,10 +33,6 @@
 
   <meta name="description" content="{{ description }}">
 
-  {% if site.mobile-theme-col %}
-  <meta name="theme-color" content="{{ site.mobile-theme-col }}">
-  {% endif %}
-
   {% if site.keywords %}
   <meta name="keywords" content="{{ site.keywords }}">
   {% endif %}
@@ -55,12 +51,6 @@
 
   {% if layout.common-css %}
     {% for css in layout.common-css %}
-      <link rel="stylesheet" href="{{ css | relative_url }}">
-    {% endfor %}
-  {% endif %}
-
-  {% if site.site-css %}
-    {% for css in site.site-css %}
       <link rel="stylesheet" href="{{ css | relative_url }}">
     {% endfor %}
   {% endif %}
@@ -126,8 +116,8 @@
   {% else %}
   <meta name="twitter:card" content="summary">
   {% endif %}
-  <meta name="twitter:site" content="@{{ site.social-network-links.twitter }}">
-  <meta name="twitter:creator" content="@{{ site.social-network-links.twitter }}">
+  <meta name="twitter:site" content="@sniffnet">
+  <meta name="twitter:creator" content="@sniffnet">
 
   <meta property="twitter:title" content="{{ title }}">
   <meta property="twitter:description" content="{{ description }}">

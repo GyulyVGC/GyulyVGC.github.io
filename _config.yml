@@ -1,54 +1,23 @@
-############################
-# --- Required options --- #
-############################
-
 # Name of website
 title: Sniffnet
 
-# Your name to show in the footer
+# Author name
 author: Giuliano Bellini
 
-###############################################
-# --- List of links in the navigation bar --- #
-###############################################
-
+# List of tabs in the navigation bar
 navbar-links:
   News: "news"
   Download: "download"
   Gallery: "gallery"
   Sponsor: "sponsor"
 
-################
-# --- Logo --- #
-################
-
-# Image to show in the navigation bar - works best with a square image
-# Remove this parameter if you don't want an image in the navbar
+# Logo
 avatar: "/assets/img/icon.svg"
 
-# By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
-round-avatar: false
-
-# If you want to have an image logo in the top-left corner instead of having the title of the website,
-# then specify the following parameter
+# If you want to have an image logo in the top-left corner instead of having the title of the website
 #title-img: /path/to/image
 
-
-#####################################
-# --- Footer social media links --- #
-#####################################
-
-social-network-links:
-#  email: "gyulyvgc99@gmail.com"
-  telegram: sniffnet
-  github: GyulyVGC/sniffnet
-  twitter: sniffnet
-  patreon: Sniffnet
-  reddit: sniffnet
-  linkedin: sniffnet
-
-# If you want your website to generate an RSS feed, provide a description
-# The URL for the feed will be https://<your_website>/feed.xml
+# RSS feed description
 rss-description: "Sniffnet: comfortably monitor your Internet traffic"
 
 ###########################
@@ -72,12 +41,8 @@ navbar-var-length: false
 # The keywords to associate with your website, for SEO purposes
 keywords: "sniffnet,network,internet,monitor,rust"
 
-######################################
-# --- Colours / background image --- #
-######################################
 
-# Personalize the colours in your website. Colour values can be any valid CSS colour
-
+# Colors
 navbar-col: "#081020"
 navbar-text-col: "#01c6ff"
 navbar-border-col: "#01c6ff"
@@ -90,41 +55,8 @@ footer-text-col: "#888888"
 footer-link-col: "#01c6ff"
 footer-hover-col: "#a0e8f8"
 
-# Alternatively, the navbar, footer, and page background can be set to an image
-# instead of colour
-
-#navbar-img: "/assets/img/bgimage.png"
-#footer-img: "/assets/img/bgimage.png"
-#page-img: "/assets/img/bgimage.png"
-
-# Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
-#mobile-theme-col: "#0085A1"
-
-# For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
-#site-css:
-#  - "/assets/css/custom-styles.css"
-
-# If you have common JavaScript files that should be included in every page, list them here
-#site-js:
-#  - "/assets/js/custom-script.js"
-
-#################################
-# --- Web Analytics Section --- #
-#################################
-
-# Fill in your Google Analytics tag ID (or "Measurement ID") to track your website usage
-#gtag: "G-H233XSGNTM"
-
-################
-# --- Date --- #
-################
-
 # Ruby Date Format to show dates of posts
 date_format: "%B %-d, %Y"
-
-#################################################################################
-# --- You don't need to touch anything below here (but you can if you want) --- #
-#################################################################################
 
 # Output options (more information on Jekyll's site)
 timezone: "America/Toronto"
@@ -173,6 +105,7 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
+# Jekyll plugins
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
