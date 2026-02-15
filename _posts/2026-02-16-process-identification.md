@@ -16,7 +16,8 @@ Today I'm back to share some behind-the-scenes about the development of a new fe
 
 ### What's process identification?
 
-With _"process identification"_ in a network monitoring context, I mean the possibility to discover which process is responsible for a given network connection. <br>
+With _"process identification"_ in a network monitoring context, I mean the possibility to discover which program is responsible for a given network connection.
+
 This can be determined by looking at the open TCP/UDP ports on the system and finding out which process is currently using them.
 
 It's a very useful feature, because it allows you to understand which applications are responsible for the observed network activity.
@@ -40,7 +41,7 @@ One could argue that this is a solved problem, since there are already existing 
 However, these tools are not designed to be used as libraries and spawining a shell to execute them repeatedly is not efficient, especially if you want to monitor the network activity in real-time. <br>
 Moreover, they don't provide all the information Sniffnet needs, such as the process name and path.
 
-And I didn't even mention yet what's probably the biggest challenge: the least system-intrusive ways to implement the feature are **snapshot-based**, meaning that they require to read the system state at a given moment and then do some processing to find out the associations between open ports and owning processes. <br>
+And I didn't even mention yet what's the biggest challenge: the least system-intrusive ways to implement the feature are **snapshot-based**, meaning that they require to read the system state at a given moment in time and do some computations to find out the associations between open ports and their owning processes. <br>
 I'm referring to using `libproc` on macOS, the `/proc` filesystem on Linux, and `iphlpapi` on Windows. <br>
 This is not a problem in itself, but it generates the need to do this processing very efficiently, and it leads to cases where it's not possible to retrieve process information at all.<br>
 For instance, short-lived connections can go undetected, and system processes with elevated privileges can be hidden to user-space applications for security reasons.
@@ -48,7 +49,7 @@ For instance, short-lived connections can go undetected, and system processes wi
 More system-intrusive approaches exist, such as using **kernel-level hooks** to intercept the system calls responsible for creating network connections. <br>
 An example of this is <a target="_blank" href="https://ebpf.io/what-is-ebpf/">eBPF</a> on Linux, which requires to run privileged code inside the kernel. <br>
 On macOS, you'd even need entitlements from Apple to be able to do something similar through their <a target="_blank" href="https://developer.apple.com/documentation/networkextension">Network Extension framework</a>. <br>
-While these approaches are way more accurate, they go against Sniffnet's philosophy of being a lightweight, non-intrusive and friendly app that can be installed by anyone.
+While these approaches are way more accurate, they go against Sniffnet's philosophy of being a lightweight, non-intrusive, and friendly app that can be installed by anyone.
 
 After considering all the options, I decided to go with the snapshot-based approach. <br>
 Despite being aware it's not flawless, I believe it to be the best compromise for Sniffnet's use case.
@@ -61,21 +62,21 @@ Despite being aware it's not flawless, I believe it to be the best compromise fo
 
 <div align="center">
 <picture>
-<a target="_blank" href="https://github.com/GyulyVGC/listeners">
+<a target="_blank" href="https://github.com/GyulyVGC/listeners?tab=readme-ov-file#listeners">
 <img alt="listeners library" title="listeners library" src="{{ 'assets/img/post/process-identification/listeners.png' | relative_url }}" width="90%"/>
 </a>
 </picture>
 </div>
 
 Being Sniffnet a cross-platform application, I needed a solution that could work on different Operating Systems:
-no other Rust crate provides this functionality supporting multiple platforms, and the existing ones are often not maintained or satisfactory enough even for a single OS.
+no other Rust crate provides this functionality supporting multiple platforms, and the existing ones are not maintained or satisfactory enough even for a single OS.
 
 Interestingly, I also had this same need at my job, where we also wanted a Rust way to do it: this motivated me even further to contribute to the library. <br>
 After two years, I'm happy to see that `listeners` was downloaded 150k times and has now multiple public dependents both on _crates.io_ and GitHub, which means that this is a problem shared among many people and projects.
 
-Just some days ago `listeners` <a target="blank" href="https://github.com/GyulyVGC/listeners/releases/tag/v0.4.0">v0.4.0</a> was published, and I'm particularly proud of this release for at least two reasons:
-1. **Support for FreeBSD** was introduced thanks to my colleague <a target="blank" href="https://github.com/antoncxx">Anton</a> (in addition to the already existing support for Windows, Linux, and macOS).<br>To my knowledge there is no existing crate at all that does something similar targeting FreeBSD and this adds a huge value to the library, even if at the moment we're using Rust-to-C bindings for this.
-2. I've spent the past week's nights **testing and extensively benchmarking** the library, considerably improve the APIs performance.<br>I had so much fun using <a target="_blank" href="https://crates.io/crates/criterion">`criterion`</a> to benchmark it under different system loads, and I've made the results generation completely automated on GitHub Actions runners for all the supported platforms.<br>You can find the results and more charts in the README's <a target="_blank" href="https://github.com/GyulyVGC/listeners?tab=readme-ov-file#benchmarks">Benchmarks section</a>.
+Just some days ago `listeners` <a target="_blank" href="https://github.com/GyulyVGC/listeners/releases/tag/v0.4.0">v0.4.0</a> was published, and I'm particularly proud of this release for at least two reasons:
+1. **Support for FreeBSD** was introduced thanks to my colleague <a target="_blank" href="https://github.com/antoncxx">Anton</a> (in addition to the already existing support for Windows, Linux, and macOS).<br>To my knowledge there is no existing crate at all that does something similar targeting FreeBSD and this adds a huge value to the library, even if at the moment we're using Rust-to-C bindings for this.
+2. I've spent the past week's nights **testing and extensively benchmarking** the library, considerably improving the APIs performance.<br>I had so much fun using <a target="_blank" href="https://crates.io/crates/criterion">`criterion`</a> to benchmark it under different system loads, and I've made the results generation completely automated on GitHub Actions runners for all the supported platforms.<br>You can find the results and more charts in the README's <a target="_blank" href="https://github.com/GyulyVGC/listeners?tab=readme-ov-file#benchmarks">Benchmarks section</a>.
 
 <div align="center">
 <picture>
@@ -95,7 +96,7 @@ Sniffnet will use `listeners` to retrieve the process for each observed network 
 
 Additionally, it will use another library called <a target="_blank" href="https://github.com/GyulyVGC/picon">`picon`</a> (I'm still working on it) to retrieve app icons given their program path, and will show them in the UI as well making it easier to identify processes at a glance.
 
-The workflow I plan to use is indeed pretty convoluted: it includes **caching** to minimize performance impact, and **retries** to maximize the chances to correctly retrieve process information for a given open port.
+The workflow I plan to use is indeed pretty complex, including **caching** to minimize performance impact and **retries** to maximize the chances to correctly retrieve process information for a given open port.
 
 In the flowchart below you can see a draft of Sniffnet-side implementation of the feature.
 
