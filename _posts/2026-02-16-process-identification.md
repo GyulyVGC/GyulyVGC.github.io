@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "One of the most intricate programming challenges I've ever faced"
-share-title: "One of the most intricate programming challenges I've ever faced"
+title: "One of the most annoying programming challenges I've ever faced"
+share-title: "One of the most annoying programming challenges I've ever faced"
 nav-title: News
 thumbnail-img: /assets/img/post/process-identification/cover.png
 share-img: /assets/img/post/process-identification/cover.png
@@ -10,7 +10,7 @@ github-discussion: xxxx
 ---
 
 Hey everyone, it's already been two months since the last blog post!<br><br>
-Today I'm back to share some behind-the-scenes about the development of a new feature for Sniffnet: **process identification**, a.k.a. <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/issues/170#issuecomment-3145510131">the most requested feature</a> since the very beginning of the project.
+Today I'm back to share some behind-the-scenes about the development of a new functionality for Sniffnet: **process identification**, a.k.a. <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/issues/170">the most requested feature</a> since the very beginning of the project.
 
 <hr>
 
@@ -41,7 +41,7 @@ One could argue that this is a solved problem, since there are already existing 
 However, these tools are not designed to be used as libraries and spawining a shell to execute them repeatedly is not efficient, especially if you want to monitor the network activity in real-time. <br>
 Moreover, they don't provide all the information Sniffnet needs, such as the process name and path.
 
-I didn't even mention yet what's the biggest challenge: the least system-intrusive ways to implement the feature are **snapshot-based**, meaning that they require to read the system state at a given moment in time and do some computations to find out the associations between open ports and their owning processes. <br>
+But the biggest challenge is another one: the least system-intrusive ways to implement the feature are **snapshot-based**, meaning that they require to read the system state at a given moment in time and do some computations to find out the associations between open ports and their owning processes. <br>
 I'm referring to using `libproc` on macOS, the `/proc` filesystem on Linux, and `iphlpapi` on Windows. <br>
 This is not a problem in itself, but it generates the need to do this processing very efficiently, and it leads to cases where it's not possible to retrieve process information at all.<br>
 For instance, short-lived connections can go undetected and system processes with elevated privileges can be hidden to user-space applications for security reasons.
@@ -97,7 +97,7 @@ Sniffnet will use `listeners` to retrieve the process for each observed network 
 
 Additionally, it will use another library called <a target="_blank" href="https://github.com/GyulyVGC/picon">`picon`</a> (I'm still working on it) to retrieve app icons given their program path, showing them in the UI as well to make it easier to identify processes at a glance.
 
-The workflow I plan to use is indeed pretty complex, including **caching** to minimize performance impact and **retries** to maximize the chances to correctly retrieve process information for a given open port.
+The workflow I plan to use is indeed pretty complex, including **_caching_** to minimize performance impact and **_retries_** to maximize the chances to correctly retrieve process information for a given open port.
 
 In the flowchart below you can see a draft of Sniffnet-side implementation of the feature.
 
