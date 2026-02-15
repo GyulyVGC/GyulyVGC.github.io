@@ -93,15 +93,19 @@ If you're a Rust developer, you're more than welcome to contribute to the librar
 
 ### How Sniffnet will implement the feature
 
-Sniffnet will use `listeners` to retrieve the process for each observed network connection, and will show it in the UI's _Overview_ and _Inspect_ pages.
+Sniffnet will use `listeners` to look up the process for each observed network connection, and will show it in the UI's _Overview_ and _Inspect_ pages.
 
 Additionally, it will use another library called <a target="_blank" href="https://github.com/GyulyVGC/picon">`picon`</a> (I'm still working on it) to retrieve app icons given their program path, showing them in the UI as well to make it easier to identify processes at a glance.
 
 The workflow I plan to use is indeed pretty complex, including **_caching_** to minimize performance impact and **_retries_** to maximize the chances to correctly retrieve process information for a given open port.
 
-In the flowchart below you can see a draft of Sniffnet-side implementation of the feature.
+In the flowchart below I've outlined a draft of the strategy I'll adopt for Sniffnet-side implementation of the feature.
 
-// img will go here
+<div align="center">
+<picture>
+<img alt="Implementation flowchart" src="{{ 'assets/img/post/process-identification/flowchart.svg' | relative_url }}" width="100%"/>
+</picture>
+</div>
 
 <hr>
 
