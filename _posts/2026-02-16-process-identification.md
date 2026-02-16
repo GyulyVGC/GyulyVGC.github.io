@@ -16,19 +16,17 @@ Today I'm back to share some behind-the-scenes about the development of a new fu
 
 ### What's process identification?
 
-With _"process identification"_ in a network monitoring context, I mean the possibility to discover which program is responsible for a given network connection.
+With _"process identification"_ in a network monitoring context, I mean the possibility to discover which application or program is responsible for a given network connection.
 
 This can be determined by looking at the open TCP/UDP ports on the system and finding out which process is currently using them.
 
-It's a very useful feature, because it allows you to understand which applications are responsible for the observed network activity.
+If implementing this feature seems like a no-brainer to you, _well..._ read on because it turned out to be a much more complex task than I could imagine, and this is the reason why the related GitHub issue has been open for almost 3 years.
 
 <div align="center">
 <picture>
-<img alt="Processes and network data" title="Processes and network data" src="{{ 'assets/img/post/process-identification/cover.png' | relative_url }}" width="40%"/>
+<img alt="Not even the OS knows" title="Not even the OS knows" src="{{ 'assets/img/post/process-identification/cover.png' | relative_url }}" width="60%"/>
 </picture>
 </div>
-
-If implementing this feature seems like a no-brainer to you, _well..._ read on because it turned out to be a much more complex task than I could imagine, and this is the reason why the related GitHub issue has been open for almost 3 years.
 
 <hr>
 
@@ -76,7 +74,7 @@ After two years, I'm happy to see that `listeners` was downloaded 150k times and
 
 Just some days ago `listeners` <a target="_blank" href="https://github.com/GyulyVGC/listeners/releases/tag/v0.4.0">v0.4.0</a> was published.<br>
 I'm particularly proud of this release for at least two reasons:
-1. **Support for FreeBSD** was introduced thanks to my colleague <a target="_blank" href="https://github.com/antoncxx">Anton</a> (in addition to the already existing support for Windows, Linux, and macOS).<br>To my knowledge there is no existing crate at all that does something similar targeting FreeBSD and this adds a huge value to the library, even if at the moment we're using Rust-to-C bindings for this.
+1. **Support for FreeBSD** was introduced thanks to my colleague <a target="_blank" href="https://github.com/antoncxx">Anton</a> (in addition to the already existing support for Windows, Linux, and macOS).<br>To my knowledge there is no existing crate at all that does something similar targeting FreeBSD and this is an added value for the library, even if at the moment we're using Rust-to-C bindings for this.<br>Huge props to Anton for his contribution, and for having also started adding support for OpenBSD and NetBSD exactly in these hours.
 2. I've spent the past week's nights **testing and extensively benchmarking** the library, considerably improving the APIs performance.<br>I had so much fun using <a target="_blank" href="https://crates.io/crates/criterion">`criterion`</a> to benchmark it under different system loads, and I've made the results generation completely automated on GitHub Actions runners for all the supported platforms.<br>You can find the results and more charts in the README's <a target="_blank" href="https://github.com/GyulyVGC/listeners?tab=readme-ov-file#benchmarks">Benchmarks section</a>.
 
 <div align="center">
@@ -87,7 +85,7 @@ I'm particularly proud of this release for at least two reasons:
 
 Thanks to point 2, I now judge the library **mature, fast, and reliable enough** for use in Sniffnet.
 
-If you're a Rust developer, you're more than welcome to contribute to the library trying to make it even faster, or adding support for more Operating Systems (NetBSD, OpenBSD, or even iOS and Android, why not!).
+If you're a Rust developer, you're more than welcome to contribute to the library trying to make it even faster, or adding support for more Operating Systems (Android and iOS? why not!).
 
 <hr>
 
@@ -96,6 +94,12 @@ If you're a Rust developer, you're more than welcome to contribute to the librar
 Sniffnet will use `listeners` to look up the process for each observed network connection, and will show it in the UI's _Overview_ and _Inspect_ pages.
 
 Additionally, it will use another library called <a target="_blank" href="https://github.com/GyulyVGC/picon">`picon`</a> (I'm still working on it) to retrieve app icons given their program path, showing them in the UI as well to make it easier to identify processes at a glance.
+
+<div align="center">
+<picture>
+<img alt="Processes in Overview page" title="Processes in Overview page" src="{{ 'assets/img/post/process-identification/in_app.png' | relative_url }}" width="40%"/>
+</picture>
+</div>
 
 The workflow I plan to use is indeed pretty complex, including **_caching_** to minimize performance impact and **_retries_** to maximize the chances to correctly retrieve process information for a given open port.
 
