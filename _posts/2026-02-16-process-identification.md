@@ -6,7 +6,7 @@ nav-title: News
 thumbnail-img: /assets/img/post/process-identification/cover.png
 share-img: /assets/img/post/process-identification/cover.png
 tags: [development]
-github-discussion: 1072
+github-discussion: 1073
 ---
 
 Hey everyone, it's already been two months since the last blog post!<br><br>
