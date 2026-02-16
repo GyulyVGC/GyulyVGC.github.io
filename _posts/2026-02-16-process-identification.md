@@ -10,7 +10,7 @@ github-discussion: xxxx
 ---
 
 Hey everyone, it's already been two months since the last blog post!<br><br>
-Today I'm back to share some behind-the-scenes about the development of a new functionality for Sniffnet: **process identification**, a.k.a. <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/issues/170">the most requested feature</a> since the very beginning of the project.
+Today I'm back to share some behind-the-scenes about the struggles and development of a new functionality for Sniffnet: **process identification**, a.k.a. <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/issues/170">the most requested feature</a> since the very beginning of the project.
 
 <hr>
 
