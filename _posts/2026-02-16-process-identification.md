@@ -79,13 +79,15 @@ I'm particularly proud of this release for at least two reasons:
 
 <div align="center">
 <picture>
+<a target="_blank" href="https://github.com/GyulyVGC/listeners?tab=readme-ov-file#benchmarks">
 <img alt="Windows benchmark (high system load)" title="Windows benchmark (high system load)" src="{{ 'assets/img/post/process-identification/windows_bench.svg' | relative_url }}" width="50%"/>
+</a>
 </picture>
 </div>
 
 Thanks to point 2, I now judge the library **mature, fast, and reliable enough** for use in Sniffnet.
 
-If you're a Rust developer, you're more than welcome to contribute to the library trying to make it even faster, or adding support for more Operating Systems (Android and iOS? why not!).
+If you're a Rust developer, you're more than welcome to contribute to the library trying to make it even faster, or adding support for more Operating Systems (Android and iOS? Why not!).
 
 <hr>
 
