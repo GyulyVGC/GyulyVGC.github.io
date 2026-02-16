@@ -103,7 +103,7 @@ In the flowchart below I've outlined a draft of the strategy I'll adopt for Snif
 
 <div align="center">
 <picture>
-<img alt="Implementation flowchart" src="{{ 'assets/img/post/process-identification/flowchart.svg' | relative_url }}" width="100%"/>
+<img alt="Implementation flowchart" src="{{ 'assets/img/post/process-identification/flowchart_nocompress.svg' | relative_url }}" width="100%"/>
 </picture>
 </div>
 
