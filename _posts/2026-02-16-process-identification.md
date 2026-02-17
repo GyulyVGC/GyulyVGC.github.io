@@ -3,8 +3,8 @@ layout: post
 title: "One of the most annoying programming challenges I've ever faced"
 share-title: "One of the most annoying programming challenges I've ever faced"
 nav-title: News
-thumbnail-img: /assets/img/post/process-identification/cover.png
-share-img: /assets/img/post/process-identification/cover.png
+thumbnail-img: /assets/img/post/process-identification/cover.jpeg
+share-img: /assets/img/post/process-identification/cover.jpeg
 tags: [development]
 github-discussion: 1073
 ---
@@ -24,7 +24,7 @@ If implementing this feature seems like a no-brainer to you, _well..._ read on b
 
 <div align="center">
 <picture>
-<img alt="Not even the OS knows" title="Not even the OS knows" src="{{ 'assets/img/post/process-identification/cover.png' | relative_url }}" width="60%"/>
+<img alt="Not even the OS knows!" title="Not even the OS knows!" src="{{ 'assets/img/post/process-identification/cover.jpeg' | relative_url }}" width="60%"/>
 </picture>
 </div>
 
