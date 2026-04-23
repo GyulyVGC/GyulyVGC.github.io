@@ -6,6 +6,20 @@ layout: page
   <a target="_blank" title="GitHub" href="https://github.com/GyulyVGC/sniffnet"><img alt="" class="shield" height="30px" src="https://img.shields.io/github/stars/GyulyVGC/sniffnet?logo=github&color=blue&style=for-the-badge"/></a>
 </div><br/>
 
+{% assign latest_post = site.posts.first %}
+{% if latest_post %}
+{% assign now_ts = site.time | date: '%s' %}
+{% assign post_ts = latest_post.date | date: '%s' %}
+{% assign age_seconds = now_ts | minus: post_ts %}
+{% if age_seconds < 2678400 %}
+<a class="latest-news-banner" href="{{ latest_post.url | relative_url }}" aria-label="Latest news: {{ latest_post.title | strip_html | escape }}">
+  <i class="fas fa-bullhorn latest-news-icon" aria-hidden="true"></i>
+  <span class="latest-news-title">{{ latest_post.title | strip_html }}</span>
+  <span class="latest-news-date">{{ latest_post.date | date: site.date_format }}</span>
+</a>
+{% endif %}
+{% endif %}
+
 <div align="center">
   <img id="myShadow" width="100%" src="{{ 'assets/img/overview_page.png' | relative_url }}" alt="" />
   <br/><br/>
