@@ -5,7 +5,7 @@ share-title: Sniffnet recently got a complete security audit
 nav-title: News
 thumbnail-img: /assets/img/post/security-audit/cover.png
 share-img: /assets/img/post/security-audit/cover.png
-tags: [event]
+tags: [security]
 github-discussion: 778
 ---
 
