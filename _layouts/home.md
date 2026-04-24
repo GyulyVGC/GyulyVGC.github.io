@@ -21,7 +21,7 @@ layout: page
 {% endif %}
 
 <div align="center">
-  <img id="myShadow" width="100%" src="{{ 'assets/img/overview_page.png' | relative_url }}" alt="" />
+  <img id="myShadow" width="100%" src="{{ 'assets/img/overview_page.png' | relative_url }}" alt="Sniffnet overview page showing live traffic statistics, charts, and host information" />
   <br/><br/>
  Cross-platform. Intuitive. Reliable.
  </div>
@@ -92,7 +92,7 @@ The Wiki includes step-by-step guides, tips, examples of usage, and answers to f
 
 <p align="center">
 <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/wiki">
-<img class="hoverExpand" alt="" title="Sniffnet Wiki" src="{{ 'assets/img/wikilogo.svg' | relative_url }}" width="300px"/>
+<img class="hoverExpand" alt="Sniffnet Wiki" title="Sniffnet Wiki" src="{{ 'assets/img/wikilogo.svg' | relative_url }}" width="300px"/>
 </a>
 </p>
 

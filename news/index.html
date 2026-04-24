@@ -98,17 +98,17 @@ share-img: /assets/img/preview.png
 {% if paginator.total_pages > 1 %}
 <ul class="pagination main-pager" style="position: relative;">
   {% if paginator.previous_page %}
-  <li class="page-item previous" title="Newer Posts">
-    <a class="page-link" href="{{ paginator.previous_page_path | absolute_url }}">
-      <span><i class="fas fa-arrow-left" alt="Newer Posts"></i></span>
+  <li class="page-item previous">
+    <a class="page-link" href="{{ paginator.previous_page_path | absolute_url }}" title="Newer Posts" aria-label="Newer Posts">
+      <span><i class="fas fa-arrow-left" aria-hidden="true"></i></span>
     </a>
   </li>
   {% endif %}
   <span style="color: #808080; position: absolute; width: 100%; text-align: center; align-self: center;">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
-  <li class="page-item next" title="Older Posts">
-    <a class="page-link" href="{{ paginator.next_page_path | absolute_url }}">
-      <span><i class="fas fa-arrow-right" alt="Older Posts"></i></span>
+  <li class="page-item next">
+    <a class="page-link" href="{{ paginator.next_page_path | absolute_url }}" title="Older Posts" aria-label="Older Posts">
+      <span><i class="fas fa-arrow-right" aria-hidden="true"></i></span>
     </a>
   </li>
   {% endif %}
