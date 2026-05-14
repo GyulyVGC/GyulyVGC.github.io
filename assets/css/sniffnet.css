@@ -1286,44 +1286,32 @@ pre {
   }
 }
 
-/* LATEST NEWS BANNER */
+/* HOMEPAGE BANNERS */
 
-.latest-news-banner {
-  display: flex;
-  align-items: center;
-  gap: 14px;
+.home-banner {
   width: 100%;
-  padding: 12px 18px;
   margin: 0 0 25px;
   color: {{ site.text-col }};
   text-decoration: none;
-  background-color: #01c6ff22;
   /* reserve 2px so the borders appearing on hover don't shift content */
-  border-top: 2px solid transparent;
-  border-right: 2px solid transparent;
-  border-bottom: 2px solid transparent;
-  border-left: 4px solid #01c6ff;
+  border: 2px solid transparent;
+  border-left-width: 4px;
   border-radius: 0 8px 8px 0;
   transition: all 200ms;
 }
 
-.latest-news-banner:hover,
-.latest-news-banner:focus {
+.home-banner:hover,
+.home-banner:focus {
   text-decoration: none;
   color: {{ site.text-col }};
-  background-color: #01c6ff33;
-  border-top-color: #01c6ff88;
-  border-right-color: #01c6ff88;
-  border-bottom-color: #01c6ff88;
 }
 
-.latest-news-icon {
+.home-banner-icon {
   flex-shrink: 0;
   font-size: 1.25rem;
-  color: {{ site.link-col }};
 }
 
-.latest-news-title {
+.home-banner-title {
   flex: 1 1 auto;
   min-width: 0;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -1332,14 +1320,103 @@ pre {
   white-space: nowrap;
 }
 
-.latest-news-date {
-  flex-shrink: 0;
+.home-banner-date,
+.anniv-post-sub {
   font-style: italic;
+  font-size: 0.85em;
   color: #888888;
 }
 
+.home-banner-date { flex-shrink: 0; }
+
 @media (max-width: 767px) {
-  .latest-news-date {
+  .home-banner-date {
     display: none;
   }
+}
+
+/* News banner (cyan) */
+
+.latest-news-banner {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 18px;
+  background-color: #01c6ff22;
+  border-left-color: #01c6ff;
+}
+
+.latest-news-banner:hover,
+.latest-news-banner:focus {
+  background-color: #01c6ff33;
+  border-top-color: #01c6ff88;
+  border-right-color: #01c6ff88;
+  border-bottom-color: #01c6ff88;
+}
+
+.latest-news-banner .home-banner-icon { color: {{ site.link-col }}; }
+
+/* On-this-day banner (amber) */
+
+.anniv-banner {
+  display: block;
+  background-color: #ffcc0022;
+  border-left-color: #ffcc00;
+}
+
+.anniv-banner:hover {
+  background-color: #ffcc0033;
+  border-top-color: #ffcc0088;
+  border-right-color: #ffcc0088;
+  border-bottom-color: #ffcc0088;
+}
+
+.anniv-banner > summary {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 18px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.anniv-banner > summary::-webkit-details-marker { display: none; }
+
+.anniv-banner > summary::after {
+  content: "▾";
+  margin-left: auto;
+  color: #ffcc00;
+  transition: transform 200ms;
+}
+
+.anniv-banner[open] > summary::after { transform: rotate(180deg); }
+
+.anniv-banner .home-banner-icon { color: #ffcc00; }
+
+.anniv-banner ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 18px 12px 52px;
+}
+
+.anniv-banner ul a {
+  display: block;
+  padding: 8px 0;
+  color: {{ site.text-col }};
+  text-decoration: none;
+}
+
+.anniv-banner ul a:hover .anniv-post-title,
+.anniv-banner ul a:focus .anniv-post-title {
+  color: {{ site.link-col }};
+}
+
+.anniv-post-title {
+  display: block;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.anniv-post-sub {
+  display: block;
+  margin-top: 2px;
 }

@@ -12,12 +12,26 @@ layout: page
 {% assign post_ts = latest_post.date | date: '%s' %}
 {% assign age_seconds = now_ts | minus: post_ts %}
 {% if age_seconds < 2764800 %}
-<a class="latest-news-banner" href="{{ latest_post.url | relative_url }}" aria-label="Latest news: {{ latest_post.title | strip_html | escape }}">
-  <i class="fas fa-bullhorn latest-news-icon" aria-hidden="true"></i>
-  <span class="latest-news-title">{{ latest_post.title | strip_html }}</span>
-  <span class="latest-news-date">{{ latest_post.date | date: site.date_format }}</span>
+<a class="home-banner latest-news-banner" href="{{ latest_post.url | relative_url }}" aria-label="Latest news: {{ latest_post.title | strip_html | escape }}">
+  <i class="fas fa-bullhorn home-banner-icon" aria-hidden="true"></i>
+  <span class="home-banner-title">{{ latest_post.title | strip_html }}</span>
+  <span class="home-banner-date">{{ latest_post.date | date: site.date_format }}</span>
 </a>
 {% endif %}
+{% endif %}
+
+{% assign today_md = site.time | date: '%m-%d' %}
+{% assign today_year = site.time | date: '%Y' | plus: 0 %}
+{% capture anniv_items %}{% for post in site.posts %}{% assign p_md = post.date | date: '%m-%d' %}{% assign p_year = post.date | date: '%Y' | plus: 0 %}{% if p_md == today_md and p_year < today_year %}{% assign years_ago = today_year | minus: p_year %}<li><a href="{{ post.url | relative_url }}"><span class="anniv-post-title">{{ post.title | strip_html }}</span><span class="anniv-post-sub">{{ post.date | date: site.date_format }} · {{ years_ago }} year{% if years_ago != 1 %}s{% endif %} ago</span></a></li>{% endif %}{% endfor %}{% endcapture %}
+{% assign anniv_items = anniv_items | strip %}
+{% if anniv_items != "" %}
+<details class="home-banner anniv-banner">
+  <summary>
+    <i class="fas fa-history home-banner-icon" aria-hidden="true"></i>
+    <span class="home-banner-title">On this day in Sniffnet's history</span>
+  </summary>
+  <ul>{{ anniv_items }}</ul>
+</details>
 {% endif %}
 
 <div align="center">
