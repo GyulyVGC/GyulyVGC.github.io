@@ -4,7 +4,6 @@ title: Sniffnet recently got a complete security audit
 share-title: Sniffnet recently got a complete security audit
 nav-title: News
 thumbnail-img: /assets/img/post/security-audit/cover.png
-share-img: /assets/img/post/security-audit/cover.png
 tags: [security]
 github-discussion: 778
 ---
@@ -21,11 +20,11 @@ One of Sniffnet's top priorities has always been to ensure the security of its u
 To achieve this, Sniffnet is designed with a **security-first approach** characterized by **rigorous tests** to identify potential vulnerabilities,
 and a **commitment to open-source development** to make the code accessible for scrutiny by the community.
 
-Taking a step further in this direction, Sniffnet has recently undergone a **complete security audit** by <a target="_blank" href="https://www.radicallyopensecurity.com">Radically Open Security</a>,
+Taking a step further in this direction, Sniffnet has recently undergone a **complete security audit** by <a target="_blank" rel="noopener" href="https://www.radicallyopensecurity.com">Radically Open Security</a>,
 the world’s first not-for-profit computer security consultancy company.<br>
 
 <div align="center">
-    <a target="_blank" href="https://www.radicallyopensecurity.com">
+    <a target="_blank" rel="noopener" href="https://www.radicallyopensecurity.com">
         <img width="50%" title="ROS" src="{{ 'assets/img/post/security-audit/cover.png' | relative_url }}" alt="ROS"/>
     </a>
 </div>
@@ -45,8 +44,8 @@ It provides its functionality mostly via offline databases, only taking what it 
 Information is presented without any markup languages involved, cutting off the opportunity for any code injection.<br>
 Overall we are pleased with the security posture of Sniffnet and the engagement of the developer in this process.
 
-Given that the only relevant finding was a **low-severity issue** that <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/pull/776">has already been fixed</a>,
-I'm pleased to share the <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/blob/main/resources/audits/security_1.pdf">full 21-pages audit report</a> for transparency and to provide users with the confidence they deserve when using Sniffnet.
+Given that the only relevant finding was a **low-severity issue** that <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/pull/776">has already been fixed</a>,
+I'm pleased to share the <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/blob/main/resources/audits/security_1.pdf">full 21-pages audit report</a> for transparency and to provide users with the confidence they deserve when using Sniffnet.
 
 As emphasized by the report itself, _"security is a process that must be continuously evaluated and improved"_.<br>
 For this reason, we'll keep working hard to ensure that Sniffnet remains a secure and reliable tool for everyone.

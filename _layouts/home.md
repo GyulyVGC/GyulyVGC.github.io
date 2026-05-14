@@ -2,8 +2,8 @@
 layout: page
 ---
 <div align="center">
-  <a title="Download" href="{{ 'download' | relative_url }}"><img alt="" class="shield" height="30px" src="{{ 'assets/img/downloads_badge.svg' | relative_url }}"/></a>&nbsp;
-  <a target="_blank" title="GitHub" href="https://github.com/GyulyVGC/sniffnet"><img alt="" class="shield" height="30px" src="https://img.shields.io/github/stars/GyulyVGC/sniffnet?logo=github&color=blue&style=for-the-badge"/></a>
+  <a title="Download" href="{{ 'download' | relative_url }}"><img alt="Total downloads" class="shield" height="30px" src="{{ 'assets/img/downloads_badge.svg' | relative_url }}"/></a>&nbsp;
+  <a target="_blank" rel="noopener" title="GitHub" href="https://github.com/GyulyVGC/sniffnet"><img alt="" class="shield" height="30px" src="https://img.shields.io/github/stars/GyulyVGC/sniffnet?logo=github&color=blue&style=for-the-badge"/></a>
 </div><br/>
 
 {% assign latest_post = site.posts.first %}
@@ -35,7 +35,7 @@ layout: page
 {% endif %}
 
 <div align="center">
-  <img id="myShadow" width="100%" src="{{ 'assets/img/overview_page.png' | relative_url }}" alt="Sniffnet overview page showing live traffic statistics, charts, and host information" />
+  <img class="myShadow" width="100%" src="{{ 'assets/img/overview_page.png' | relative_url }}" alt="Sniffnet overview page showing live traffic statistics, charts, and host information" />
   <br/><br/>
  Cross-platform. Intuitive. Reliable.
  </div>
@@ -55,7 +55,7 @@ Whether you want to <b>gather statistics</b>, you’re curious to see <b>who you
 </div><br/>
 
 <div class="hoverRotateChildImg">
-<img align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/translations.svg' | relative_url }}" alt="" />In the spirit of being approachable by as many users as possible, the application is available in <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/issues/60">24 different languages</a> thanks to the <b>translations by native speakers</b> from all over the world.
+<img align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/translations.svg' | relative_url }}" alt="" />In the spirit of being approachable by as many users as possible, the application is available in <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/issues/60">24 different languages</a> thanks to the <b>translations by native speakers</b> from all over the world.
 </div><br/>
 
 <div class="hoverRotateChildImg">
@@ -64,8 +64,8 @@ Sniffnet is designed with a <b>security-first approach</b>: one of the top prior
 </div><br/>
 
 <div class="hoverRotateChildImg">
-<a target="_blank" href="https://github.com/GyulyVGC/sniffnet"><img title="GitHub" align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/github.svg' | relative_url }}" alt=""/></a>
-Furthermore, Sniffnet is completely <b>free and open-source</b>, dual-licensed under MIT or Apache-2.0: if you are interested you can find the <a target="_blank" href="https://github.com/GyulyVGC/sniffnet">full source code on GitHub</a>.
+<a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet"><img title="GitHub" align="right" width="75" style="margin-left: 10px" src="{{ 'assets/img/github.svg' | relative_url }}" alt=""/></a>
+Furthermore, Sniffnet is completely <b>free and open-source</b>, dual-licensed under MIT or Apache-2.0: if you are interested you can find the <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet">full source code on GitHub</a>.
 </div><br/>
 
 <div class="hoverRotateChildImg">
@@ -100,12 +100,12 @@ Last but not least, this application is totally developed in <b>Rust</b>: a mode
 
 <h2 class="myHeading"> User manual </h2>
 Do you want to learn more? <br>
-Check out the <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/wiki"><b>Sniffnet Wiki</b></a>, a comprehensive manual to help you
+Check out the <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/wiki"><b>Sniffnet Wiki</b></a>, a comprehensive manual to help you
 thoroughly master the application from a basic setup to the most advanced functionalities. <br>
 The Wiki includes step-by-step guides, tips, examples of usage, and answers to frequent questions.
 
 <p align="center">
-<a target="_blank" href="https://github.com/GyulyVGC/sniffnet/wiki">
+<a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/wiki">
 <img class="hoverExpand" alt="Sniffnet Wiki" title="Sniffnet Wiki" src="{{ 'assets/img/wikilogo.svg' | relative_url }}" width="300px"/>
 </a>
 </p>
@@ -120,5 +120,5 @@ The project is rapidly evolving, with new features rolling out regularly.<br>
 Check out the <b>visual roadmap</b> below to see where Sniffnet is headed next.<br><br>
 
 <div style="width:100%; padding-top:50%; position:relative;">
-    <iframe style="position:absolute; top:0; bottom:0; border:none; border-radius:20px;" width="100%" height="100%" src="https://whimsical.com/embed/Damodrdfx22V9jGnpHSCGo"></iframe>
+    <iframe title="Sniffnet visual roadmap" style="position:absolute; top:0; bottom:0; border:none; border-radius:20px;" width="100%" height="100%" src="https://whimsical.com/embed/Damodrdfx22V9jGnpHSCGo"></iframe>
 </div>

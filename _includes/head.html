@@ -2,7 +2,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link rel="icon" href="https://raw.githubusercontent.com/GyulyVGC/GyulyVGC.github.io/master/favicon.ico">
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
 
   {% capture title %}
     {%- if page.share-title -%}
@@ -55,18 +55,6 @@
     {% endfor %}
   {% endif %}
 
-  {% if page.ext-css %}
-    {% for css in page.ext-css %}
-      {% include ext-css.html css=css %}
-    {% endfor %}
-  {% endif %}
-  
-  {% if page.css %}
-    {% for css in page.css %}
-      <link rel="stylesheet" href="{{ css | relative_url }}">
-    {% endfor %}
-  {% endif %}
-
   {% if site.title %}
   <meta property="og:site_name" content="{{ site.title }}">
   {% endif %}
@@ -74,12 +62,6 @@
   {%- capture img -%}
     {%- if page.share-img -%}
       {{ page.share-img }}
-    {%- elsif page.cover-img -%}
-      {%- if page.cover-img.first -%}
-        {{ page.cover-img[0].first.first }}
-      {%- else -%}
-        {{ page.cover-img }}
-      {%- endif -%}
     {%- elsif page.thumbnail-img -%}
       {{ page.thumbnail-img }}
     {%- elsif site.avatar -%}
@@ -120,12 +102,6 @@
 
   {% if img != "" %}
   <meta name="twitter:image" content="{{ img | absolute_url }}">
-  {% endif %}
-
-  {% if page.head-extra %}
-    {% for file in page.head-extra %}
-      {% include {{ file }} %}
-    {% endfor %}
   {% endif %}
 
 </head>

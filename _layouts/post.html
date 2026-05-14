@@ -4,13 +4,13 @@ layout: base
 
 {% include header.html type="post" %}
 
-<div class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
+<div class="container-md">
   <div class="row">
-    <div class="{% if page.full-width %} col {% else %} col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 {% endif %}">
+    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
 
         <div>
-          <a target="_blank" href="https://github.com/GyulyVGC/sniffnet"><img alt="Star the project" title="Star on GitHub" class="shield" height="25px" src="https://img.shields.io/github/stars/GyulyVGC/sniffnet?label=Star%20the%20project"/></a>&nbsp;&nbsp;
-          <a target="_blank" href="https://github.com/GyulyVGC"><img alt="Follow @GyulyVGC" title="Follow Giuliano Bellini" class="shield" height="25px" src="https://img.shields.io/github/followers/GyulyVGC?label=Follow%20@GyulyVGC"/></a>
+          <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet"><img alt="Star the project" title="Star on GitHub" class="shield" height="25px" src="https://img.shields.io/github/stars/GyulyVGC/sniffnet?label=Star%20the%20project"/></a>&nbsp;&nbsp;
+          <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC"><img alt="Follow @GyulyVGC" title="Follow Giuliano Bellini" class="shield" height="25px" src="https://img.shields.io/github/followers/GyulyVGC?label=Follow%20@GyulyVGC"/></a>
         </div>
 
       <hr>
@@ -24,14 +24,6 @@ layout: base
           <i class="fas fa-tag" aria-hidden="true" style="color: #808080;"></i>
           {% for tag in page.tags %}
             <a href="{{ '/tags' | relative_url }}#{{- tag -}}" style="color: #808080;">{{- tag -}}</a>
-          {% endfor %}
-        </div>
-      {% endif %}
-
-      {% if page.after-content %}
-        <div class="after-content">
-          {% for file in page.after-content %}
-            {% include {{ file }} %}
           {% endfor %}
         </div>
       {% endif %}

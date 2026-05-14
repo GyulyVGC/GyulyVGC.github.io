@@ -4,13 +4,12 @@ title: "One of the most annoying programming challenges I've ever faced"
 share-title: "One of the most annoying programming challenges I've ever faced"
 nav-title: News
 thumbnail-img: /assets/img/post/process-identification/cover.jpeg
-share-img: /assets/img/post/process-identification/cover.jpeg
 tags: [development]
 github-discussion: 1073
 ---
 
 Hey everyone, it's already been two months since the last blog post!<br><br>
-Today I'm back to share some behind-the-scenes about the struggles and development of a new functionality for Sniffnet: **process identification**, a.k.a. <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/issues/170">the most requested feature</a> since the very beginning of the project.
+Today I'm back to share some behind-the-scenes about the struggles and development of a new functionality for Sniffnet: **process identification**, a.k.a. <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/issues/170">the most requested feature</a> since the very beginning of the project.
 
 <hr>
 
@@ -45,8 +44,8 @@ This is not a problem in itself, but it generates the need to do this processing
 For instance, short-lived connections can go undetected and system processes with elevated privileges can be hidden to user-space applications for security reasons.
 
 More system-intrusive approaches exist, such as using **kernel-level hooks** to intercept the system calls responsible for creating network connections. <br>
-An example of this is <a target="_blank" href="https://ebpf.io/what-is-ebpf/">eBPF</a> on Linux, which requires to run privileged code inside the kernel. <br>
-On macOS, you'd even need entitlements from Apple to be able to do something similar through their <a target="_blank" href="https://developer.apple.com/documentation/networkextension">Network Extension framework</a>. <br>
+An example of this is <a target="_blank" rel="noopener" href="https://ebpf.io/what-is-ebpf/">eBPF</a> on Linux, which requires to run privileged code inside the kernel. <br>
+On macOS, you'd even need entitlements from Apple to be able to do something similar through their <a target="_blank" rel="noopener" href="https://developer.apple.com/documentation/networkextension">Network Extension framework</a>. <br>
 While these approaches are way more accurate, they go against Sniffnet's philosophy of being a lightweight, non-intrusive, and friendly app that can be installed by anyone.
 
 After considering all the options, I decided to go with the snapshot-based approach. <br>
@@ -56,11 +55,11 @@ Despite being aware it's not flawless, I believe it to be the best compromise fo
 
 ### The library behind the feature: `listeners`
 
-<a target="_blank" href="https://github.com/GyulyVGC/listeners">`listeners`</a> is an open-source library I've been working on for the past 2 years with the goal of supporting this feature.
+<a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/listeners">`listeners`</a> is an open-source library I've been working on for the past 2 years with the goal of supporting this feature.
 
 <div align="center">
 <picture>
-<a target="_blank" href="https://github.com/GyulyVGC/listeners?tab=readme-ov-file#listeners">
+<a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/listeners?tab=readme-ov-file#listeners">
 <img alt="listeners library" title="listeners library" src="{{ 'assets/img/post/process-identification/listeners.png' | relative_url }}" width="90%"/>
 </a>
 </picture>
@@ -72,14 +71,14 @@ no other Rust crate provides this functionality supporting multiple platforms an
 Interestingly, I also had this same need at my job, where we also wanted a Rust way to do it: this motivated me even further to contribute to the library. <br>
 After two years, I'm happy to see that `listeners` was downloaded 150k times and has now multiple public dependents both on _crates.io_ and GitHub, which means that this is a problem shared among many people.
 
-Just some days ago `listeners` <a target="_blank" href="https://github.com/GyulyVGC/listeners/releases/tag/v0.4.0">v0.4.0</a> was published.<br>
+Just some days ago `listeners` <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/listeners/releases/tag/v0.4.0">v0.4.0</a> was published.<br>
 I'm particularly proud of this release for at least two reasons:
-1. **Support for FreeBSD** was introduced thanks to my colleague <a target="_blank" href="https://github.com/antoncxx">Anton</a> (in addition to the already existing support for Windows, Linux, and macOS).<br>To my knowledge there is no existing crate at all that does something similar targeting FreeBSD and this is an added value for the library, even if at the moment we're using Rust-to-C bindings for this.<br>Huge props to Anton for his contribution, and for having also started adding support for OpenBSD and NetBSD exactly in these hours.
-2. I've spent the past week's nights **testing and extensively benchmarking** the library, considerably improving the APIs performance.<br>I had so much fun using <a target="_blank" href="https://crates.io/crates/criterion">`criterion`</a> to benchmark it under different system loads, and I've made the results generation completely automated on GitHub Actions runners for all the supported platforms.<br>You can find the results and more charts in the README's <a target="_blank" href="https://github.com/GyulyVGC/listeners?tab=readme-ov-file#benchmarks">Benchmarks section</a>.
+1. **Support for FreeBSD** was introduced thanks to my colleague <a target="_blank" rel="noopener" href="https://github.com/antoncxx">Anton</a> (in addition to the already existing support for Windows, Linux, and macOS).<br>To my knowledge there is no existing crate at all that does something similar targeting FreeBSD and this is an added value for the library, even if at the moment we're using Rust-to-C bindings for this.<br>Huge props to Anton for his contribution, and for having also started adding support for OpenBSD and NetBSD exactly in these hours.
+2. I've spent the past week's nights **testing and extensively benchmarking** the library, considerably improving the APIs performance.<br>I had so much fun using <a target="_blank" rel="noopener" href="https://crates.io/crates/criterion">`criterion`</a> to benchmark it under different system loads, and I've made the results generation completely automated on GitHub Actions runners for all the supported platforms.<br>You can find the results and more charts in the README's <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/listeners?tab=readme-ov-file#benchmarks">Benchmarks section</a>.
 
 <div align="center">
 <picture>
-<a target="_blank" href="https://github.com/GyulyVGC/listeners?tab=readme-ov-file#benchmarks">
+<a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/listeners?tab=readme-ov-file#benchmarks">
 <img alt="Windows benchmark (high system load)" title="Windows benchmark (high system load)" src="{{ 'assets/img/post/process-identification/windows_bench.svg' | relative_url }}" width="50%"/>
 </a>
 </picture>
@@ -95,7 +94,7 @@ If you're a Rust developer, you're more than welcome to contribute to the librar
 
 Sniffnet will use `listeners` to look up the process for each observed network connection, and will show it in the UI's _Overview_ and _Inspect_ pages.
 
-Additionally, it will use another library called <a target="_blank" href="https://github.com/GyulyVGC/picon">`picon`</a> (I'm still working on it) to retrieve app icons given their program path, showing them in the UI as well to make it easier to identify processes at a glance.
+Additionally, it will use another library called <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/picon">`picon`</a> (I'm still working on it) to retrieve app icons given their program path, showing them in the UI as well to make it easier to identify processes at a glance.
 
 <div align="center">
 <picture>

@@ -1,8 +1,6 @@
-<nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom {% if page.nav-short %}top-nav-short-permanent{% else %}top-nav-regular{% endif %}">
+<nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular">
 
-  {%- if site.title-img -%}
-    <a class="navbar-brand navbar-brand-logo" href="{{ '' | absolute_url }}"><img alt="{{ site.title }} Logo" src="{{ site.title-img | relative_url}}"/></a>
-  {%- elsif site.title -%}
+  {%- if site.title -%}
     <a class="navbar-brand {% if page.title == 'Sniffnet' %}active-now{% endif %}" href="{{ '' | absolute_url }}" translate="no">{{ site.title }}</a>
   {%- endif -%}
 
@@ -41,13 +39,7 @@
     </ul>
   </div>
 
-  {% if site.navbar-extra %}
-    {% for file in site.navbar-extra %}
-      {% include {{ file }} %}
-    {% endfor %}
-  {% endif %}
-
-  {% if site.avatar and page.show-avatar != false %}
+  {% if site.avatar %}
     <div class="avatar-container">
       <div class="avatar-img-border">
         <a href="{{ '' | absolute_url }}">

@@ -4,7 +4,6 @@ title: "When rethinking a codebase is better than a workaround"
 share-title: "When rethinking a codebase is better than a workaround"
 nav-title: News
 thumbnail-img: /assets/img/post/rethink-over-workaround/cover.png
-share-img: /assets/img/post/rethink-over-workaround/cover.png
 tags: [development]
 github-discussion: 809
 ---
@@ -49,8 +48,8 @@ It's pretty clear that option _1_ would've made the codebase way more difficult 
 
 ### The Elm Architecture
 
-As you may already know, Sniffnet's UI is built on top of the <a target="_blank" href="https://iced.rs">iced</a> library.<br>
-The framework takes inspiration from the <a target="_blank" href="https://guide.elm-lang.org/architecture/">Elm Architecture</a>,
+As you may already know, Sniffnet's UI is built on top of the <a target="_blank" rel="noopener" href="https://iced.rs">iced</a> library.<br>
+The framework takes inspiration from the <a target="_blank" rel="noopener" href="https://guide.elm-lang.org/architecture/">Elm Architecture</a>,
 a programming pattern to build interactive applications.
 
 The Elm Architecture is based on four main components:
@@ -81,17 +80,17 @@ but this seems to be in contrast with Elm principles of separating concerns and 
 So, how is that possible?
 
 Some parameters of Sniffnet's state were wrapped in structures
-(see <a target="_blank" href="https://doc.rust-lang.org/std/sync/struct.Arc.html">`Arc`</a> and <a target="_blank" href="https://doc.rust-lang.org/std/sync/struct.Mutex.html">`Mutex`</a>)
-that allow having shared, <a target="_blank" href="https://doc.rust-lang.org/reference/interior-mutability.html">interior-mutable</a> access to them.<br>
+(see <a target="_blank" rel="noopener" href="https://doc.rust-lang.org/std/sync/struct.Arc.html">`Arc`</a> and <a target="_blank" rel="noopener" href="https://doc.rust-lang.org/std/sync/struct.Mutex.html">`Mutex`</a>)
+that allow having shared, <a target="_blank" rel="noopener" href="https://doc.rust-lang.org/reference/interior-mutability.html">interior-mutable</a> access to them.<br>
 When I first started developing Sniffnet almost three years ago,
 I was eager to use this pattern to let secondary threads access and modify the state of the app directly.
 
 While this is a recurrent pattern in Rust and is generally a blessing in achieving 
-<a target="_blank" href="https://doc.rust-lang.org/book/ch16-00-concurrency.html">fearless concurrency</a>,
+<a target="_blank" rel="noopener" href="https://doc.rust-lang.org/book/ch16-00-concurrency.html">fearless concurrency</a>,
 it's not ideal using it for the iced application's state.
 
 At the time, it was generally less clear to me how having a single source of truth could help keeping the flow of data smoother.<br>
-A fact that was confusing to me was also that <a target="_blank" href="https://docs.rs/iced/0.4.0/iced/trait.Application.html#tymethod.view">iced's view logic had mutable access to the state</a> 
+A fact that was confusing to me was also that <a target="_blank" rel="noopener" href="https://docs.rs/iced/0.4.0/iced/trait.Application.html#tymethod.view">iced's view logic had mutable access to the state</a> 
 (_not how it's supposed to be, and later fixed_).
 
 <hr>
@@ -104,7 +103,7 @@ how the backend interacts with the UI**.<br>
 
 Instead of letting the backend modify the state remotely,
 I started using the full power of iced's message handling system
-(see <a target="_blank" href="https://docs.rs/iced/0.13.1/iced/struct.Task.html">`Task`</a> and <a target="_blank" href="https://docs.rs/iced/0.13.1/iced/struct.Subscription.html">`Subscription`</a>)
+(see <a target="_blank" rel="noopener" href="https://docs.rs/iced/0.13.1/iced/struct.Task.html">`Task`</a> and <a target="_blank" rel="noopener" href="https://docs.rs/iced/0.13.1/iced/struct.Subscription.html">`Subscription`</a>)
 to **asynchronously send messages from the secondary threads to the frontend update logic**.
 
 There were so **many moving pieces** that I was reluctant to do this at first.<br>
@@ -113,7 +112,7 @@ define proper message kinds to correctly handle all the different scenarios,
 and the compiler, as always, was my best friend in **orchestrating the whole process**.
 
 I won't go and bore you with the details but if you'd like to, feel free to check all the implementation
-specifics in the relative <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/pull/806">pull request</a> on GitHub.
+specifics in the relative <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/pull/806">pull request</a> on GitHub.
 
 <hr>
 

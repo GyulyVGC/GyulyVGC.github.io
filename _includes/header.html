@@ -1,8 +1,8 @@
 {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
 
-{% if page.cover-img or page.title %}
+{% if page.title %}
 
-<header class="header-section {% if page.cover-img %}has-img{% endif %}">
+<header class="header-section">
 <div class="intro-header no-img">
   <div class="container-md">
     <div class="row">
@@ -34,15 +34,12 @@
 
           {% if include.type == "post" %}
           <div style="display: flex; margin-top: 20px;">
-            <div id="myQuote" style="display: inline; margin-right: 10px;">
+            <div class="myQuote" style="display: inline; margin-right: 10px;">
               <i>Posted on {{ page.date | date: date_format }}<br>
               <span>By Giuliano Bellini</span></i>
             </div>
-              <a target="_blank" href="https://github.com/GyulyVGC"><img class="hoverExpand" alt="" title="Giuliano Bellini" height="54px" style="border-radius: 50%" src="{{ 'assets/img/me.png' | relative_url }}"/></a>
+              <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC"><img class="hoverExpand" alt="" title="Giuliano Bellini" height="54px" style="border-radius: 50%" src="{{ 'assets/img/me.png' | relative_url }}"/></a>
           </div>
-            {% if page.readtime %}
-              {% include readtime.html %}
-            {% endif %}
           {% endif %}
         </div>
       </div>

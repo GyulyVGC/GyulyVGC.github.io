@@ -4,7 +4,6 @@ title: "Sniffnet is one year old today: lessons learned and next steps"
 share-title: "Sniffnet is one year old today: lessons learned and next steps"
 nav-title: News
 thumbnail-img: /assets/img/post/first-anniversary/cover.png
-share-img: /assets/img/post/first-anniversary/cover.png
 tags: [anniversary]
 github-discussion: 329
 ---
@@ -16,7 +15,7 @@ On August 1st 2022, I’d never have imagined this project would have become wha
 Sniffnet was originally started in the scope of an **academic course** and **went much farther** than that: I fell in love with the project, and countless additional features and improvements came to my mind.
 
 It’s an unspeakable good feeling to have made a software people use and appreciate, giving something back to this awesome community.<br>
-Sometimes it still feels unreal that Sniffnet is now one of the most popular network analysers on GitHub, having passed **10k stars** just a few days ago and being in the <a target="_blank" href="https://github.com/EvanLi/Github-Ranking/blob/master/Top100/Rust.md">top 100 most starred Rust repositories</a> ever made.
+Sometimes it still feels unreal that Sniffnet is now one of the most popular network analysers on GitHub, having passed **10k stars** just a few days ago and being in the <a target="_blank" rel="noopener" href="https://github.com/EvanLi/Github-Ranking/blob/master/Top100/Rust.md">top 100 most starred Rust repositories</a> ever made.
 
 <div align="center">
 <img alt="" src="{{ 'assets/img/post/first-anniversary/cover.png' | relative_url }}"/>
@@ -28,7 +27,7 @@ Sometimes it still feels unreal that Sniffnet is now one of the most popular net
 
 I cannot say to have drastically improved my coding skills, but what I can assert with certainty is to have understood how **developing software isn’t just programming**: it requires providing an adequate documentation, user support, packaging, distribution, and opens the possibility for exchange of ideas with other folks, that is one of the most interesting and stimulating parts.
 
-I had the one-in-a-life opportunity to be part of the first <a target="_blank" href="https://accelerator.github.com">GitHub Accelerator</a> cohort,
+I had the one-in-a-life opportunity to be part of the first <a target="_blank" rel="noopener" href="https://accelerator.github.com">GitHub Accelerator</a> cohort,
 which not only gave me important insights about open-source but also allowed me to work **full-time** on Sniffnet during the past months.
 
 I’d also like to mention the little yet **heart-warming individual donations** I’ve received on PayPal, Patreon, and GitHub Sponsors: generous people do really exist, often they’re hidden just out there (a big shoutout to @0x0177b11f, @Ilmi2, @Cthulu201, @ZEROF, @wahn).
@@ -64,4 +63,4 @@ Eventually, **I decided to listen to none other than my heart**: Sniffnet is and
 **Passion is the engine that pushes us forward, that fills us with motivation, satisfaction, enthusiasm, and hope.<br>
 Listen to your heart, do what you enjoy, and enjoy what you do: this is an outstanding method to spend life to the fullest.**
 
-_Originally posted on <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/discussions/329">GitHub Discussions</a>._
+_Originally posted on <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/discussions/329">GitHub Discussions</a>._
