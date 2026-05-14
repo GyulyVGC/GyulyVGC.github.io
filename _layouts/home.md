@@ -27,8 +27,8 @@ layout: page
 {% if anniv_items != "" %}
 <details class="home-banner anniv-banner">
   <summary>
-    <i class="fas fa-history home-banner-icon" aria-hidden="true"></i>
-    <span class="home-banner-title">On this day in Sniffnet's history</span>
+    <i class="fas fa-calendar-day home-banner-icon" aria-hidden="true"></i>
+    <span class="home-banner-title">{{ site.time | date: "%B %-d" }} · Sniffnet flashback</span>
   </summary>
   <ul>{{ anniv_items }}</ul>
 </details>
