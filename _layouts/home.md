@@ -11,7 +11,7 @@ layout: page
 {% assign now_ts = site.time | date: '%s' %}
 {% assign post_ts = latest_post.date | date: '%s' %}
 {% assign age_seconds = now_ts | minus: post_ts %}
-{% if age_seconds < 2678400 %}
+{% if age_seconds < 2764800 %}
 <a class="latest-news-banner" href="{{ latest_post.url | relative_url }}" aria-label="Latest news: {{ latest_post.title | strip_html | escape }}">
   <i class="fas fa-bullhorn latest-news-icon" aria-hidden="true"></i>
   <span class="latest-news-title">{{ latest_post.title | strip_html }}</span>
