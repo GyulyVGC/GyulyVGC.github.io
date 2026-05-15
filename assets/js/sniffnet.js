@@ -12,13 +12,18 @@
   function initNavbarCollapse() {
     const toggler = document.querySelector('.navbar-toggler');
     const menu = document.getElementById('main-navbar');
-    const navbar = document.querySelector('.navbar');
-    if (!toggler || !menu || !navbar) return;
+    if (!toggler || !menu) return;
 
     toggler.addEventListener('click', function () {
       const isOpen = menu.classList.toggle('show');
       toggler.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-      navbar.classList.toggle('top-nav-expanded', isOpen);
+    });
+
+    document.addEventListener('click', function (e) {
+      if (!menu.classList.contains('show')) return;
+      if (toggler.contains(e.target)) return;
+      menu.classList.remove('show');
+      toggler.setAttribute('aria-expanded', 'false');
     });
   }
 
