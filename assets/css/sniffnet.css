@@ -245,8 +245,7 @@ img {
 }
 
 .navbar-custom,
-.navbar-custom.top-nav-short,
-.navbar-custom.top-nav-short-permanent {
+.navbar-custom.top-nav-short {
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -255,31 +254,6 @@ img {
   line-height: 1.5;
   padding: 0.625rem;
   font-size: 1.125rem;
-}
-
-.navbar-custom .navbar-brand-logo {
-  -webkit-transition: padding .5s ease-in-out;
-  -moz-transition: padding .5s ease-in-out;
-  transition: padding .5s ease-in-out;
-}
-
-.navbar-custom .navbar-brand-logo,
-.navbar-custom.top-nav-short .navbar-brand-logo,
-.navbar-custom.top-nav-short-permanent .navbar-brand-logo {
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
-}
-
-.navbar-custom .navbar-brand-logo img {
-  -webkit-transition: height .5s ease-in-out;
-  -moz-transition: height .5s ease-in-out;
-  transition: height .5s ease-in-out;
-}
-
-.navbar-custom .navbar-brand-logo img,
-.navbar-custom.top-nav-short .navbar-brand-logo img,
-.navbar-custom.top-nav-short-permanent .navbar-brand-logo img {
-  height: 2.5rem;
 }
 
 .navbar-custom .navbar-nav .nav-item {
@@ -342,10 +316,6 @@ img {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-.dropdown-toggle::after {
-  border-width: 0.4em;
-}
-
 @media (max-width: 399px) {
   .download-chart-container {
     height: 260px;
@@ -390,73 +360,13 @@ img {
     padding-bottom: 1.25rem;
   }
 
-  .navbar-custom .navbar-brand-logo {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
-  .navbar-custom .navbar-brand-logo img {
-    height: 3.125rem;
-  }
-
   .navbar-expand-xl .navbar-nav .nav-link {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
   }
 
-  .navbar-expand-xl .navbar-nav .nav-item:not(.dropdown):last-child .nav-link {
+  .navbar-expand-xl .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
-  }
-}
-
-@media (min-width: 1200px) {
-  .navbar-custom .nav-item.dropdown:hover {
-    background: rgba(0, 0, 0, 0.1);
-  }
-}
-
-.navbar-custom .nav-item.dropdown.show {
-  background: rgba(0, 0, 0, 0.2);
-}
-
-.navbar-custom .nav-item.dropdown .dropdown-menu {
-  margin-top: 0;
-  font-size: 1em;
-  border: 0;
-  padding: 0;
-  {% if site.navbar-var-length %}
-  min-width: 100%;
-  {% else %}
-  min-width: 0;
-  width: 100%;
-  word-break: break-word;
-  {% endif %}
-}
-
-.navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
-  padding: 0.625rem;
-  background-color: {{ site.navbar-col }};
-  text-decoration: none !important;
-  font-weight: normal;
-  color: {{ site.navbar-text-col }};
-  {% unless site.navbar-var-length %}
-  white-space: normal;
-  {% endunless %}
-}
-
-@media (min-width: 1200px) {
-  .navbar-custom .nav-item.dropdown .dropdown-menu {
-    text-align: center;
-  }
-
-  .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
-    padding-left: 0.625rem;
-    border: 1px solid {{ site.navbar-border-col }};
-    border-width: 0 1px 1px;
-  }
-
-  .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item:first-child {
-    border-top-width: 1px;
   }
 }
 
@@ -473,23 +383,13 @@ img {
   .navbar-custom .navbar-nav .nav-link {
     padding: 0.675rem 0 0.675rem 1rem;
   }
-
-  .navbar-custom .nav-item.dropdown.show {
-    background: rgba(0, 0, 0, 0.2);
-  }
-
-  .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
-    padding-left: 2rem;
-  }
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .navbar-nav .nav-link:hover,
 .navbar-custom .navbar-nav .nav-link:focus,
 .navbar-custom .navbar-nav .nav-link.sponsor:hover,
-.navbar-custom .navbar-nav .nav-link.sponsor:focus,
-.navbar-custom .navbar-nav .dropdown-menu .dropdown-item:hover,
-.navbar-custom .navbar-nav .dropdown-menu .dropdown-item:focus {
+.navbar-custom .navbar-nav .nav-link.sponsor:focus {
   color: #ffcc00 ;
 }
 
@@ -590,12 +490,7 @@ footer .copyright {
 }
 
 @media (max-width: 767px) {
-  footer .list-inline-left:after {
-    content: "\A";
-    white-space: pre;
-  }
-
-  footer li.list-inline:after {
+  footer .list-inline > li:not(:last-child):after {
     content: "\A";
     white-space: pre;
   }
@@ -669,9 +564,6 @@ footer .copyright {
   padding: 5rem 0 1.25rem;
   position: relative;
 }
-nav.top-nav-short-permanent ~ header > .intro-header {
-  padding-top: 5rem;
-}
 .intro-header .page-heading {
   text-align: center;
 }
@@ -704,16 +596,6 @@ nav.top-nav-short-permanent ~ header > .intro-header {
   }
   .intro-header .post-heading h1 {
     font-size: 3.125rem;
-  }
-}
-
-#header-gh-btns {
-  margin-bottom: 0.9375rem;
-}
-@media (max-width: 500px) {
-  #header-gh-btns > iframe {
-    display: block;
-    margin-bottom: 0.3125rem;
   }
 }
 
@@ -916,8 +798,12 @@ pre {
   font-size: 2rem;
   line-height: 2rem;
   font-weight: bold;
+  background: transparent;
+  border: none;
+  padding: 0;
 }
-#nav-search-exit:hover {
+#nav-search-exit:hover,
+#nav-search-exit:focus-visible {
   color: #000;
 }
 #nav-search-input {
@@ -1233,4 +1119,45 @@ pre {
   .news-card-thumb img {
     max-width: 100%;
   }
+}
+
+/* --- Accessibility: keyboard focus indicators --- */
+
+/* Default focus ring for interactive elements. Uses the site's accent color
+   so it's visible on every background the site uses. */
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible,
+[tabindex]:focus-visible,
+input:focus-visible {
+  outline: 2px solid {{ site.link-col }};
+  outline-offset: 2px;
+}
+
+/* Match the hover styles for missing focus-visible companions */
+a.myQuote:focus-visible {
+  color: {{ site.link-col }};
+}
+
+.tag-button:focus-visible {
+  background-color: {{ site.navbar-col }};
+  color: {{ site.text-col }};
+}
+
+.blog-tags a:focus-visible {
+  opacity: 1;
+  color: {{ site.text-col }};
+  border-color: {{ site.text-col }};
+}
+
+#search-results-container a:focus-visible {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* News cards: focus inside the card via its title-link should highlight the
+   whole card the same way as hover does. */
+.news-card:focus-within {
+  background: {{ site.link-col }}11;
+  border-color: {{ site.link-col }}66;
 }

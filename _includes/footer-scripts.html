@@ -1,26 +1,6 @@
-{% if layout.common-ext-js %}
-  {% for js in layout.common-ext-js %}
-    {% include ext-js.html js=js %}
-  {% endfor %}
-{% endif %}
-
 {% if layout.common-js %}
   {% for js in layout.common-js %}
-    {% if js contains 'jquery' %}
-      <script>
-        if (typeof jQuery == 'undefined') {
-          document.write('<script src="{{ js | relative_url }}"></scr' + 'ipt>');
-        }
-      </script>
-    {% else %}
-      <script src="{{ js | relative_url }}"></script>
-    {% endif %}
-  {% endfor %}
-{% endif %}
-
-{% if page.ext-js %}
-  {% for js in page.ext-js %}
-    {% include ext-js.html js=js %}
+    <script src="{{ js | relative_url }}"></script>
   {% endfor %}
 {% endif %}
 

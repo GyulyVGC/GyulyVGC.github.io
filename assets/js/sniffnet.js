@@ -1,68 +1,72 @@
-var BeautifulJekyllJS = {
-
-  init : function() {
-    setTimeout(BeautifulJekyllJS.initNavbar, 10);
-
-    // Shorten the navbar after scrolling a little bit down
-    $(window).scroll(function() {
-        if ($(".navbar").offset().top > 110) {
-            $(".navbar").addClass("top-nav-short");
-        } else {
-            $(".navbar").removeClass("top-nav-short");
-        }
-    });
-
-    // On mobile, hide the avatar when expanding the navbar menu
-    $('#main-navbar').on('show.bs.collapse', function () {
-      $(".navbar").addClass("top-nav-expanded");
-    });
-    $('#main-navbar').on('hidden.bs.collapse', function () {
-      $(".navbar").removeClass("top-nav-expanded");
-    });
-
-    BeautifulJekyllJS.initSearch();
-  },
-
-  initNavbar : function() {
-    // Set the navbar-dark/light class based on its background color
-    const rgb = $('.navbar').css("background-color").replace(/[^\d,]/g,'').split(",");
-    const brightness = Math.round(( // http://www.w3.org/TR/AERT#color-contrast
-      parseInt(rgb[0]) * 299 +
-      parseInt(rgb[1]) * 587 +
-      parseInt(rgb[2]) * 114
-    ) / 1000);
-    if (brightness <= 125) {
-      $(".navbar").removeClass("navbar-light").addClass("navbar-dark");
+(function () {
+  function shrinkNavbar() {
+    const navbar = document.querySelector('.navbar');
+    if (!navbar) return;
+    if (window.scrollY > 110) {
+      navbar.classList.add('top-nav-short');
     } else {
-      $(".navbar").removeClass("navbar-dark").addClass("navbar-light");
+      navbar.classList.remove('top-nav-short');
     }
-  },
+  }
 
-  initSearch : function() {
-    if (!document.getElementById("beautifuljekyll-search-overlay")) {
-      return;
-    }
+  function initNavbarCollapse() {
+    const toggler = document.querySelector('.navbar-toggler');
+    const menu = document.getElementById('main-navbar');
+    const navbar = document.querySelector('.navbar');
+    if (!toggler || !menu || !navbar) return;
 
-    $("#nav-search-link").click(function(e) {
-      e.preventDefault();
-      $("#beautifuljekyll-search-overlay").show();
-      $("#nav-search-input").focus().select();
-      $("body").addClass("overflow-hidden");
-    });
-    $("#nav-search-exit").click(function(e) {
-      e.preventDefault();
-      $("#beautifuljekyll-search-overlay").hide();
-      $("body").removeClass("overflow-hidden");
-    });
-    $(document).on('keyup', function(e) {
-      if (e.key == "Escape") {
-        $("#beautifuljekyll-search-overlay").hide();
-        $("body").removeClass("overflow-hidden");
-      }
+    toggler.addEventListener('click', function () {
+      const isOpen = menu.classList.toggle('show');
+      toggler.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      navbar.classList.toggle('top-nav-expanded', isOpen);
     });
   }
-};
 
-// 2fc73a3a967e97599c9763d05e564189
+  function initSearch() {
+    const overlay = document.getElementById('beautifuljekyll-search-overlay');
+    if (!overlay) return;
+    const trigger = document.getElementById('nav-search-link');
+    const input = document.getElementById('nav-search-input');
+    const exit = document.getElementById('nav-search-exit');
+    let lastFocus = null;
 
-document.addEventListener('DOMContentLoaded', BeautifulJekyllJS.init);
+    function open(e) {
+      if (e) e.preventDefault();
+      lastFocus = document.activeElement;
+      overlay.style.display = 'block';
+      document.body.classList.add('overflow-hidden');
+      if (input) {
+        input.focus();
+        input.select();
+      }
+    }
+
+    function close(e) {
+      if (e) e.preventDefault();
+      overlay.style.display = 'none';
+      document.body.classList.remove('overflow-hidden');
+      if (lastFocus && typeof lastFocus.focus === 'function') {
+        lastFocus.focus();
+      }
+    }
+
+    if (trigger) trigger.addEventListener('click', open);
+    if (exit) exit.addEventListener('click', close);
+    document.addEventListener('keyup', function (e) {
+      if (e.key === 'Escape' && overlay.style.display === 'block') close();
+    });
+  }
+
+  function init() {
+    initNavbarCollapse();
+    shrinkNavbar();
+    window.addEventListener('scroll', shrinkNavbar, { passive: true });
+    initSearch();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();

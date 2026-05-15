@@ -1,6 +1,8 @@
 # Sniffnet website — outstanding improvements
 
-Follow-up items from the 2026-05-14 audit pass. The "Bugs / inconsistencies / dead code" tier was already completed in that session (see "Already done" section at the bottom). What remains is everything that needed deeper investigation or out-of-scope work.
+Follow-up items from the 2026-05-14 audit pass. The "Bugs / inconsistencies / dead code" tier was already completed in that session (see "Already done" section at the bottom). Items #3, #4, #5 and the static parts of #1 were completed in the 2026-05-15 session (see second "Already done" section).
+
+What remains is everything that needs external tooling or interactive browser testing.
 
 Each item is self-contained: context, where to look, concrete steps, success criteria. Pick any one; they're independent unless noted.
 
@@ -133,7 +135,7 @@ Each item is self-contained: context, where to look, concrete steps, success cri
 - `https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js`
 
 **Concrete steps.**
-1. Download each asset, drop into `assets/vendor/`. Add `assets/vendor/` to git.
+1. Download each asset, drop into `assets/external/`. Add `assets/external/` to git.
 2. Update `_layouts/base.html` to reference local paths.
 3. Remove SRI hashes (they were for CDN integrity verification).
 4. For Font Awesome 5: it's ~70 KB of icons; consider switching to a subset generator (e.g. only `fa-tag`, `fa-arrow-left`, `fa-arrow-right`, `fa-home`, `fa-search`, `fa-bullhorn`, `fa-calendar-day` — that's 7 icons of the hundreds shipped). Could use `fontawesome-subsetter` or hand-pick SVGs.
@@ -198,6 +200,23 @@ Each item is self-contained: context, where to look, concrete steps, success cri
 
 ---
 
+## 9. Visual regression sweep (before the optimisation branch lands)
+
+**Why it matters.** Several refactors in the 2026-05-14 and 2026-05-15 sessions touched layout-adjacent code (Bootstrap class swaps, font self-hosting, dropped CSS rules, focus styles, navbar-dark vs navbar-light). At least one tiny visual regression slipped through unnoticed at the time:
+
+- 2026-05-14 swapped `class="list-inline"` → `class="list-inline-item"` on the middle footer `<li>` for Bootstrap semantic correctness. That class has `:not(:last-child) { margin-right: 0.5rem }`, which shifted the right "Merchandise" column ~8px. Found and fixed in 2026-05-15 by dropping the class entirely (the existing inline `style="display: inline-block"` already covers it).
+
+**Concrete steps.**
+1. Before merging `opt` → `master`, compare the rendered output against the `master` HEAD page-by-page at a desktop viewport (1400px) and mobile viewport (375px).
+2. Easiest tool: a quick puppeteer script that screenshots every page from both branches and produces visual diffs (e.g. `pixelmatch`).
+3. Pages to check: `/`, `/news`, every post under `/news/*`, `/download`, `/gallery`, `/sponsor`, `/404.html`, `/tags`.
+4. Per-page focus areas: navbar (hamburger toggler styling, brand alignment), footer (icon row spacing, copyright text width), banners (cyan + amber), news cards, gallery grid, sponsor pink theme, code blocks, blockquotes.
+5. If a regression is found, fix at the source — don't paper over with new CSS unless the root cause is acceptable and documented.
+
+**Success criteria.** No unintended pixel shifts vs the pre-optimisation `master` branch. Any deliberate visual change (e.g. the `#888888` → `#aaaaaa` contrast bump) is acknowledged and accepted; everything else should be visually identical.
+
+---
+
 ## Already done in the 2026-05-14 session
 
 For reference so the next session doesn't redo work:
@@ -229,3 +248,58 @@ For reference so the next session doesn't redo work:
 - `title-img` commented-out line in `_config.yml` — instructive comment for users.
 
 **Build status at end of session.** `bundle exec jekyll build --quiet` clean (only the ruby logger deprecation warning, unrelated to the site).
+
+---
+
+## Already done in the 2026-05-15 session
+
+For reference so the next session doesn't redo work:
+
+### Item #3 — SEO depth (DONE)
+1. ✅ `/robots.txt` created at repo root with `layout: null`, `permalink: /robots.txt`, references `{{ '/sitemap.xml' | absolute_url }}`.
+2. ✅ `BlogPosting` JSON-LD added to `_layouts/post.html` (headline, image, datePublished, dateModified, author, publisher, mainEntityOfPage).
+3. ✅ `SoftwareApplication` + `WebSite` JSON-LD (via `@graph`) added to `_layouts/home.md`. SoftwareApplication includes downloadUrl, softwareHelp, license, offer/free, image.
+4. Both JSON-LD blocks parse as valid JSON (verified). URLs resolve correctly in production (GH Pages auto-sets `site.url`).
+
+### Item #4 — drop jQuery / Bootstrap JS / Popper (DONE)
+1. ✅ `assets/js/sniffnet.js` rewritten in vanilla (~70 lines). Replaced jQuery scroll, addClass/removeClass, click handlers, and Bootstrap collapse event listeners. Added focus return on search-overlay close (an a11y improvement).
+2. ✅ `_layouts/base.html` — removed `common-ext-js` entries (jQuery, Popper, Bootstrap JS). First-paint JS shrank by ~95 KB.
+3. ✅ `_includes/footer-scripts.html` — removed the jQuery-fallback `document.write` branch (dead code).
+4. ✅ `_includes/nav.html` — hardcoded `navbar-dark` (was `navbar-light` then JS swapped based on `navbar-col` brightness; since the bg is fixed at `#081020`, the swap always landed on dark — simplification).
+5. ✅ Site behaves identically. Tooltips on previous/next post nav (`data-toggle="tooltip"`) degrade to native browser tooltips via the existing `title` attribute. Acceptable trade-off; the `data-toggle` attrs are dead but harmless.
+
+### Item #5 — self-host third-party assets (DONE)
+1. ✅ Bootstrap 4.4.1 CSS → `assets/external/bootstrap/bootstrap.min.css` (159 KB).
+2. ✅ Font Awesome 5.12.1 → `assets/external/fontawesome/css/all.min.css` + `webfonts/{fa-solid-900,fa-brands-400,fa-regular-400}.woff2`. CSS `url(../webfonts/...)` resolves correctly.
+3. ✅ Lora + Open Sans → `assets/external/fonts/` as variable-font woff2 files (latin + latin-ext subsets only — skipped cyrillic/greek/hebrew/math/symbols/vietnamese since the site is English). 4 font files, ~141 KB total. Custom `fonts.css` with `@font-face` using variable-axis weight ranges (`font-weight: 400 700` for Lora, `300 800` for Open Sans).
+4. ✅ `_layouts/base.html` — replaced `common-ext-css` entries with local paths in `common-css`. Zero external CSS/JS network requests on page load (verified locally — only external request remaining is the GitHub stars badge `img.shields.io`, which is dynamic data and intentional).
+5. **Note:** FA CSS was not trimmed to a 7-icon subset (icons used: tag, arrow-left, arrow-right, home, search, bullhorn, calendar-day). That's a future optimisation; current full CSS is 57 KB minified, acceptable for now.
+6. **Folder naming:** chose `assets/external/` (not `vendor/`) because beautiful-jekyll's default `.gitignore` ships with `vendor` (no anchor) to ignore Bundler's `--path vendor` directory. Keeping that rule (Bundler safety net) means a separate name is required for self-hosted assets. `_config.yml:exclude` has `vendor/bundle/` etc. which only match the top-level vendor/ path — does NOT affect `assets/external/`.
+
+### Bonus cleanups (2026-05-15)
+1. ✅ Dead Liquid branches removed: `layout.common-ext-css` (head.html), `layout.common-ext-js` + `page.ext-js` (footer-scripts.html). These were the opt-in hooks for CDN-hosted assets with SRI hashes — now obsolete since everything is self-hosted under `/assets/external/`.
+2. ✅ `_includes/ext-css.html` and `_includes/ext-js.html` deleted (the SRI-hash helpers only used by the dead branches above).
+3. ✅ `_includes/gtag.html` deleted and its include call removed from `head.html`. Was a beautiful-jekyll opt-in hook for Google Analytics (conditional on `site.gtag`, never set in `_config.yml`). Removed since GA is not in use and the user prefers a smaller codebase over future-proofing hooks.
+4. ✅ Bootstrap dropdown markup stripped from `_includes/nav.html`. The `{% if link[1].first %}` branch (nested navbar-links → dropdown) was unreachable since `site.navbar-links` is flat. Also removed all `.nav-item.dropdown` / `.dropdown-menu` / `.dropdown-item` / `.dropdown-toggle::after` CSS rules from `sniffnet.css` (~70 lines) and the orphaned `navbar-var-length` config option. Bootstrap vendor CSS still contains dropdown rules but they're unreachable without the corresponding markup.
+5. ⚠️ Attempted to restore the mobile menu slide-down animation (lost when Bootstrap collapse JS was dropped) using the CSS grid-template-rows trick. Did not ship — the grid trick fought with the flex parent layout (`.navbar-collapse` is a flex item in `.navbar`) and produced visual glitches when opening. Reverted to instant toggle (still functionally correct). If animation is desired later, the realistic options are: (a) JS-measured `scrollHeight` Bootstrap-style mechanism (~30 lines), or (b) `max-height` trick with a fixed cap (simpler but timing feels off when content height is much smaller than the cap).
+
+### Item #1 — accessibility (PARTIAL)
+Static parts done; interactive browser testing (Lighthouse/axe-core, keyboard nav walk-through) still needed.
+1. ✅ `#888888` → `#aaaaaa` site-wide for muted text (.myQuote, blockquote, footer .copyright, #full-tags-list .entry-date, .home-banner-date, .anniv-post-sub, .news-card-meta, .news-card-thumb.no-img). Contrast on `#0f1e3c` page bg: 4.73:1 (AA only) → 7.29:1 (AAA).
+2. ✅ Added `:focus-visible` styles block at end of `sniffnet.css`:
+   - Default 2px cyan outline for all `a`, `button`, `summary`, `[tabindex]`, `input`.
+   - Hover-style companions for `.myQuote`, `.tag-button`, `.blog-tags a`, `#search-results-container a`.
+   - `.news-card:focus-within` mirrors hover so keyboard-focusing the title link highlights the whole card.
+3. ✅ `#nav-search-exit` upgraded from `<div>` to `<button type="button">` with `aria-label="Close search"` — now keyboard-focusable, fires on Enter/Space natively. CSS reset for button defaults (background, border, padding).
+4. ✅ `#nav-search-input` got `aria-label="Search posts"` (was relying on placeholder only).
+5. ✅ Search overlay: `sniffnet.js` now returns focus to the element that opened it (previously focus was lost on close).
+
+**Still needed for #1:** Lighthouse/axe-core run, full keyboard walk-through of every page, screen-reader pass, ARIA audit on Bootstrap dropdown if/when dropdowns are added to `navbar-links`.
+
+### Items remaining
+- **#2** Image optimisation — needs `oxipng`/`pngquant`/`cwebp` installed.
+- **#6** Mobile viewport check — needs interactive browser/device emulator.
+- **#7** Bootstrap 4 → 5 migration — low priority. Now easier since jQuery is gone (was the main blocker for BS5).
+- **#8** Content review — needs `htmlproofer` gem + `aspell`/`cspell`.
+
+**Build status at end of session.** `bundle exec jekyll build --quiet` clean. Local serve test confirmed all routes 200, no external CDN refs in served HTML, JSON-LD parses as valid JSON.

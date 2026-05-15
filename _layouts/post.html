@@ -4,6 +4,37 @@ layout: base
 
 {% include header.html type="post" %}
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ page.title | strip_html | jsonify }},
+  {% if page.subtitle %}"description": {{ page.subtitle | strip_html | jsonify }},{% endif %}
+  {% capture article_img %}{% if page.thumbnail-img %}{{ page.thumbnail-img }}{% elsif site.avatar %}{{ site.avatar }}{% endif %}{% endcapture %}
+  {% assign article_img = article_img | strip %}
+  {% if article_img != "" %}"image": {{ article_img | absolute_url | jsonify }},{% endif %}
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+  "author": {
+    "@type": "Person",
+    "name": {{ site.author | jsonify }},
+    "url": "https://github.com/GyulyVGC"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ site.title | jsonify }},
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{ site.avatar | absolute_url | jsonify }}
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ page.url | absolute_url | jsonify }}
+  }
+}
+</script>
+
 <div class="container-md">
   <div class="row">
     <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">

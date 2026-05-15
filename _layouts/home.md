@@ -1,6 +1,42 @@
 ---
 layout: page
 ---
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "Sniffnet",
+      "applicationCategory": "NetworkingApplication",
+      "operatingSystem": "Windows, macOS, Linux",
+      "url": {{ '/' | absolute_url | jsonify }},
+      "downloadUrl": {{ '/download' | absolute_url | jsonify }},
+      "softwareHelp": "https://github.com/GyulyVGC/sniffnet/wiki",
+      "description": {{ page.share-description | jsonify }},
+      "image": {{ '/assets/img/overview_page.png' | absolute_url | jsonify }},
+      "license": "https://github.com/GyulyVGC/sniffnet/blob/main/LICENSE-MIT",
+      "author": {
+        "@type": "Person",
+        "name": {{ site.author | jsonify }},
+        "url": "https://github.com/GyulyVGC"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "name": {{ site.title | jsonify }},
+      "url": {{ '/' | absolute_url | jsonify }},
+      "inLanguage": "en"
+    }
+  ]
+}
+</script>
+
 <div align="center">
   <a title="Download" href="{{ 'download' | relative_url }}"><img alt="Total downloads" class="shield" height="30px" src="{{ 'assets/img/downloads_badge.svg' | relative_url }}"/></a>&nbsp;
   <a target="_blank" rel="noopener" title="GitHub" href="https://github.com/GyulyVGC/sniffnet"><img alt="" class="shield" height="30px" src="https://img.shields.io/github/stars/GyulyVGC/sniffnet?logo=github&color=blue&style=for-the-badge"/></a>
@@ -120,5 +156,5 @@ The project is rapidly evolving, with new features rolling out regularly.<br>
 Check out the <b>visual roadmap</b> below to see where Sniffnet is headed next.<br><br>
 
 <div style="width:100%; padding-top:50%; position:relative;">
-    <iframe title="Sniffnet visual roadmap" style="position:absolute; top:0; bottom:0; border:none; border-radius:20px;" width="100%" height="100%" src="https://whimsical.com/embed/Damodrdfx22V9jGnpHSCGo"></iframe>
+    <iframe title="Sniffnet visual roadmap" allow="fullscreen" style="position:absolute; top:0; bottom:0; border:none; border-radius:20px;" width="100%" height="100%" src="https://whimsical.com/embed/Damodrdfx22V9jGnpHSCGo"></iframe>
 </div>
