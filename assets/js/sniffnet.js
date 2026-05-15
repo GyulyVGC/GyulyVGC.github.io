@@ -38,7 +38,7 @@
     function open(e) {
       if (e) e.preventDefault();
       lastFocus = document.activeElement;
-      overlay.style.display = 'block';
+      overlay.classList.add('show');
       document.body.classList.add('overflow-hidden');
       if (input) {
         input.focus();
@@ -48,7 +48,7 @@
 
     function close(e) {
       if (e) e.preventDefault();
-      overlay.style.display = 'none';
+      overlay.classList.remove('show');
       document.body.classList.remove('overflow-hidden');
       if (lastFocus && typeof lastFocus.focus === 'function') {
         lastFocus.focus();
@@ -57,8 +57,11 @@
 
     if (trigger) trigger.addEventListener('click', open);
     if (exit) exit.addEventListener('click', close);
+    overlay.addEventListener('click', function (e) {
+      if (e.target === overlay) close();
+    });
     document.addEventListener('keyup', function (e) {
-      if (e.key === 'Escape' && overlay.style.display === 'block') close();
+      if (e.key === 'Escape' && overlay.classList.contains('show')) close();
     });
   }
 
