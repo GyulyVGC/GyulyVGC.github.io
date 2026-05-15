@@ -4,7 +4,6 @@ title: I concluded a Master's degree defending a thesis about Sniffnet
 share-title: I concluded a Master's degree defending a thesis about Sniffnet
 nav-title: News
 thumbnail-img: /assets/img/post/master-thesis/cover.png
-share-img: /assets/img/post/master-thesis/cover.png
 tags: [event]
 ---
 
@@ -19,12 +18,12 @@ If I had to choose one word to describe my past year of life, that word would be
 
 It's unbelievable how sometimes things happen this fast: _there are elements that enter your life almost by chance and end up changing it forever_.
 
-It's a pleasure for me to share the <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/blob/main/resources/thesis.pdf">complete version of the thesis</a> with you all, hoping that it will serve to other as a learning example about how to apply Rust in a project from the beginning to production.
+It's a pleasure for me to share the <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/blob/main/resources/thesis.pdf">complete version of the thesis</a> with you all, hoping that it will serve to other as a learning example about how to apply Rust in a project from the beginning to production.
 
 <div align="center">
-    <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/blob/main/resources/thesis.pdf">
+    <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/blob/main/resources/thesis.pdf">
         <img width="40%" title="Sniffnet thesis" src="{{ 'assets/img/post/master-thesis/cover.png' | relative_url }}" alt="Sniffnet thesis"/>
     </a>
 </div>
 
-_Originally posted on <a target="_blank" href="https://www.reddit.com/r/rust/comments/17h7z92/i_concluded_a_masters_degree_defending_a_thesis/">Reddit</a>._
+_Originally posted on <a target="_blank" rel="noopener" href="https://www.reddit.com/r/rust/comments/17h7z92/i_concluded_a_masters_degree_defending_a_thesis/">Reddit</a>._

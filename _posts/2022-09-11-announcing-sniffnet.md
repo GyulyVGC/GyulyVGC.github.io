@@ -4,7 +4,6 @@ title: "Announcing Sniffnet v0.4: A multithreaded, cross-platform network analyz
 share-title: "Announcing Sniffnet v0.4: A multithreaded, cross-platform network analyzer"
 nav-title: News
 thumbnail-img: /assets/img/post/announcing-sniffnet/cover.png
-share-img: /assets/img/post/announcing-sniffnet/cover.png
 tags: [release]
 ---
 
@@ -17,7 +16,7 @@ Any feedback or suggestion about new features or improvement to the existing fun
 
 Feel free to open an issue or a pull request, thanks in advance for your support!
 
-<a target="_blank" href="https://github.com/GyulyVGC/sniffnet">Here</a> you can find the GitHub repository.<br>
+<a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet">Here</a> you can find the GitHub repository.<br>
 If you like the project, consider giving it a star!
 
 <div align="center">
@@ -26,4 +25,4 @@ If you like the project, consider giving it a star!
 <img  width="70%" title="Textual report details" src="{{ 'assets/img/post/announcing-sniffnet/r2.png' | relative_url }}"/>
 </div>
 
-_Originally posted on <a target="_blank" href="https://www.reddit.com/r/rust/comments/xbn5o6/announcing_sniffnet_v040_a_multithreaded/">Reddit</a>._
+_Originally posted on <a target="_blank" rel="noopener" href="https://www.reddit.com/r/rust/comments/xbn5o6/announcing_sniffnet_v040_a_multithreaded/">Reddit</a>._

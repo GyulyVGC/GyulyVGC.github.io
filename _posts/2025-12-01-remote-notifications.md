@@ -4,12 +4,11 @@ title: "Sniffnet webhook notifications to monitor remote network activity"
 share-title: "Sniffnet webhook notifications to monitor remote network activity"
 nav-title: News
 thumbnail-img: /assets/img/post/remote-notifications/cover.png
-share-img: /assets/img/post/remote-notifications/cover.png
 tags: [tutorial]
 github-discussion: 1015
 ---
 
-Less than a month ago a <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/releases/tag/v1.4.2">new version</a> of Sniffnet was released, and
+Less than a month ago a <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/releases/tag/v1.4.2">new version</a> of Sniffnet was released, and
 among the most notable introduced feature there's the possibility to **forward in-app notifications via webhook**. <br><br>
 This is useful, for instance, when you are away from your computer and want to be informed about its network activity. <br>
 Or maybe you're running Sniffnet on a server and want to receive notifications on your main workstation. <br>
@@ -49,16 +48,16 @@ HTTP POST requests sent to a URL — this means that you could even set up your 
 
 Since creating a custom web server is beyond the scope of this blog post, the first step we need to take is **determine which service to use** as the consumer of Sniffnet's alerts. <br>
 Said in a different way, we need a solution that makes available for us a pre-configured URL to receive webhooks:
-<a target="_blank" href="https://www.svix.com">Svix</a>,
-<a target="_blank" href="https://ifttt.com/maker_webhooks/">IFTTT</a>,
-and <a target="_blank" href="https://www.signl4.com">SIGNL4</a> are some examples of enterprise-ready services,
-but if you're just playing around and want to test things out you can also look at something ready-to-use like <a target="_blank" href="https://webhook.site">Webhook.site</a>.
+<a target="_blank" rel="noopener" href="https://www.svix.com">Svix</a>,
+<a target="_blank" rel="noopener" href="https://ifttt.com/maker_webhooks/">IFTTT</a>,
+and <a target="_blank" rel="noopener" href="https://www.signl4.com">SIGNL4</a> are some examples of enterprise-ready services,
+but if you're just playing around and want to test things out you can also look at something ready-to-use like <a target="_blank" rel="noopener" href="https://webhook.site">Webhook.site</a>.
 
 <hr>
 
 ### Setting up the webhook consumer
 
-<a target="_blank" href="https://www.signl4.com">
+<a target="_blank" rel="noopener" href="https://www.signl4.com">
 <img style="padding-left: 5px" align="right" alt="SIGNL4" title="SIGNL4" src="{{ 'assets/img/post/remote-notifications/signl4.png' | relative_url }}" width="140px"/>
 </a>
 
@@ -67,7 +66,7 @@ and displays webhook notifications in an intuitive way. <br>
 It comes with a free plan that supports our use case, and it's characterised by a straightforward setup,
 as described in the following.
 
-1. Install SIGNL4 on your smartphone from the <a target="_blank" href="https://apps.apple.com/us/app/signl4-mobile-alerting/id1100283480">App Store</a> or <a target="_blank" href="https://play.google.com/store/apps/details?id=com.derdack.signl4&hl=en">Google Play</a>.
+1. Install SIGNL4 on your smartphone from the <a target="_blank" rel="noopener" href="https://apps.apple.com/us/app/signl4-mobile-alerting/id1100283480">App Store</a> or <a target="_blank" rel="noopener" href="https://play.google.com/store/apps/details?id=com.derdack.signl4&hl=en">Google Play</a>.
 2. Create a new account (you can even sign up using Google or Microsoft).
 3. Once logged in, click on the button in the top right corner to access settings, then select the _"APIs"_ tab.
 4. There you'll find your unique webhook URL in the _"Inbound Webhook"_ section; write it down somewhere, as we'll need it later.
@@ -88,7 +87,7 @@ Now that we have a webhook URL ready to receive notifications, it's time to conf
 
 1. Open Sniffnet and head to the settings by clicking on the button at the top right.
 2. Select the _"Notifications"_ tab.
-3. Enable the events you want to be alerted about: you can learn more about them in the <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/wiki/Notifications">_Notifications_</a> Wiki page.
+3. Enable the events you want to be alerted about: you can learn more about them in the <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/wiki/Notifications">_Notifications_</a> Wiki page.
 4. In the same settings tab, enable the _"Remote notifications"_ toggle, and paste the SIGNL4 URL you got from the previous section.
 
 <div align="center">
@@ -116,10 +115,10 @@ In general, this is useful to be informed about large downloads or uploads happe
 However, if you want to closely track a certain kind of traffic, you can leverage filters to refine when such notifications are triggered.
 
 **Packet filters programs** are routines that run inside Sniffnet and inspect each packet to determine whether it matches given criteria. <br>
-Such programs follow the <a target="_blank" href="https://en.wikipedia.org/wiki/Berkeley_Packet_Filter">Berkeley Packet Filter</a> (BPF) syntax, a standardized, powerful, and flexible way to specify the traffic you want to monitor. <br>
-Online you can find many resources to learn BPF syntax: <a target="_blank" href="https://www.ibm.com/docs/en/qsip/7.4?topic=queries-berkeley-packet-filters">this IBM guide</a> is a good starting point.
+Such programs follow the <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Berkeley_Packet_Filter">Berkeley Packet Filter</a> (BPF) syntax, a standardized, powerful, and flexible way to specify the traffic you want to monitor. <br>
+Online you can find many resources to learn BPF syntax: <a target="_blank" rel="noopener" href="https://www.ibm.com/docs/en/qsip/7.4?topic=queries-berkeley-packet-filters">this IBM guide</a> is a good starting point.
 
-Once you're familiar with the syntax, setting up a filter is simple and can be done from Sniffnet initial screen as described in the <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/wiki/Filters-configuration">_Filters configuration_</a> Wiki page.
+Once you're familiar with the syntax, setting up a filter is simple and can be done from Sniffnet initial screen as described in the <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/wiki/Filters-configuration">_Filters configuration_</a> Wiki page.
 
 As an example, let's say you want to be notified whenever your machine opens a new TCP connection to a server running on port 22 (SSH). <br>
 To do so, you can set a filter like the following one:
@@ -151,7 +150,7 @@ allowing you to keep track of your machine's network activity even when you're a
 Getting remote notifications from Sniffnet is a powerful way to monitor your machine's network activity from afar. <br>
 By leveraging webhooks and packet filters, you can customize alerts to fit your specific needs and stay informed about important events happening on your system.
 
-Among the features planned for the near future there are <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/issues/729">custom IP blacklists</a> and <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/issues/839">enhancements to favorites</a>, which will further extend Sniffnet's alerting capabilities. <br>
+Among the features planned for the near future there are <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/issues/729">custom IP blacklists</a> and <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/issues/839">enhancements to favorites</a>, which will further extend Sniffnet's alerting capabilities. <br>
 If you have in mind more events of interest to trigger a notification, don't hesitate to share your ideas. 
 
 This post is the first tutorial-like article published on the blog, and I hope you found it useful. <br>

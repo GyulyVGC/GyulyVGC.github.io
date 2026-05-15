@@ -4,7 +4,6 @@ title: Balancing open-source and a full-time job (Sniffnet’s 2nd anniversary)
 share-title: Balancing open-source and a full-time job (Sniffnet’s 2nd anniversary)
 nav-title: News
 thumbnail-img: /assets/img/post/second-anniversary/cover.png
-share-img: /assets/img/post/second-anniversary/cover.png
 tags: [anniversary]
 github-discussion: 574
 ---
@@ -61,13 +60,13 @@ Sure, I have less time for Sniffnet now.<br>
 But I’m no longer sure that it’s a real loss — neither for me nor for the project itself.<br>
 I come back to Sniffnet when I feel to — _without any pressure and with a bag of new experiences_ — also thanks to the fact that remote jobs eliminate commute times and have more flexible schedules.
 
-During the past year, a new <a href="{{ 'news/v1.3' | relative_url }}">major version</a> was released, as well as a new <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/releases/tag/v1.3.1">minor version</a> just a few days ago.<br>
+During the past year, a new <a href="{{ 'news/v1.3' | relative_url }}">major version</a> was released, as well as a new <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/releases/tag/v1.3.1">minor version</a> just a few days ago.<br>
 The project is in **constant expansion**, and I’m really glad to see that many new users are still adopting Sniffnet.<br>
 Just considering the past week, the repository got about 1k more stars, the app was downloaded 10k more times, and Sniffnet is now the most popular GitHub project by the following topics:
-<a target="_blank" href="https://github.com/topics/utility">#utility</a>,
-<a target="_blank" href="https://github.com/topics/pcap">#pcap</a>,
-<a target="_blank" href="https://github.com/topics/network-monitoring">#network-monitoring</a>,
-<a target="_blank" href="https://github.com/topics/packet-sniffer">#packet-sniffer</a>,
+<a target="_blank" rel="noopener" href="https://github.com/topics/utility">#utility</a>,
+<a target="_blank" rel="noopener" href="https://github.com/topics/pcap">#pcap</a>,
+<a target="_blank" rel="noopener" href="https://github.com/topics/network-monitoring">#network-monitoring</a>,
+<a target="_blank" rel="noopener" href="https://github.com/topics/packet-sniffer">#packet-sniffer</a>,
  and more.
 
 <div align="center">
@@ -94,4 +93,4 @@ It’s never too late to go back and retrace our steps, while an opportunity not
 _**Not all the pieces always fit together.<br>
 But if we don’t even try to build the puzzle, we won’t ever be able to grasp the whole picture.**_
 
-_Originally posted on <a target="_blank" href="https://github.com/GyulyVGC/sniffnet/discussions/574">GitHub Discussions</a>._
+_Originally posted on <a target="_blank" rel="noopener" href="https://github.com/GyulyVGC/sniffnet/discussions/574">GitHub Discussions</a>._
